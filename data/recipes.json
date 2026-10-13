@@ -1,0 +1,8 @@
+[
+  {
+    "id":"egg-roll","name":"계란말이","category":"반찬","minutes":15,"difficulty":"쉬움","servings":2,"emoji":"🍳","description":"부드럽고 촉촉한 기본 계란말이","ingredients":[{"name":"달걀","amount":4,"unit":"개"},{"name":"대파","amount":20,"unit":"g"},{"name":"소금","amount":1,"unit":"꼬집"},{"name":"식용유","amount":1,"unit":"큰술"}],"steps":["달걀을 풀고 잘게 썬 대파와 소금을 섞는다.","약불~중약불로 예열한 팬에 기름을 얇게 바른다.","달걀물을 얇게 붓고 반쯤 익으면 한쪽부터 말아준다.","남은 달걀물을 나누어 붓고 반복해서 말아 속까지 익힌 뒤 썬다."],"tips":"불이 너무 세면 겉이 타기 쉬우므로 중약불 이하에서 천천히 익혀요.","youtube":"","verified":false
+  },
+  {
+    "id":"chive-pancake","name":"부추전","category":"전·부침","minutes":20,"difficulty":"쉬움","servings":2,"emoji":"🥬","description":"보리새우를 곁들일 수 있는 바삭한 부추전","ingredients":[{"name":"부추","amount":100,"unit":"g"},{"name":"부침가루","amount":100,"unit":"g"},{"name":"찬물","amount":140,"unit":"mL"},{"name":"보리새우 (선택)","amount":20,"unit":"g"},{"name":"식용유","amount":2,"unit":"큰술"}],"steps":["부추를 씻고 물기를 털어 먹기 좋은 길이로 자른다.","부침가루와 찬물을 가볍게 섞는다.","부추와 선택 재료인 보리새우를 넣어 섞는다.","예열한 팬에 기름을 두르고 반죽을 얇게 펴서 앞뒤로 노릇하게 부친다."],"tips":"얇게 펴고 충분한 기름을 사용하면 바삭하게 만들기 좋아요. 보리새우는 취향에 따라 생략해도 돼요.","youtube":"","verified":false
+  }
+]
