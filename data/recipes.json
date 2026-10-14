@@ -2,7 +2,7 @@
   {
     "id": "egg-roll",
     "name": "계란말이",
-    "category": "반찬",
+    "category": "반찬·기타",
     "minutes": 15,
     "difficulty": "쉬움",
     "servings": 2,
@@ -38,12 +38,15 @@
     ],
     "tips": "불이 너무 세면 겉이 타기 쉬우므로 중약불 이하에서 천천히 익혀요.",
     "youtube": "",
-    "verified": false
+    "verified": false,
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "chive-pancake",
     "name": "부추전",
-    "category": "전·부침",
+    "category": "반찬·기타",
     "minutes": 20,
     "difficulty": "쉬움",
     "servings": 2,
@@ -84,12 +87,15 @@
     ],
     "tips": "얇게 펴고 충분한 기름을 사용하면 바삭하게 만들기 좋아요. 보리새우는 취향에 따라 생략해도 돼요.",
     "youtube": "",
-    "verified": false
+    "verified": false,
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "yeogane-jjajang",
     "name": "여가네식 짜장면",
-    "category": "면·밥",
+    "category": "면",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -182,12 +188,15 @@
     "youtube": "https://www.youtube.com/watch?v=mSyLiSMNois",
     "verified": true,
     "sourceNote": "여가네 공식 영상 설명란과 채널 고정 댓글을 직접 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 면은 1인분으로 기재되어 있지만 소스 전체의 인분 수는 명시되어 있지 않아, 재료는 원문 분량 그대로 표시합니다. 조리시간은 미기재입니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "rice-paper-dumpling",
     "name": "라이스페이퍼 납작만두",
-    "category": "전·부침",
+    "category": "반찬·기타",
     "emoji": "🥟",
     "youtube": "https://www.youtube.com/watch?v=EfjhXBVeatg",
     "ingredients": [
@@ -250,7 +259,10 @@
     "description": "라이스페이퍼 납작만두 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "perilla-mushroom-soup",
@@ -355,12 +367,15 @@
     "description": "들깨버섯탕 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "oriental-buckwheat",
     "name": "오리엔탈 메밀면",
-    "category": "면·밥",
+    "category": "면",
     "emoji": "🍜",
     "youtube": "https://www.youtube.com/watch?v=ZtvFlaOfNeQ",
     "ingredients": [
@@ -423,12 +438,15 @@
     "description": "오리엔탈 메밀면 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "crab-butter-roast",
     "name": "꽃게버터구이",
-    "category": "구이·고기",
+    "category": "고기·해산물",
     "emoji": "🦀",
     "youtube": "https://www.youtube.com/watch?v=JzFXq-uFFlo",
     "ingredients": [
@@ -476,12 +494,15 @@
     "description": "꽃게버터구이 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "one-pan-pollock-roe",
     "name": "원팬 명란파스타",
-    "category": "면·밥",
+    "category": "면",
     "emoji": "🍝",
     "youtube": "https://www.youtube.com/watch?v=RexiBWYYNLU",
     "ingredients": [
@@ -540,12 +561,15 @@
     "description": "원팬 명란파스타 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "duck-soy-boil",
     "name": "쌍화탕 오리수육",
-    "category": "구이·고기",
+    "category": "국·탕",
     "emoji": "🦆",
     "youtube": "https://www.youtube.com/shorts/HituOG5EOYs",
     "ingredients": [
@@ -624,12 +648,15 @@
     "description": "쌍화탕 오리수육 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "beef-perilla-pasta",
     "name": "우삼겹 들깨파스타",
-    "category": "면·밥",
+    "category": "면",
     "emoji": "🍝",
     "youtube": "https://www.youtube.com/watch?v=i3uSvrpdvwc",
     "ingredients": [
@@ -714,7 +741,10 @@
     "description": "우삼겹 들깨파스타 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "olive-oil-meat-dip",
@@ -760,7 +790,10 @@
     "description": "고기용 올리브오일 소스 · 작성자 레시피 정리",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. "
+    "sourceNote": "작성자의 공식 설명란 또는 고정 댓글을 확인해 정리했습니다. 영상 전체를 시청한 내용은 아닙니다. 계량 단위와 미기재 분량은 원문을 보존했습니다. ",
+    "categories": [
+      "소스"
+    ]
   },
   {
     "youtube": "https://www.youtube.com/shorts/HjQo4_JrfXY",
@@ -842,12 +875,15 @@
     "supportingSources": [
       "https://www.recipio.kr/en/recipes/oJQbGywO",
       "https://www.chefchef.app/ko/recipe/갈비탕-oXf5hOJ_ZTQ"
+    ],
+    "categories": [
+      "국·탕"
     ]
   },
   {
     "id": "pork-jowl-waterless-boil",
     "name": "무수분 항정살수육",
-    "category": "구이·고기",
+    "category": "찜·조림",
     "minutes": null,
     "difficulty": "보통",
     "servings": 2,
@@ -897,12 +933,15 @@
     "youtube": "https://www.youtube.com/watch?v=NsViJPO-nw0",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 집순이 비지 공식 고정 댓글. 재료·분량만 공개되어 조리 순서는 미기재입니다. 영상 플레이어에서도 화면을 재생할 수 없어 임의로 순서를 보충하지 않았습니다."
+    "sourceNote": "출처: 집순이 비지 공식 고정 댓글. 재료·분량만 공개되어 조리 순서는 미기재입니다. 영상 플레이어에서도 화면을 재생할 수 없어 임의로 순서를 보충하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
   },
   {
     "id": "pork-neck-bbq-daughter-meals",
     "name": "류수영식 목살 돼지갈비",
-    "category": "구이·고기",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -981,12 +1020,15 @@
     "youtube": "https://www.youtube.com/watch?v=L5RO_VyDK-k",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 딸세끼 영상의 공식 고정 댓글 레시피. 재료와 순서를 댓글 원문에서 확인했습니다."
+    "sourceNote": "출처: 딸세끼 영상의 공식 고정 댓글 레시피. 재료와 순서를 댓글 원문에서 확인했습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "caramel-onion-curry-jycook",
     "name": "카라멜 양파 인생 카레",
-    "category": "면·밥",
+    "category": "밥·덮밥",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -1050,12 +1092,15 @@
     "youtube": "https://www.youtube.com/watch?v=Z8g34vzy0I0",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 재연쿡 JYCOOK 영상의 공식 설명란. 재료와 조리 순서를 반영했습니다. 고체 카레 블록은 재료표에 있지만 넣는 시점이 설명란에서 생략되어, 그 부분은 조리 순서에 표시했습니다."
+    "sourceNote": "출처: 재연쿡 JYCOOK 영상의 공식 설명란. 재료와 조리 순서를 반영했습니다. 고체 카레 블록은 재료표에 있지만 넣는 시점이 설명란에서 생략되어, 그 부분은 조리 순서에 표시했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "pollock-roe-avocado-rice",
     "name": "명란 아보카도밥",
-    "category": "면·밥",
+    "category": "밥·덮밥",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -1124,12 +1169,15 @@
     "youtube": "https://www.youtube.com/watch?v=XCTbYFpMANw",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 맛있는휴식(맛휴) Shorts 공식 고정 댓글. 대파 계량은 원문 표기 자체가 불명확합니다."
+    "sourceNote": "출처: 맛있는휴식(맛휴) Shorts 공식 고정 댓글. 대파 계량은 원문 표기 자체가 불명확합니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "garlic-scape-dried-shrimp",
     "name": "마늘쫑 건새우볶음",
-    "category": "반찬",
+    "category": "반찬·기타",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -1208,12 +1256,15 @@
     "youtube": "https://www.youtube.com/watch?v=AUHMGteZGuo",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 김진순 점심시간 Shorts 공식 고정 댓글. 계량 충돌(물엿 7숟갈 vs 조리 순서의 3숟갈)을 그대로 표시했습니다."
+    "sourceNote": "출처: 김진순 점심시간 Shorts 공식 고정 댓글. 계량 충돌(물엿 7숟갈 vs 조리 순서의 3숟갈)을 그대로 표시했습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "enoki-bacon-stir-fry",
     "name": "팽이버섯 베이컨볶음",
-    "category": "반찬",
+    "category": "반찬·기타",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -1271,12 +1322,15 @@
     "youtube": "https://www.youtube.com/watch?v=8Y2XmcXthns",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 엄마는 요리사 mom is cook Shorts 공식 고정 댓글. 재료와 조리 순서를 확인했습니다."
+    "sourceNote": "출처: 엄마는 요리사 mom is cook Shorts 공식 고정 댓글. 재료와 조리 순서를 확인했습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "beef-cucumber-buckwheat",
     "name": "우삼겹 오이 메밀면",
-    "category": "면·밥",
+    "category": "면",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -1343,12 +1397,15 @@
     "tips": "제공된 원문은 한국어 설명과 영어 자막 모두 같은 계량을 적고 있습니다. 메밀면 삶는 시간은 제품 포장 안내도 함께 확인하세요.",
     "youtube": "https://www.youtube.com/shorts/ER6Sh3TPvKg",
     "verified": true,
-    "sourceNote": "출처: 보름식탁 Shorts 공식 설명란. 재료와 양념 계량, 오이 절임 및 면 삶는 시간이 설명란에 기재되어 있습니다."
+    "sourceNote": "출처: 보름식탁 Shorts 공식 설명란. 재료와 양념 계량, 오이 절임 및 면 삶는 시간이 설명란에 기재되어 있습니다.",
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "potato-braised-homecook",
     "name": "쫀득한 감자조림",
-    "category": "반찬",
+    "category": "찜·조림",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -1402,12 +1459,15 @@
     "youtube": "https://www.youtube.com/watch?v=vwYO4bV5DMc",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "출처: 홈쿡셰프 Shorts 공식 설명란과 고정 댓글. 설명란은 알룰로스 또는 물엿을 허용하며, 고정 댓글 작성자는 물엿으로 따라 했다고 남겼습니다."
+    "sourceNote": "출처: 홈쿡셰프 Shorts 공식 설명란과 고정 댓글. 설명란은 알룰로스 또는 물엿을 허용하며, 고정 댓글 작성자는 물엿으로 따라 했다고 남겼습니다.",
+    "categories": [
+      "찜·조림"
+    ]
   },
   {
     "id": "cucumber-perilla-stirfry-xpn33",
     "name": "들기름 오이볶음",
-    "category": "반찬",
+    "category": "반찬·기타",
     "minutes": 10,
     "difficulty": "쉬움",
     "servings": 2,
@@ -1450,71 +1510,15 @@
     "youtube": "https://youtube.com/shorts/xPn33MLnBoc",
     "verified": false,
     "sourceNote": "재료 계량은 공식 영상 설명란 기준입니다. 조리 순서는 검색 가능한 레시피 정리를 참고했으며 영상 재생으로 대조하지 못했습니다.",
-    "scaleIngredients": false
-  },
-  {
-    "id": "soy-glazed-chicken-jachwi-fr",
-    "name": "간장 소스 닭다리살 구이",
-    "category": "메인 요리",
-    "minutes": 20,
-    "difficulty": "쉬움",
-    "servings": 2,
-    "emoji": "🍗",
-    "description": "닭다리살과 대파를 노릇하게 굽고 달콤 짭짤한 소스를 입힌 요리",
-    "ingredients": [
-      {
-        "name": "닭다리살",
-        "amount": 400,
-        "unit": "g"
-      },
-      {
-        "name": "대파",
-        "amount": 1,
-        "unit": "대"
-      },
-      {
-        "name": "설탕",
-        "amount": 1,
-        "unit": "큰술"
-      },
-      {
-        "name": "굴소스",
-        "amount": 1,
-        "unit": "큰술"
-      },
-      {
-        "name": "간장",
-        "amount": 1,
-        "unit": "큰술"
-      },
-      {
-        "name": "물엿",
-        "amount": 1,
-        "unit": "큰술"
-      },
-      {
-        "name": "식용유·소금·후추",
-        "amount": null,
-        "unit": "약간"
-      }
-    ],
-    "steps": [
-      "닭다리살 양면에 소금과 후추를 가볍게 뿌린다.",
-      "기름을 조금 두른 팬에서 양면을 굽고 한입 크기로 자른다.",
-      "4cm 길이로 자른 대파를 넣어 함께 굽는다.",
-      "설탕, 굴소스, 간장, 물엿을 넣고 재빨리 뒤섞어 윤기 나게 졸인다.",
-      "그대로 먹거나 밥 위에 얹어 덮밥으로 낸다."
-    ],
-    "tips": "자동 자막의 소스 계량과 물엿 종류는 영상에서 재확인하지 못했습니다.",
-    "youtube": "https://youtube.com/shorts/FR-F48seQv8",
-    "verified": false,
-    "sourceNote": "검색 가능한 자동 자막을 정리했습니다. 영상 플레이어를 직접 재생하지 못했고 자동 자막 표기에 오차가 있을 수 있습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "ocham-gimbap-daucp",
     "name": "오참김밥",
-    "category": "밥·면",
+    "category": "밥·덮밥",
     "minutes": 30,
     "difficulty": "보통",
     "servings": 3,
@@ -1578,12 +1582,15 @@
     "youtube": "https://www.instagram.com/reel/DaUCPZhyDFh/",
     "verified": true,
     "sourceNote": "재료와 순서는 연결된 인스타그램 게시물 설명 기준입니다. 밥·김의 정확한 양은 설명에 정량 표기가 없습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "potato-cheese-omelette-day",
     "name": "감자 치즈 오믈렛",
-    "category": "아침·간식",
+    "category": "브런치·샐러드",
     "minutes": 20,
     "difficulty": "쉬움",
     "servings": 1,
@@ -1637,12 +1644,15 @@
     "youtube": "https://www.instagram.com/reel/DaYErmuvuDQ/",
     "verified": true,
     "sourceNote": "재료와 순서는 연결된 인스타그램 게시물 설명 기준입니다. 치즈와 소금은 적당량으로 안내되어 있습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "브런치·샐러드"
+    ]
   },
   {
     "id": "potato-pancake-bcoio",
     "name": "바삭한 감자채전",
-    "category": "전·부침",
+    "category": "반찬·기타",
     "minutes": 25,
     "difficulty": "쉬움",
     "servings": 2,
@@ -1686,12 +1696,15 @@
     "youtube": "https://youtube.com/shorts/BCoioEnYwsQ",
     "verified": false,
     "sourceNote": "검색 가능한 자동 전사 내용을 정리했습니다. 전사에 나온 ‘숟가락’ 계량의 크기는 영상에서 확인하지 못했습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "cucumber-tomato-salad-tjfd",
     "name": "오이 토마토 샐러드",
-    "category": "샐러드·곁들임",
+    "category": "브런치·샐러드",
     "minutes": 5,
     "difficulty": "쉬움",
     "servings": 2,
@@ -1733,12 +1746,15 @@
     "youtube": "https://youtube.com/shorts/-tjFDkUCoIs",
     "verified": false,
     "sourceNote": "영상 제목과 검색 가능한 게시물 정보로 요리 종류를 확인했습니다. 계량과 세부 순서는 원본 영상 재생으로 확인하지 못해 기본 형태로 정리했습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "브런치·샐러드"
+    ]
   },
   {
     "id": "beef-bulgogi-jeongho-young",
     "name": "정호영 셰프 소불고기",
-    "category": "메인 요리",
+    "category": "고기·해산물",
     "minutes": 30,
     "difficulty": "보통",
     "servings": 3,
@@ -1812,12 +1828,15 @@
     "youtube": "https://youtube.com/shorts/zed5rH2pFMg",
     "verified": false,
     "sourceNote": "영상 제목과 연결된 레시피 자료를 대조해 정리했습니다. 자료 간 양념 비율 차이가 있어 참고용으로 봐 주세요.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "coin-stock-banquet-noodles-vfeh",
     "name": "코인육수 잔치국수",
-    "category": "밥·면",
+    "category": "면",
     "minutes": 20,
     "difficulty": "쉬움",
     "servings": 1,
@@ -1887,12 +1906,15 @@
     "youtube": "https://youtube.com/shorts/vfehBHE-EN0",
     "verified": false,
     "sourceNote": "영상 제목과 연결된 레시피 정리 자료를 바탕으로 작성한 참고용 레시피입니다. 원본 영상 플레이어를 재생해 대조하지 못했습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "면"
+    ]
   },
   {
     "id": "tonteki-pork-steak-amwtiw",
     "name": "일본식 돈테키 돼지고기 스테이크",
-    "category": "메인 요리",
+    "category": "고기·해산물",
     "minutes": 30,
     "difficulty": "보통",
     "servings": 2,
@@ -1977,12 +1999,15 @@
     "youtube": "https://youtu.be/aMWtiwteDGw",
     "verified": false,
     "sourceNote": "검색으로 돈테키 요리임을 식별했고 연결된 레시피 정리 자료를 옮겼습니다. 영상 재생으로 대조하지 못했으며 고기 중량은 제공되지 않았습니다.",
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "shrimp-tortilla-coleslaw-gdu",
     "name": "코울슬로 새우 또띠아 버거",
-    "category": "아침·간식",
+    "category": "브런치·샐러드",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -2051,7 +2076,10 @@
     "youtube": "https://youtu.be/gD-uDxgWoVc",
     "sourceNote": "출처: 간단해요리 공식 영상 설명란의 재료와 5단계 조리법. 원문은 코울슬로와 또띠아 1장 분량을 안내하며 총 인분·전체 조리 시간은 미기재입니다. 영상 제목의 체중감량 표현은 레시피에 반영하지 않았습니다.",
     "verified": true,
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "브런치·샐러드"
+    ]
   },
   {
     "id": "beef-doenjang-kimjinsun-nie",
@@ -2151,12 +2179,15 @@
     "youtube": "https://youtube.com/shorts/nieAIhkqabU",
     "sourceNote": "출처: 김진순 점심시간 영상의 작성자 고정 댓글(5인분). 재료·양념·조리 순서를 확인했습니다. 재생 장면을 직접 확인한 것은 아닙니다.",
     "verified": true,
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "royal-tteokbokki-kimjinsun-ypw",
     "name": "궁중떡볶이",
-    "category": "면·밥",
+    "category": "반찬·기타",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 2,
@@ -2241,134 +2272,15 @@
     "youtube": "https://youtube.com/shorts/YPWqj9OzhKY",
     "sourceNote": "출처: 김진순 점심시간 영상의 작성자 고정 댓글(2인분). 재료 목록에 빠져 있지만 방법에 있는 식용유·물·마늘·참기름도 반영했습니다. 다른 시청자의 변형 양념은 섞지 않았습니다.",
     "verified": true,
-    "scaleIngredients": false
-  },
-  {
-    "id": "tonkatsu-sauce-chicken-siref",
-    "name": "돈가스 소스 닭다리살 구이",
-    "category": "구이·고기",
-    "minutes": null,
-    "difficulty": "쉬움",
-    "servings": 1,
-    "emoji": "🍗",
-    "description": "돈가스 소스·굴소스 양념에 닭다리살을 굽고 달걀을 곁들인 요리",
-    "ingredients": [
-      {
-        "name": "닭다리살 정육",
-        "amount": 500,
-        "unit": "g"
-      },
-      {
-        "name": "달걀",
-        "amount": 2,
-        "unit": "개"
-      },
-      {
-        "name": "설탕",
-        "amount": 2,
-        "unit": "스푼"
-      },
-      {
-        "name": "돈가스 소스",
-        "amount": 2,
-        "unit": "스푼"
-      },
-      {
-        "name": "굴소스",
-        "amount": 2,
-        "unit": "스푼"
-      },
-      {
-        "name": "다진 마늘",
-        "amount": 1,
-        "unit": "스푼"
-      },
-      {
-        "name": "후추",
-        "amount": null,
-        "unit": "약간"
-      }
-    ],
-    "steps": [
-      "닭다리살을 먹기 좋게 썰어 설탕, 돈가스 소스, 굴소스, 다진 마늘과 섞는다.",
-      "팬에 양념한 닭을 올리고 뚜껑을 덮어 속까지 익힌다.",
-      "달걀을 풀어 팬의 빈 공간에 둘러 넣고 익힌다.",
-      "후추를 뿌려 마무리한다."
-    ],
-    "tips": "토치 사용은 원문에서 선택으로 안내합니다. 고정 댓글이 안내한 긴 영상의 계량을 그대로 보존했습니다.",
-    "youtube": "https://youtube.com/watch?v=SIREFCEBE_I",
-    "sourceNote": "출처: 자취요리신의 고정 댓글이 안내한 같은 채널 영상 「유튜브에서 난리난 그 소스로 닭 구웠더니 개소름」(ktVejeG1L1c)의 공식 설명란. 사용자가 준 짧은 영상에는 설명이 없어서 연결된 공식 레시피를 적용했습니다. 인분·조리 시간은 미기재입니다.",
-    "verified": true,
-    "scaleIngredients": false
-  },
-  {
-    "id": "cheongyang-perilla-pasta-xnja",
-    "name": "청양 들기름 냉파스타",
-    "category": "면·밥",
-    "minutes": null,
-    "difficulty": "쉬움",
-    "servings": 1,
-    "emoji": "🍝",
-    "description": "깻잎과 청양고추, 들기름에 훈제오리를 곁들인 냉파스타",
-    "ingredients": [
-      {
-        "name": "스파게티면",
-        "amount": 60,
-        "unit": "g"
-      },
-      {
-        "name": "간장",
-        "amount": 1.5,
-        "unit": "스푼 (공식 설명란)"
-      },
-      {
-        "name": "훈제오리",
-        "amount": 100,
-        "unit": "g (참고 자료)"
-      },
-      {
-        "name": "알룰로스",
-        "amount": 1,
-        "unit": "큰술 (참고 자료)"
-      },
-      {
-        "name": "들기름",
-        "amount": 1,
-        "unit": "큰술 (참고 자료)"
-      },
-      {
-        "name": "깻잎",
-        "amount": 5,
-        "unit": "장 (참고 자료)"
-      },
-      {
-        "name": "청양고추",
-        "amount": 1,
-        "unit": "개 (참고 자료)"
-      },
-      {
-        "name": "소금·후추·깨·김가루",
-        "amount": null,
-        "unit": "취향껏 (참고 자료)"
-      }
-    ],
-    "steps": [
-      "스파게티면을 충분히 삶고 훈제오리는 팬에 굽는다.",
-      "삶은 면을 찬물에 헹군 뒤 물기를 최대한 턴다.",
-      "면에 간장, 알룰로스, 들기름과 후추·깨를 넣고 버무린다.",
-      "잘게 썬 깻잎과 청양고추를 넣는다.",
-      "훈제오리와 김가루를 곁들인다."
-    ],
-    "tips": "공식 설명은 면 60g에 간장 1.5스푼을 안내합니다. 깻잎 대신 샐러드 채소, 오리 대신 소고기나 소금을 약간 뿌려 구운 닭가슴살을 사용할 수 있습니다.",
-    "youtube": "https://youtube.com/watch?v=XNJa9L8sk4o",
-    "sourceNote": "유지만 공식 설명에서 면 60g·간장 1.5스푼·대체 재료·물기 제거를 확인했습니다. 나머지 계량과 순서는 동일 영상에 연결된 레시피오 정리 자료(oJQrZDwO) 기준이며 영상으로 대조하지 못했습니다. 자료의 간장 2큰술은 공식 설명의 1.5스푼으로 바로잡았습니다.",
-    "verified": false,
-    "scaleIngredients": false
+    "scaleIngredients": false,
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "kimjinsun-jjajang-jjimdak",
     "name": "김진순 짜장찜닭",
-    "category": "구이·고기",
+    "category": "찜·조림",
     "minutes": null,
     "difficulty": "보통",
     "servings": 2,
@@ -2474,12 +2386,15 @@
     "youtube": "https://youtube.com/shorts/7HYoyabxK2Q",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 김진순 찜닭 자료로 제공한 유튜브 댓글 사진 3장을 대조해 전사했습니다. 사진 제목에 따라 짜장찜닭으로 등록했습니다. 원문의 대파 표기는 볶기와 채소 투입 양쪽에 있어 총 3대를 나눠 사용하는 것으로 정리했습니다."
+    "sourceNote": "사용자가 김진순 찜닭 자료로 제공한 유튜브 댓글 사진 3장을 대조해 전사했습니다. 사진 제목에 따라 짜장찜닭으로 등록했습니다. 원문의 대파 표기는 볶기와 채소 투입 양쪽에 있어 총 3대를 나눠 사용하는 것으로 정리했습니다.",
+    "categories": [
+      "찜·조림"
+    ]
   },
   {
     "id": "dongjuk-gambas-pasta",
     "name": "동죽조개 감바스·마무리 파스타",
-    "category": "면·밥",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "보통",
     "servings": 3,
@@ -2559,12 +2474,16 @@
     "youtube": "https://youtube.com/shorts/ideHTU0TzWY",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 영상 설명란 사진에서 2~3인분 재료와 감바스→파스타 순서를 확인했습니다. 오일·와인·새우·파스타의 정량은 미기재입니다."
+    "sourceNote": "사용자가 제공한 영상 설명란 사진에서 2~3인분 재료와 감바스→파스타 순서를 확인했습니다. 오일·와인·새우·파스타의 정량은 미기재입니다.",
+    "categories": [
+      "고기·해산물",
+      "면"
+    ]
   },
   {
     "id": "ramen-seasoning-octopus-polpo",
     "name": "라면스프 문어 뽈뽀",
-    "category": "구이·고기",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -2660,12 +2579,15 @@
     "youtube": "https://youtube.com/shorts/uRpYijCtH1A",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 점장님의밥상 영상 설명 사진의 7단계 조리법을 전사했습니다. 인분·전체 조리 시간·주재료 중량은 원문에 없습니다."
+    "sourceNote": "사용자가 제공한 점장님의밥상 영상 설명 사진의 7단계 조리법을 전사했습니다. 인분·전체 조리 시간·주재료 중량은 원문에 없습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "ibuk-style-steamed-chicken-littletable",
     "name": "이북식 찜닭",
-    "category": "구이·고기",
+    "category": "찜·조림",
     "minutes": null,
     "difficulty": "미기재",
     "servings": 4,
@@ -2749,12 +2671,15 @@
     "youtube": "https://youtube.com/shorts/loyfK1Qzzc0",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "재료는 사용자 제공 @littletable 작성자 고정 댓글 사진, 조리 과정은 추가 레시피 정리 화면 사진 기준입니다. 추가 자료의 재료표와 본문이 충돌합니다: 간장·참기름은 2:1 표기와 1:1 설명, 고춧가루·연겨자는 작은술 표기와 T 설명, 물은 60mL 표기와 2T 설명이 함께 있습니다. 작성자 댓글의 1:1 비율 및 소스 2T·연겨자 1T를 유지했습니다. 조리용 물의 정확한 양은 확인되지 않았습니다. 원본 영상 재생으로 대조한 것은 아닙니다."
+    "sourceNote": "재료는 사용자 제공 @littletable 작성자 고정 댓글 사진, 조리 과정은 추가 레시피 정리 화면 사진 기준입니다. 추가 자료의 재료표와 본문이 충돌합니다: 간장·참기름은 2:1 표기와 1:1 설명, 고춧가루·연겨자는 작은술 표기와 T 설명, 물은 60mL 표기와 2T 설명이 함께 있습니다. 작성자 댓글의 1:1 비율 및 소스 2T·연겨자 1T를 유지했습니다. 조리용 물의 정확한 양은 확인되지 않았습니다. 원본 영상 재생으로 대조한 것은 아닙니다.",
+    "categories": [
+      "찜·조림"
+    ]
   },
   {
     "id": "hoyoon-spam-golden-fried-rice",
     "name": "호윤셰프 스팸 황금 볶음밥",
-    "category": "면·밥",
+    "category": "밥·덮밥",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -2813,12 +2738,15 @@
     "youtube": "https://youtube.com/shorts/fE6j_hDXFPE",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 호윤셰프 스팸 자료로 제공한 레시피 정리 화면 사진 3장에서 재료와 5단계를 확인했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 식용유는 재료표 총 2큰술·달걀물 본문 1큰술 표기를 함께 반영했습니다."
+    "sourceNote": "사용자가 호윤셰프 스팸 자료로 제공한 레시피 정리 화면 사진 3장에서 재료와 5단계를 확인했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 식용유는 재료표 총 2큰술·달걀물 본문 1큰술 표기를 함께 반영했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "ryu-scrambled-egg-sandwich",
     "name": "류수영 초간단 계란샌드위치",
-    "category": "아침·간식",
+    "category": "브런치·샐러드",
     "minutes": 15,
     "difficulty": "쉬움",
     "servings": 2,
@@ -2898,12 +2826,15 @@
     "youtube": "https://youtube.com/shorts/qNJPOdWfKBg",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 레시피오 정리 화면 사진에서 2인분·15분 재료와 6단계를 확인했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 재료표의 딸기는 조리 본문의 딸기잼으로 정리했고, 조리 단계에 없는 별도 치즈 항목은 체다치즈와 중복 가능성이 있어 추가하지 않았습니다."
+    "sourceNote": "사용자가 제공한 레시피오 정리 화면 사진에서 2인분·15분 재료와 6단계를 확인했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 재료표의 딸기는 조리 본문의 딸기잼으로 정리했고, 조리 단계에 없는 별도 치즈 항목은 체다치즈와 중복 가능성이 있어 추가하지 않았습니다.",
+    "categories": [
+      "브런치·샐러드"
+    ]
   },
   {
     "id": "sung-sikyung-pork-scallion-rice",
     "name": "성시경 대패삼겹살 파덮밥",
-    "category": "면·밥",
+    "category": "밥·덮밥",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -2983,12 +2914,15 @@
     "youtube": "https://youtu.be/osjoKQpLyZQ",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 성시경 파덮밥 레시피 정리 화면 사진에서 1인분 재료와 6단계를 확인했습니다. 이전에 받은 유튜브 링크를 유지했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 물은 소주컵 반 컵으로 표기되어 mL로 임의 환산하지 않았습니다."
+    "sourceNote": "사용자가 제공한 성시경 파덮밥 레시피 정리 화면 사진에서 1인분 재료와 6단계를 확인했습니다. 이전에 받은 유튜브 링크를 유지했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 물은 소주컵 반 컵으로 표기되어 mL로 임의 환산하지 않았습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "driver-restaurant-duck-bulgogi",
     "name": "기사식당 오리불백",
-    "category": "구이·고기",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "보통",
     "servings": 4,
@@ -3073,12 +3007,15 @@
     "verified": true,
     "scaleIngredients": false,
     "sourceNote": "출처: Chef Kim의 뚝딱 레시피 블로그 https://chef-choice.tistory.com/182 의 재료·조리 순서. 이전에 받은 군대식/기사식당 비교 유튜브 링크를 연결했습니다. 블로그 본문을 확인한 것이며 영상 재생으로 대조한 것은 아닙니다.",
-    "sourceUrl": "https://chef-choice.tistory.com/182"
+    "sourceUrl": "https://chef-choice.tistory.com/182",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "military-spicy-duck-bulgogi",
     "name": "군대식 오리불고기",
-    "category": "구이·고기",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "보통",
     "servings": 1,
@@ -3184,7 +3121,10 @@
     "verified": true,
     "scaleIngredients": false,
     "sourceNote": "출처: Chef Kim의 뚝딱 레시피 블로그 https://chef-choice.tistory.com/80 의 재료·조리 순서. 이전에 받은 군대식/기사식당 비교 유튜브 링크를 연결했습니다. 블로그 본문을 확인한 것이며 영상 재생으로 대조한 것은 아닙니다.",
-    "sourceUrl": "https://chef-choice.tistory.com/80"
+    "sourceUrl": "https://chef-choice.tistory.com/80",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "quick-pollock-roe-egg-soup",
@@ -3248,12 +3188,15 @@
     "youtube": "https://youtube.com/watch?v=f6YJYvXOF-U",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 초간단 명란계란탕 레시피 정리 화면 사진에서 1인분 재료와 5단계를 확인했습니다. 기존에 받은 유튜브 링크를 유지했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 명란 중량·코인육수 제품·전체 조리 시간은 미기재입니다."
+    "sourceNote": "사용자가 제공한 초간단 명란계란탕 레시피 정리 화면 사진에서 1인분 재료와 5단계를 확인했습니다. 기존에 받은 유튜브 링크를 유지했습니다. 원본 영상 재생으로 대조한 것은 아닙니다. 명란 중량·코인육수 제품·전체 조리 시간은 미기재입니다.",
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "chuchu-sausage-ketchup-stirfry",
     "name": "추추 소시지 케첩볶음",
-    "category": "반찬",
+    "category": "반찬·기타",
     "minutes": 10,
     "difficulty": "쉬움",
     "servings": 2,
@@ -3326,7 +3269,10 @@
     "youtube": "https://youtu.be/jecTCRtVGyE",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "사용자 제공 레시피 정리 사진에서 2인분·10분 및 4단계를 확인했습니다. 원본 재생으로 대조하지 못했습니다. 양파는 재료표 0.3개·본문 1/4개로 달라 본문을 적용했고, 후추도 재료표 0.5작은술·본문 약간 중 본문을 적용했습니다. 스푼 크기와 소시지 봉지 중량은 원문 미기재입니다."
+    "sourceNote": "사용자 제공 레시피 정리 사진에서 2인분·10분 및 4단계를 확인했습니다. 원본 재생으로 대조하지 못했습니다. 양파는 재료표 0.3개·본문 1/4개로 달라 본문을 적용했고, 후추도 재료표 0.5작은술·본문 약간 중 본문을 적용했습니다. 스푼 크기와 소시지 봉지 중량은 원문 미기재입니다.",
+    "categories": [
+      "반찬·기타"
+    ]
   },
   {
     "id": "cabbage-shabu-fn7fia",
@@ -3426,12 +3372,15 @@
     "youtube": "https://youtu.be/fn7fia5vGjA",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 첫 번째 영상 자료로 제공한 유튜브 댓글 사진 2장의 1인분 재료·소스·순서를 대조해 전사했습니다. 재료표는 우목심, 방법은 우삼겹으로 적혀 있어 기본 우목심 및 팁의 대체재로 정리했습니다. 원본 영상 재생으로 확인한 것은 아닙니다."
+    "sourceNote": "사용자가 첫 번째 영상 자료로 제공한 유튜브 댓글 사진 2장의 1인분 재료·소스·순서를 대조해 전사했습니다. 재료표는 우목심, 방법은 우삼겹으로 적혀 있어 기본 우목심 및 팁의 대체재로 정리했습니다. 원본 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "yoonjumo-pork-neck-galbi",
     "name": "윤주모 목살 갈비",
-    "category": "고기요리",
+    "category": "고기·해산물",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 1,
@@ -3533,12 +3482,15 @@
     "youtube": "https://youtube.com/shorts/0WGE3Cgu7Kk",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "사용자가 제공한 @YUMMYTV1 고정 댓글 사진에서 확인했습니다. 댓글 출처 표기는 KBS 편스토랑 이찬원편입니다.  스푼이 명시된 항목은 그대로 유지하고, 다진 생강부터 참기름까지 단위 없는 수치는 큰술로 추정하지 않았습니다. 목살 600g 기준이며 인분은 미확인입니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다."
+    "sourceNote": "사용자가 제공한 @YUMMYTV1 고정 댓글 사진에서 확인했습니다. 댓글 출처 표기는 KBS 편스토랑 이찬원편입니다.  스푼이 명시된 항목은 그대로 유지하고, 다진 생강부터 참기름까지 단위 없는 수치는 큰술로 추정하지 않았습니다. 목살 600g 기준이며 인분은 미확인입니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
   },
   {
     "id": "diet-shabu-0v4u",
     "name": "다이어트 샤브샤브",
-    "category": "찜·조림",
+    "category": "국·탕",
     "minutes": null,
     "difficulty": "쉬움",
     "servings": 2,
@@ -3612,7 +3564,10 @@
     "youtube": "https://youtu.be/0v4U_CDZTPc",
     "verified": true,
     "scaleIngredients": true,
-    "sourceNote": "사용자가 세 번째 영상 자료로 제공한 @옴뇸뇸다이어트 고정 댓글 사진 3장에서 2인분 재료와 소스 분량을 확인했습니다. 된장은 원문 스푼을 유지했습니다. 댓글의 다이어트 효과·칼로리 주장은 검증되지 않아 옮기지 않았습니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다."
+    "sourceNote": "사용자가 세 번째 영상 자료로 제공한 @옴뇸뇸다이어트 고정 댓글 사진 3장에서 2인분 재료와 소스 분량을 확인했습니다. 된장은 원문 스푼을 유지했습니다. 댓글의 다이어트 효과·칼로리 주장은 검증되지 않아 옮기지 않았습니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다.",
+    "categories": [
+      "국·탕"
+    ]
   },
   {
     "id": "oh-dining-chicken-fricassee",
@@ -3700,7 +3655,10 @@
     "youtube": "https://youtu.be/KScCA4Kaszc",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "오밥상 원본 유튜브 설명란의 재료표와 사용자가 제공한 레시피오 사진 4장을 대조했습니다. 사진 재료표의 닭다리살 4g은 원본 설명의 400~500g 및 사진 단계 표기와 불일치하므로 400~500g을 유지했습니다. 2인분은 사진 자료 기준이며 전체 조리 시간은 미기재입니다.  영상 재생을 보고 확인한 것은 아닙니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다."
+    "sourceNote": "오밥상 원본 유튜브 설명란의 재료표와 사용자가 제공한 레시피오 사진 4장을 대조했습니다. 사진 재료표의 닭다리살 4g은 원본 설명의 400~500g 및 사진 단계 표기와 불일치하므로 400~500g을 유지했습니다. 2인분은 사진 자료 기준이며 전체 조리 시간은 미기재입니다.  영상 재생을 보고 확인한 것은 아닙니다. 조리 순서는 제공된 사진을 기준으로 복원했습니다.",
+    "categories": [
+      "찜·조림"
+    ]
   },
   {
     "id": "kim-seoul-golden-curry",
@@ -3790,7 +3748,10 @@
     "youtube": "https://youtu.be/3V7YkD7W7gg",
     "verified": true,
     "scaleIngredients": false,
-    "sourceNote": "킴서울 원본 영상의 작성자 고정 댓글을 직접 열어 재료·분량을 확인했습니다. 고기 종류·부위, 오일 종류, 버터 무게와 인분은 미기재라 추정하지 않았습니다. 계량은 원문의 스푼·조각을 유지했고  영상 재생을 보고 확인한 것은 아닙니다. 조리 순서는 직접 확인한 작성자 고정 댓글을 기준으로 복원했습니다."
+    "sourceNote": "킴서울 원본 영상의 작성자 고정 댓글을 직접 열어 재료·분량을 확인했습니다. 고기 종류·부위, 오일 종류, 버터 무게와 인분은 미기재라 추정하지 않았습니다. 계량은 원문의 스푼·조각을 유지했고  영상 재생을 보고 확인한 것은 아닙니다. 조리 순서는 직접 확인한 작성자 고정 댓글을 기준으로 복원했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
   },
   {
     "id": "kimjinsun-aftermeal-doenjang",
@@ -3885,6 +3846,6534 @@
     "youtube": "https://youtu.be/4rZGpkNCRbs",
     "verified": false,
     "scaleIngredients": false,
-    "sourceNote": "원본 페이지에서 김진순 점심시간의 영상 제목·채널을 확인했고, 재료 분량은 사용자가 제공한 레시피오 사진 4장을 기준으로 정리했습니다. 2인분·20분은 사진 자료의 안내입니다. 재료표에 새송이버섯 1개와 청양고추 2개·홍고추 1개가 구체적으로 적혀 있어 별도 버섯·고추 적당량 항목은 중복으로 추가하지 않았습니다. 단계마다 반복된 물 3컵도 한 번만 반영했습니다. 원본 영상 재생과 계량은 직접 검증하지 못했으며  조리 순서는 제공된 사진을 기준으로 복원했습니다."
+    "sourceNote": "원본 페이지에서 김진순 점심시간의 영상 제목·채널을 확인했고, 재료 분량은 사용자가 제공한 레시피오 사진 4장을 기준으로 정리했습니다. 2인분·20분은 사진 자료의 안내입니다. 재료표에 새송이버섯 1개와 청양고추 2개·홍고추 1개가 구체적으로 적혀 있어 별도 버섯·고추 적당량 항목은 중복으로 추가하지 않았습니다. 단계마다 반복된 물 3컵도 한 번만 반영했습니다. 원본 영상 재생과 계량은 직접 검증하지 못했으며  조리 순서는 제공된 사진을 기준으로 복원했습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "bobsil-beef-quail-zucchini",
+    "name": "김밥실 애호박 소고기 메추리알 장조림",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "김밥실 애호박 소고기 메추리알 장조림 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "소고기 다짐육",
+        "amount": 250,
+        "unit": "g"
+      },
+      {
+        "name": "메추리알",
+        "amount": 450,
+        "unit": "g (1봉지)"
+      },
+      {
+        "name": "애호박",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "간장",
+        "amount": 50,
+        "unit": "mL"
+      },
+      {
+        "name": "참치액",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "아가베시럽 또는 올리고당",
+        "amount": 2,
+        "unit": "큰술 (원문 2T)"
+      },
+      {
+        "name": "맛술",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "물",
+        "amount": 350,
+        "unit": "mL"
+      },
+      {
+        "name": "오일",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "냄비에 오일 1스푼과 다진 마늘을 넣고 볶는다. 소고기 다짐육의 핏물을 닦고 후추를 뿌려 함께 볶는다.",
+      "고기가 익으면 간장·참치액·설탕·아가베시럽 또는 올리고당·맛술을 넣는다.",
+      "메추리알을 헹궈 넣고 물 350mL를 부어 중불에서 12분 끓인다.",
+      "애호박을 얇게 채 썰어 넣고 약 3분 더 끓인다."
+    ],
+    "tips": "인분이 없는 레시피는 원문 분량으로 표시합니다.",
+    "youtube": "https://youtu.be/WZ0lj3Rf0aE",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "김밥실(@bobsil)의 작성자 고정 댓글에서 재료와 조리법을 직접 확인했습니다. 재료표에 빠진 오일 1스푼은 같은 댓글의 조리법에서 확인했습니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "jinucook-pepper-lunch",
+    "name": "지누쿡 차돌 페퍼런치 볶음밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "지누쿡 차돌 페퍼런치 볶음밥 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기 (꾹꾹 눌러 담기)"
+      },
+      {
+        "name": "차돌박이",
+        "amount": 2,
+        "unit": "줌"
+      },
+      {
+        "name": "옥수수 콘",
+        "amount": null,
+        "unit": "3~4큰술 (원문 3~4T)"
+      },
+      {
+        "name": "쪽파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "버터",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "모짜렐라 치즈",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "소스용 다진 마늘",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "소스용 간장",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "소스용 굴소스",
+        "amount": 0.5,
+        "unit": "큰술 (원문 0.5T)"
+      },
+      {
+        "name": "소스용 알룰로스",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "소스용 맛술",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      }
+    ],
+    "steps": [
+      "다진 마늘·간장·굴소스·알룰로스·맛술을 섞어 소스를 만든다.",
+      "유리 용기 가운데 밥을 뭉쳐 올리고 주변에 차돌박이를 둘러 놓는다.",
+      "밥 위에 옥수수 콘·송송 썬 쪽파·버터를 올린다.",
+      "소스를 밥과 고기 위에 골고루 붓는다.",
+      "에어프라이어 180℃에서 10분 조리한다.",
+      "밥과 고기를 골고루 뒤적인 뒤 차돌박이가 노릇하게 익을 때까지 조금 더 조리한다.",
+      "후추를 취향껏 뿌린다."
+    ],
+    "tips": "모짜렐라 치즈는 원문 재료표에 있으나 넣는 시점·분량이 조리법에 적혀 있지 않습니다. 에어프라이어에서 사용할 수 있는 용기를 사용하세요.",
+    "youtube": "https://youtu.be/ur0_j2xVlpY",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "지누쿡 원본 영상 설명란의 재료와 7단계 조리법을 직접 확인했습니다. 추가 조리 시간은 미기재입니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "rough-spoon-shiotare-pork-rice",
+    "name": "대충한숟갈 시오타래 삼겹덮밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "대충한숟갈 시오타래 삼겹덮밥 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      },
+      {
+        "name": "대패삼겹살",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "대파 흰 부분",
+        "amount": 3,
+        "unit": "숟갈"
+      },
+      {
+        "name": "시오타래 소스",
+        "amount": null,
+        "unit": "2.5~3숟갈"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "맛소금",
+        "amount": null,
+        "unit": "아주 약간"
+      },
+      {
+        "name": "계란 노른자",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "대파 흰 부분과 시오타래 소스를 섞는다.",
+      "대패삼겹살을 중약불에서 빠르게 굽는다. 원문은 바싹 굽지 않도록 안내한다.",
+      "밥 위에 고기를 올리고 소스를 입맛에 맞게 얹는다.",
+      "계란 노른자를 올리고 통깨를 뿌린다."
+    ],
+    "tips": "시오타래 소스는 브랜드마다 짠 정도가 달라 양을 조절합니다.",
+    "youtube": "https://youtu.be/_21R4Ghq350",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "대충한숟갈 원본 설명란에서 재료와 조리법을 직접 확인했습니다. 후추·맛소금은 재료표에 있지만 넣는 시점은 미기재입니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "bobsil-kimchi-acorn-noodles",
+    "name": "김밥실 김치말이 묵국수",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "김밥실 김치말이 묵국수 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "소면",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "도토리묵",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "김치",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "냉면 동치미 육수",
+        "amount": 1,
+        "unit": "팩 (용량 미기재)"
+      },
+      {
+        "name": "오이",
+        "amount": 0.3333333333333333,
+        "unit": "개"
+      },
+      {
+        "name": "김",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "들기름",
+        "amount": null,
+        "unit": "2 (원문 수치; 단위 미기재)"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": null,
+        "unit": "0.5 (원문 수치; 단위 미기재)"
+      },
+      {
+        "name": "고춧가루",
+        "amount": null,
+        "unit": "0.5 (원문 수치; 단위 미기재)"
+      }
+    ],
+    "steps": [
+      "냉면육수를 미리 얼리고 만들기 전 육수팩을 물에 담가 둔다.",
+      "오이를 채 썬다. 김치를 다져 들기름·다진 마늘·고춧가루와 섞는다.",
+      "소면을 삶아 찬물에 헹군다. 소면을 삶은 물에 썬 도토리묵을 30초 데친 뒤 찬물에 헹군다.",
+      "그릇에 소면·도토리묵·육수·김치무침·오이·잘라 놓은 김을 담고 깨를 뿌린다."
+    ],
+    "tips": "인분이 없는 레시피는 원문 분량으로 표시합니다.",
+    "youtube": "https://youtu.be/C03iVvhFMpY",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "김밥실 작성자 고정 댓글을 펼쳐 재료와 순서를 직접 확인했습니다. 소면·도토리묵·김치는 같은 댓글의 조리법에 등장하지만 분량은 미기재입니다. 들기름·마늘·고춧가루의 숫자에는 계량 단위가 없어 추정하지 않았습니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "bobsil-egg-avocado-sandwich",
+    "name": "김밥실 계란샐러드 아보카도 샌드위치",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "김밥실 계란샐러드 아보카도 샌드위치 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "삶은 계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "홀그레인 머스터드",
+        "amount": null,
+        "unit": "0.5 (원문 수치; 단위 미기재)"
+      },
+      {
+        "name": "무가당 요거트",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "꿀",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "올리브오일",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "통밀빵",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "아보카도",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "오이",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "토마토",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "볼에 삶은 계란·홀그레인 머스터드·무가당 요거트·꿀·올리브오일·소금·후추를 넣고 으깨 계란샐러드를 만든다.",
+      "통밀빵을 굽는다. 빵 위에 아보카도를 으깨 올리고 계란샐러드·오이·토마토를 얹은 뒤 후추를 뿌린다."
+    ],
+    "tips": "계란샐러드를 오이스틱에 찍어 먹는 방법도 원문에서 안내합니다. 제목의 5분은 삶은 계란을 준비한 상태의 안내이며 총 조리 시간은 확정하지 않았습니다.",
+    "youtube": "https://youtu.be/f_WMGY_rMTg",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "김밥실 작성자 고정 댓글에서 재료와 두 단계 조리법을 직접 확인했습니다. 머스터드 0.5의 단위는 미기재이며 빵·아보카도·오이·토마토는 조리법에서 확인했으나 분량이 없습니다. 영상 제목의 건강효과 주장은 레시피에 옮기지 않았습니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "jinucook-chicken-scallion-rice",
+    "name": "지누쿡 닭다리 대파구이·덮밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍚",
+    "description": "지누쿡 닭다리 대파구이·덮밥 · 원본에서 확인한 재료와 조리 순서",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "대파 흰 부분",
+        "amount": 2,
+        "unit": "대"
+      },
+      {
+        "name": "꽈리고추",
+        "amount": null,
+        "unit": "7~8개 (선택)"
+      },
+      {
+        "name": "기버터",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "양념용 물",
+        "amount": 50,
+        "unit": "mL"
+      },
+      {
+        "name": "양념용 진간장",
+        "amount": 1.5,
+        "unit": "큰술 (원문 1.5T)"
+      },
+      {
+        "name": "양념용 굴소스",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "양념용 맛술",
+        "amount": 2,
+        "unit": "큰술 (원문 2T)"
+      },
+      {
+        "name": "양념용 다진 마늘",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "양념용 올리고당",
+        "amount": 2,
+        "unit": "큰술 (원문 2T)"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "대파와 꽈리고추를 한입 크기로 썬다. 물·진간장·굴소스·맛술·다진 마늘·올리고당·후추를 섞어 양념장을 준비한다.",
+      "기름을 두르지 않은 팬에 닭다리살을 껍질 쪽부터 올려 노릇하게 굽는다.",
+      "대파를 먼저 넣어 굽다가 꽈리고추를 넣어 함께 볶는다.",
+      "양념장을 부어 중불에서 소스가 졸아들 때까지 충분히 볶는다.",
+      "기버터 1큰술을 넣어 마무리한다."
+    ],
+    "tips": "원문은 아이용으로 꽈리고추를 빼고 만들 수 있다고 안내합니다. 덮밥으로 먹을 때 곁들일 밥 분량은 원문에 없습니다.",
+    "youtube": "https://youtu.be/pd9dMQPATG4",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "지누쿡 원본 설명란에서 재료와 5단계 조리법을 직접 확인했습니다. 영상 제목은 덮밥이지만 설명란은 닭다리 대파 구이로 안내하며 밥 분량은 미기재입니다. 원본 영상을 재생해서 확인한 것은 아닙니다.",
+    "categories": [
+      "밥·덮밥",
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "dbreak-pork-potato-stirfry",
+    "name": "맛휴 돼지고기 감자볶음",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "맛휴 돼지고기 감자볶음 · 원본에서 확인한 재료",
+    "ingredients": [
+      {
+        "name": "돼지고기 앞다리살 불고기용",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "감자",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "전분",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "약간 (조리법은 넉넉히)"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "밑간용 맛술",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 간장",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 맛술",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 설탕",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 올리고당",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 다진 마늘",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 다진 생강",
+        "amount": 0.3333333333333333,
+        "unit": "스푼"
+      },
+      {
+        "name": "양념용 물",
+        "amount": 4,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "돼지고기를 먹기 좋게 잘라 밑간용 맛술 1스푼·소금·후추로 간한다.",
+      "전분 1스푼을 넣어 고기 겉면에 얇게 묻힌다.",
+      "감자는 먹기 좋게 썰어 물에 약 5분 담갔다가 물기를 뺀다.",
+      "감자를 전자레인지에서 3~4분 익혀 70~80% 정도 미리 익힌다.",
+      "대파를 송송 썰어 흰 부분과 초록 부분을 나눈다.",
+      "팬에 식용유를 두르고 고기를 중강불에서 먼저 굽는다.",
+      "고기가 노릇해지면 감자를 넣고 함께 볶는다. 감자 겉면도 노릇해지면 대파 흰 부분을 넣는다.",
+      "양념용 간장·맛술·설탕·올리고당·다진 마늘·다진 생강·물을 넣는다.",
+      "중강불에서 1~2분 볶다가 양념이 줄면 센불로 올려 코팅하듯 볶는다.",
+      "대파 초록 부분을 넣어 짧게 볶고 후추·통깨로 마무리한다."
+    ],
+    "tips": "감자를 전자레인지에서 먼저 익힌 뒤 볶는 것이 원문의 팁입니다.",
+    "youtube": "https://youtu.be/0NPielmitew",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "맛있는휴식(맛휴)의 작성자 고정 댓글에서 재료·밑간·양념과 12개 세부 조리 단계를 직접 확인해 10단계로 정리했습니다. 맛술은 밑간 1스푼과 양념 2스푼을 구분했습니다. 원본 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "chicory-beef-belly-galbitang",
+    "name": "치커리집 우삼겹 갈비탕",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍲",
+    "description": "치커리집 우삼겹 갈비탕 · 원본에서 확인한 재료",
+    "ingredients": [
+      {
+        "name": "우삼겹",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "미림",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "참치액",
+        "amount": 1,
+        "unit": "큰술 (원문 1T)"
+      },
+      {
+        "name": "물",
+        "amount": 450,
+        "unit": "mL"
+      },
+      {
+        "name": "당면",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "팽이버섯",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "추가 간용 참치액 또는 소금",
+        "amount": null,
+        "unit": "필요하면"
+      }
+    ],
+    "steps": [
+      "우삼겹 200g을 미림 1큰술·다진 마늘 1큰술과 함께 볶는다.",
+      "굴소스 1큰술과 참치액 1큰술을 넣고 조금 더 볶는다.",
+      "물 450mL를 붓고 끓이면서 떠오른 기름과 거품을 걷는다.",
+      "팔팔 끓으면 당면·대파·청양고추를 넣고 끓인다.",
+      "팽이버섯을 넣고 조금 더 끓인 뒤 후추를 뿌린다. 필요하면 참치액 또는 소금으로 간을 맞춘다."
+    ],
+    "tips": "떠오르는 기름과 거품을 걷어야 깔끔한 국물이 된다고 원문에서 안내합니다.",
+    "youtube": "https://youtu.be/hcZiUwguktI",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "치커리집 원본 설명란의 5단계 레시피를 직접 확인했습니다. 채소와 당면의 양·준비 상태는 미기재입니다. 제목의 10분은 전체 준비 시간을 포함하는지 알 수 없어 총 시간을 확정하지 않았습니다. 원본 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "tosoon-bean-sprout-soup",
+    "name": "토순씨 식당식 콩나물국",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍲",
+    "description": "토순씨 식당식 콩나물국 · 원본에서 확인한 재료",
+    "ingredients": [
+      {
+        "name": "물",
+        "amount": 2,
+        "unit": "L"
+      },
+      {
+        "name": "콩나물",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "국간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "새우젓",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "맛소금",
+        "amount": 2,
+        "unit": "스푼 (원문 표기)"
+      },
+      {
+        "name": "대파",
+        "amount": 0.5,
+        "unit": "대"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "냄비에 물 2L를 넣고 끓인다.",
+      "끓는 물에 콩나물·다진 마늘·국간장·새우젓·맛소금을 넣는다.",
+      "뚜껑을 연 채로 5분 더 끓인다.",
+      "대파 반 대와 청양고추를 넣어 마무리한다."
+    ],
+    "tips": "맛소금 2스푼은 원문 분량입니다. 사용하는 숟가락 크기가 명확하지 않으므로 간을 보며 조절하세요.",
+    "youtube": "https://youtu.be/C8Ir4Haeafc",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "토순씨의 간단 야매 요리 원본 설명란에서 재료와 조리 순서를 직접 확인했습니다. 맛소금은 원문에 2스푼으로 적혀 있으며 작은술·큰술 여부는 미기재라 환산하지 않았습니다. 원본 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "atbusyhome-beef-belly-pasta",
+    "name": "집순이 비지 우삼겹파스타",
+    "category": "면",
+    "minutes": 10,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "마늘과 우삼겹을 볶아 간장·굴소스로 맛을 낸 오일 파스타입니다.",
+    "ingredients": [
+      {
+        "name": "마늘",
+        "amount": 5,
+        "unit": "알"
+      },
+      {
+        "name": "우삼겹",
+        "amount": 2,
+        "unit": "줌"
+      },
+      {
+        "name": "크러쉬드페퍼 또는 청양고추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "파스타면",
+        "amount": 1,
+        "unit": "인분"
+      },
+      {
+        "name": "면수",
+        "amount": 1,
+        "unit": "국자"
+      },
+      {
+        "name": "설탕",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "듬뿍"
+      },
+      {
+        "name": "깻잎",
+        "amount": null,
+        "unit": "선택; 분량 미기재"
+      },
+      {
+        "name": "소금 (면 삶기)",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "올리브오일",
+        "amount": null,
+        "unit": "적당량"
+      }
+    ],
+    "steps": [
+      "끓는 물에 소금 0.5스푼을 넣고 파스타면 1인분을 8분간 삶습니다. 면수 1국자를 남겨 둡니다.",
+      "마늘 5알을 먹기 좋게 썹니다.",
+      "팬에 올리브오일을 두르고 마늘, 우삼겹 2줌, 크러쉬드페퍼를 넣어 볶습니다.",
+      "고기가 익으면 삶은 면과 면수 1국자를 넣습니다. 설탕 0.5스푼, 간장 1스푼, 굴소스 1스푼을 넣고 중불에서 잘 섞습니다.",
+      "후추를 듬뿍 뿌려 마무리합니다."
+    ],
+    "tips": "사진 기준 조리 시간은 10분, 면 삶는 시간은 8분입니다. 원본 설명에서는 크러쉬드페퍼 대신 청양고추를 쓰거나 깻잎을 썰어 올리는 선택 방법도 안내합니다. 스푼을 mL로 환산하지 않았습니다.",
+    "youtube": "https://youtu.be/1nS3fO-aknE",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "기존 유튜브 설명·고정 댓글의 재료와 사용자가 제공한 레시피오 사진 4장의 재료·조리 순서 5단계를 함께 확인했습니다. 사진 재료표의 간장 항목은 글자가 혼합되어 있어 Step 4의 간장 1스푼을 기준으로 정리했습니다. 원본 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "jung-hoyoung-chadol-doenjang-rice",
+    "name": "정호영 차돌된장술밥",
+    "category": "밥·덮밥",
+    "minutes": 15,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍲",
+    "description": "차돌박이에 장류를 볶아 된장찌개를 끓인 뒤 밥을 넣어 마무리하는 술밥",
+    "ingredients": [
+      {
+        "name": "차돌박이",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "된장",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "고추장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": 500,
+        "unit": "mL"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "참치액젓",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "애호박",
+        "amount": 0.3,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 0.5,
+        "unit": "대"
+      },
+      {
+        "name": "두부",
+        "amount": 0.5,
+        "unit": "모"
+      },
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      },
+      {
+        "name": "청양고추",
+        "amount": 1,
+        "unit": "개"
+      }
+    ],
+    "steps": [
+      "냄비에 기름을 따로 두르지 않고 차돌박이 150g을 볶는다.",
+      "고기가 어느 정도 익으면 다진 마늘 1큰술, 된장 2큰술, 고추장 1큰술을 넣어 함께 볶는다.",
+      "고기 기름이 충분히 나오면 고춧가루 2큰술을 넣고 타지 않도록 불을 조절하며 볶는다.",
+      "물 500mL, 굴소스 1큰술, 참치액젓 1큰술을 넣는다.",
+      "손질한 양파·애호박·대파를 넣어 끓인다.",
+      "국물이 끓으면 두부를 넣고 국물이 약간 자작해질 때까지 더 끓인다.",
+      "뚝배기에 밥 1공기를 담고 끓인 된장찌개를 붓는다. 밥이 국물을 머금고 부드러워질 때까지 한 번 더 끓인다.",
+      "청양고추를 송송 썰어 고명으로 올린다."
+    ],
+    "tips": "고춧가루가 타지 않게 불을 조절합니다. 사진의 단계별 물 500mL는 동일한 물을 반복 표시한 것으로 보고 총 500mL만 반영했습니다.",
+    "youtube": "https://youtu.be/-jgRzU3NZ3c",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 5장의 재료표와 조리 순서 8단계를 대조했습니다. 1인분·15분은 사진 자료 안내입니다. 원본 영상의 제목·채널은 앞서 직접 확인했지만 분량은 영상 재생으로 검증하지 못했으므로 사진 기준으로 기록했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "ddokdak-boneless-duck-soup",
+    "name": "뚝딱이형 순살오리탕",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🍲",
+    "description": "오리슬라이스에 토란줄기와 채소, 들깨·찹쌀 혼합물을 넣어 끓이는 순살 오리탕입니다.",
+    "ingredients": [
+      {
+        "name": "오리슬라이스",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "된장",
+        "amount": 3,
+        "unit": "숟가락"
+      },
+      {
+        "name": "다진생강",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "미림",
+        "amount": 3,
+        "unit": "숟가락"
+      },
+      {
+        "name": "물 (냄비)",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "토란줄기",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 3,
+        "unit": "숟가락"
+      },
+      {
+        "name": "멸치액젓",
+        "amount": 2,
+        "unit": "숟가락"
+      },
+      {
+        "name": "국간장",
+        "amount": 2,
+        "unit": "숟가락"
+      },
+      {
+        "name": "소금",
+        "amount": 0.3,
+        "unit": "숟가락"
+      },
+      {
+        "name": "다시다",
+        "amount": 1,
+        "unit": "숟가락"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 2,
+        "unit": "숟가락"
+      },
+      {
+        "name": "양파",
+        "amount": 130,
+        "unit": "g"
+      },
+      {
+        "name": "대파",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "부추",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "미나리",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "깻순",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "물 (들깨 혼합물)",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "들깨가루",
+        "amount": 6,
+        "unit": "숟가락"
+      },
+      {
+        "name": "찹쌀가루",
+        "amount": 2,
+        "unit": "숟가락"
+      },
+      {
+        "name": "초장 (찍는 소스)",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "들깨가루 (찍는 소스)",
+        "amount": 1,
+        "unit": "숟가락"
+      },
+      {
+        "name": "다진마늘 (찍는 소스)",
+        "amount": 0.5,
+        "unit": "숟가락"
+      },
+      {
+        "name": "들기름 (찍는 소스)",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "청양고추 (찍는 소스)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "오리슬라이스 800g에 된장 3숟가락, 다진생강 10g, 미림 3숟가락을 넣고 1시간 재웁니다.",
+      "냄비에 물 1L, 재운 오리고기, 토란줄기 400g, 고춧가루 3숟가락, 멸치액젓 2숟가락, 국간장 2숟가락을 넣고 끓입니다.",
+      "믹서기에 별도의 물 1L, 들깨가루 6숟가락, 찹쌀가루 2숟가락을 넣고 곱게 갑니다.",
+      "냄비의 물이 끓으면 갈아 놓은 혼합물, 소금 0.3숟가락, 다시다 1숟가락, 다진마늘 2숟가락, 양파 130g, 대파 100g, 청양고추, 부추 200g, 미나리 200g, 깻순 100g을 넣고 채소의 숨이 죽을 때까지 끓입니다.",
+      "초장, 들깨가루 1숟가락, 다진마늘 0.5숟가락, 들기름, 청양고추를 섞어 찍는 소스를 만듭니다."
+    ],
+    "tips": "물은 냄비용 1L와 들깨 혼합물용 1L로 총 2L입니다. 청양고추·초장·들기름의 분량과 인분, 총 조리 시간은 원문에 없습니다. 재우는 시간은 1시간입니다.",
+    "youtube": "https://youtu.be/RBCf2jbDrMc",
+    "sourceUrl": "https://chef-choice.tistory.com/m/407",
+    "verified": false,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 지정한 Chef Kim의 뚝딱 레시피 407번 글(2023-10-15)의 재료·조리법 5단계를 확인해 정리했습니다. 기존 유튜브 링크를 유지했으며, 해당 영상과 블로그의 계량이 같은지는 확인하지 않았습니다. 원문: https://chef-choice.tistory.com/m/407",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "kim-kangwoo-arongsatae-jangjorim",
+    "name": "김강우 아롱사태 장조림",
+    "category": "찜·조림",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "김강우 아롱사태 장조림",
+    "ingredients": [
+      {
+        "name": "수육용 아롱사태",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "깐메추리알",
+        "amount": 500,
+        "unit": "g (1팩)"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "생강",
+        "amount": 1,
+        "unit": "톨"
+      },
+      {
+        "name": "깐마늘",
+        "amount": 10,
+        "unit": "알"
+      },
+      {
+        "name": "꽈리고추",
+        "amount": 15,
+        "unit": "개"
+      },
+      {
+        "name": "식혜",
+        "amount": 2,
+        "unit": "캔 (1캔 238mL)"
+      },
+      {
+        "name": "진간장",
+        "amount": 300,
+        "unit": "mL"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "물 (삶기)",
+        "amount": 1.5,
+        "unit": "L"
+      },
+      {
+        "name": "설탕 (핏물 제거)",
+        "amount": 2,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "찬물 (핏물 제거)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "아롱사태의 핏물을 닦고 근막을 제거합니다. 찬물에 설탕 2큰술을 풀어 고기를 30분 담급니다. 꽈리고추에는 포크로 구멍을 냅니다.",
+      "냄비에 물 1.5L, 양파 1/2개, 대파 1대, 생강 1톨을 넣고 강불로 끓입니다.",
+      "끓으면 핏물을 뺀 고기와 식혜 2캔을 넣습니다. 다시 끓으면 뚜껑을 열어 강불로 5분 끓이며 거품을 걷습니다.",
+      "뚜껑을 닫아 약불로 50분 끓입니다. 물이 지나치게 졸지 않도록 합니다.",
+      "양파·대파·생강을 건져냅니다.",
+      "진간장 300mL, 굴소스 1큰술, 깐메추리알 500g, 깐마늘 10알을 넣고 20분 끓입니다.",
+      "불을 끄고 꽈리고추를 넣어 뚜껑을 닫은 채 10분 뜸을 들입니다.",
+      "고기를 얇게 편 썰어 완성합니다."
+    ],
+    "tips": "식혜는 작은 캔 238mL 기준으로 총 476mL입니다. 핏물 제거용 찬물 분량과 인분은 미기재입니다.",
+    "youtube": "https://youtu.be/cBgSaFp4Kho",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "따라쿡(@따라cook)의 작성자 고정 댓글에서 재료와 조리법을 직접 확인했습니다. 본문은 KBS 편스토랑을 출처로 안내합니다. 영상 재생은 확인하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "battito-perilla-oil-pasta",
+    "name": "바티토 들기름파스타",
+    "category": "면",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "바티토 들기름파스타",
+    "ingredients": [
+      {
+        "name": "스파게티면",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "깻잎",
+        "amount": null,
+        "unit": "5~6장"
+      },
+      {
+        "name": "김가루",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "통들깨",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "들기름",
+        "amount": 6,
+        "unit": "스푼"
+      },
+      {
+        "name": "쯔유",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "연두",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "물 (면 삶기)",
+        "amount": null,
+        "unit": "필요량; 소금 10g/L"
+      },
+      {
+        "name": "소금 (면 삶기)",
+        "amount": null,
+        "unit": "물 1L당 10g"
+      },
+      {
+        "name": "얼음물 (냉각용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "물 1L당 소금 10g 비율로 준비하고 스파게티면을 충분히 푹 삶습니다.",
+      "면이 익는 동안 들기름 6스푼, 쯔유 1스푼, 연두 0.5스푼을 섞습니다.",
+      "익힌 면을 소스와 함께 버무리며 얼음물 위에서 식힙니다.",
+      "깻잎을 돌돌 말아 최대한 얇게 썹니다.",
+      "접시에 파스타를 담고 김가루·깻잎·통들깨를 올립니다."
+    ],
+    "tips": "얼음물은 버무리는 면을 식히는 용도입니다. 원문에는 삶는 시간, 전체 조리 시간과 인분이 없습니다.",
+    "youtube": "https://youtu.be/RmWmfJs2mlI",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "바티토 BATTITO(@battito-s4z)의 본문 설명과 작성자 고정 댓글에서 동일한 재료·조리법 5단계를 직접 확인했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "meatman-beef-belly-gamjatang",
+    "name": "고기남자 15분 우삼겹 감자탕",
+    "category": "국·탕",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍲",
+    "description": "사골곰탕과 우삼겹에 감자·깻잎·들깨가루를 넣어 끓이는 간편 감자탕입니다.",
+    "ingredients": [
+      {
+        "name": "감자",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "우삼겹",
+        "amount": 2,
+        "unit": "줌"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "된장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "사골곰탕",
+        "amount": 1,
+        "unit": "봉지 (용량 미기재)"
+      },
+      {
+        "name": "깻잎",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "들깨가루",
+        "amount": null,
+        "unit": "듬뿍"
+      }
+    ],
+    "steps": [
+      "냄비에 감자와 우삼겹 2줌을 넣습니다.",
+      "다진마늘 1큰술, 된장 1큰술, 고춧가루 1큰술, 간장 1큰술, 설탕 2큰술, 후추와 대파를 넣습니다.",
+      "사골곰탕 1봉지를 붓고 끓입니다.",
+      "국물이 끓으면 깻잎을 잘라 넣고 청양고추와 들깨가루를 넣습니다.",
+      "감자가 푹 익을 때까지 충분히 끓여 완성합니다."
+    ],
+    "tips": "사진 기준 2인분·15분입니다. 사골곰탕 1봉지의 용량은 미기재이며, 감자·대파·깻잎·청양고추·들깨가루는 원문의 적당량 또는 듬뿍 표기를 유지했습니다. 간장 1큰술은 재료표에 없으나 Step 2에 명시되어 반영했습니다.",
+    "youtube": "https://youtu.be/2hqWuK5lttY",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장에서 재료와 조리 과정 5단계를 확인했습니다. 기존 고기남자 영상 링크를 유지했습니다. 사진의 맛이 20배 깊다는 표현은 검증된 수치가 아니므로 반영하지 않았습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "sung-sikyung-cabbage-pork-steam",
+    "name": "성시경 양식 스타일 양배추 목살찜",
+    "category": "찜·조림",
+    "minutes": 25,
+    "difficulty": "보통",
+    "servings": 2,
+    "emoji": "🥘",
+    "description": "목살과 양배추를 화이트 와인·치킨스톡으로 찐 뒤 버터로 마무리하는 요리입니다.",
+    "ingredients": [
+      {
+        "name": "돼지 목살",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "양배추",
+        "amount": 0.25,
+        "unit": "개"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "마늘",
+        "amount": 3,
+        "unit": "알"
+      },
+      {
+        "name": "올리브유",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "화이트 와인",
+        "amount": 0.3333333333333333,
+        "unit": "병 (병 용량 미기재)"
+      },
+      {
+        "name": "치킨스톡",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "페페론치노",
+        "amount": null,
+        "unit": "약간; 취향껏"
+      },
+      {
+        "name": "설탕",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "버터",
+        "amount": 1,
+        "unit": "조각 (무게 미기재)"
+      }
+    ],
+    "steps": [
+      "팬에 올리브유를 두르고 목살 400g을 올려 소금·후추로 밑간하며 굽습니다. 겉면이 노릇해지면 접시에 빼 둡니다. 이 단계에서는 속까지 익히지 않고 뒤의 찌는 단계에서 충분히 익힙니다.",
+      "고기를 구운 팬에 채 썬 양파 1/2개를 볶습니다. 향이 올라오면 먹기 좋게 썬 양배추 1/4개와 통마늘 3알을 넣고 볶습니다.",
+      "화이트 와인 1/3병과 치킨스톡 1큰술을 넣습니다. 구운 목살과 접시에 남은 육즙을 팬에 다시 넣고, 취향에 따라 페페론치노를 추가합니다.",
+      "뚜껑을 덮고 약불로 줄여 약 10~15분 찝니다. 고기가 충분히 익도록 합니다.",
+      "뚜껑을 열고 설탕 0.5큰술과 버터 1조각을 넣습니다. 버터가 녹아 소스와 섞이면 완성합니다."
+    ],
+    "tips": "사진 기준 2인분·25분입니다. 와인 병의 용량과 버터 조각의 무게는 미기재여서 mL·g으로 환산하지 않았습니다. Step 4의 타이머는 25분으로 표시되지만 조리 설명의 찌는 시간은 10~15분이므로 설명을 반영했습니다.",
+    "youtube": "https://youtu.be/JyUk3noc7qU",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장의 재료와 조리 과정 5단계를 확인해 반영했습니다. 기존 따라해봄 유튜브 링크를 유지했습니다. 영상 재생으로 확인한 것은 아닙니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "yorizori-tonteki",
+    "name": "이연복 스타일 일본식 돼지고기 스테이크 돈테키",
+    "category": "고기·해산물",
+    "minutes": 15,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🥩",
+    "description": "전분을 얇게 입힌 목살을 구워 간장·굴소스 양념에 조린 일본식 스테이크입니다.",
+    "ingredients": [
+      {
+        "name": "돼지 목살",
+        "amount": 2,
+        "unit": "장 (무게 미기재)"
+      },
+      {
+        "name": "전분가루",
+        "amount": null,
+        "unit": "약간; 고기 코팅용"
+      },
+      {
+        "name": "식용유",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "마늘",
+        "amount": 8,
+        "unit": "알"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "미림",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "맛술",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "간 마늘 (소스용)",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진생강",
+        "amount": 0.3333333333333333,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "양배추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      }
+    ],
+    "steps": [
+      "돼지 목살 2장의 힘줄 부위를 칼로 끊어 줍니다.",
+      "고기에 전분가루를 얇게 묻히고 여분을 가볍게 털어냅니다.",
+      "팬에 식용유 2큰술을 두르고 편 썬 마늘 8알을 중불에서 볶습니다. 갈색빛이 돌면 따로 건집니다.",
+      "마늘 향이 밴 기름에 채 썬 양파를 살짝 볶아 아삭할 때 따로 빼 둡니다.",
+      "팬에 전분을 입힌 고기를 올려 강불에서 굽습니다.",
+      "볼에 간장·미림·맛술·굴소스·설탕·간 마늘을 각각 1큰술씩 넣고, 다진생강 1/3큰술과 물 2큰술을 섞어 소스를 만듭니다.",
+      "고기를 뒤집어 반대쪽도 노릇하게 익힌 뒤 키친타월로 팬에 남은 기름을 닦습니다.",
+      "소스를 붓고 중불에서 2~3분, 앞뒤로 뒤집으며 걸쭉하고 윤기가 나도록 조립니다.",
+      "접시에 밥, 채 썬 양배추, 볶은 양파를 담습니다. 조린 고기를 올리고 볶은 마늘로 마무리합니다."
+    ],
+    "tips": "사진 기준 1인분·15분입니다. 마늘 8알은 볶는 용도이며, Step 6의 간 마늘 1큰술은 소스용으로 별도 반영했습니다. 미림과 맛술은 원문에 각각 기재되어 있어 그대로 유지했습니다. 전분 항목 두 개는 같은 고기 코팅용으로 정리했습니다.",
+    "youtube": "https://youtu.be/WGquMcz0o5M",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 5장의 재료와 조리 과정 9단계를 확인했습니다. 재료표에 없는 소스용 간 마늘 1큰술은 Step 6 설명을 근거로 추가했습니다. 기존 요리조리 유튜브 링크를 유지했습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "ddokdak-pollock-roe-gambas",
+    "name": "뚝딱이형 명란감바스",
+    "category": "고기·해산물",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍤",
+    "description": "백명란과 새우에 마늘·표고버섯·가쓰오부시의 풍미를 더한 감바스입니다.",
+    "ingredients": [
+      {
+        "name": "올리브유",
+        "amount": 180,
+        "unit": "mL"
+      },
+      {
+        "name": "마늘",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "가쓰오부시",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "표고버섯",
+        "amount": 40,
+        "unit": "g"
+      },
+      {
+        "name": "크러쉬드 페퍼",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "새우",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "방울토마토",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "백명란",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "파슬리 가루",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "바게트",
+        "amount": null,
+        "unit": "취향껏"
+      }
+    ],
+    "steps": [
+      "팬에 올리브유 180mL를 붓습니다.",
+      "편마늘 50g, 다진마늘 1큰술, 가쓰오부시 1g을 넣습니다.",
+      "작게 썬 표고버섯 40g과 크러쉬드 페퍼 1g을 넣고, 약불에서 저으며 마늘이 노릇해질 때까지 천천히 익힙니다.",
+      "마늘이 익으면 새우 100g, 방울토마토 150g, 백명란 200g을 넣습니다.",
+      "파슬리 가루 1g을 뿌리고 명란을 가위로 한입 크기로 자릅니다. 재료가 익도록 잠시 더 조리합니다.",
+      "바게트를 곁들여 완성합니다. 빵에 오일을 적시고 명란·새우·토마토를 올려 먹습니다."
+    ],
+    "tips": "사진 기준 2인분·15분입니다. 재료표의 올리브유는 적당량으로 되어 있으나 Step 1의 180mL를 반영했습니다. 앞서 확인한 작성자 고정 댓글은 명란의 염분으로 간이 충분하므로 별도로 소금을 넣지 말라고 안내합니다.",
+    "youtube": "https://youtu.be/WooPiVrMm-w",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장에서 재료와 조리 과정 6단계를 확인했습니다. 기존 뚝딱이형 유튜브 링크를 유지하고, 앞서 읽은 작성자 고정 댓글의 소금 간 안내를 팁에 반영했습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "onepan-beef-radish-soup",
+    "name": "원팬맨 우삼겹 소고기뭇국",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "원팬맨 우삼겹 소고기뭇국",
+    "ingredients": [
+      {
+        "name": "우삼겹",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "무",
+        "amount": 250,
+        "unit": "g (약 1/4개)"
+      },
+      {
+        "name": "물",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "소고기다시다",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "넉넉히"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "무를 얇게 썰어 냄비에 넣고 물 1L를 붓습니다.",
+      "15분 끓여 무를 익힙니다.",
+      "우삼겹 200g을 넣고 다시 끓입니다.",
+      "다진마늘 1큰술, 간장 1큰술, 소고기다시다 0.5큰술, 소금 0.5작은술을 넣습니다.",
+      "약 5분 더 끓입니다.",
+      "불을 끄고 송송 썬 대파를 넉넉히 넣습니다.",
+      "취향에 따라 후추로 마무리합니다."
+    ],
+    "tips": "무를 먼저 15분, 고기와 양념을 넣은 뒤 약 5분 끓이는 원문 순서를 유지했습니다.",
+    "youtube": "https://youtu.be/U0LjbYBHZAY",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "원팬맨 작성자 고정 댓글에서 재료와 조리법을 직접 확인했습니다. 영상은 재생하지 않았습니다. 인분·총 조리 시간은 원문에 없습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yunjumo-zucchini-stew",
+    "name": "윤주모 애호박찌개",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "윤주모 애호박찌개",
+    "ingredients": [
+      {
+        "name": "애호박",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "감자",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "새우젓",
+        "amount": 1.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 0.6666666666666666,
+        "unit": "큰술"
+      },
+      {
+        "name": "참기름",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": null,
+        "unit": "채소가 푹 잠기지 않을 정도; 볶을 때도 조금"
+      },
+      {
+        "name": "새우젓 국물",
+        "amount": null,
+        "unit": "간 부족 시 추가"
+      }
+    ],
+    "steps": [
+      "불을 켜지 않은 냄비에 1cm보다 조금 얇게 도톰하게 썬 애호박·감자·양파를 넣습니다. 다진마늘 1큰술과 새우젓 1.5큰술을 넣어 섞습니다.",
+      "고춧가루 2/3큰술과 참기름 1큰술을 넣고 섞습니다.",
+      "약불을 켜 애호박이 살짝 절여지고 고소한 향이 날 때까지 볶습니다. 타지 않도록 중간에 물을 조금 넣습니다.",
+      "채소가 푹 잠기지 않을 정도로 물을 붓고 뚜껑을 닫아 10분 끓입니다.",
+      "간을 보고 부족하면 새우젓 국물로 맞춥니다."
+    ],
+    "tips": "물은 정확한 용량이 없어 원문 기준으로 표시했습니다.",
+    "youtube": "https://youtu.be/wN6R1b0qQsI",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "따라쿡 작성자 고정 댓글; 본문 출처는 고은언니 한고은에서 재료와 조리법을 직접 확인했습니다. 영상은 재생하지 않았습니다. 인분·총 조리 시간은 원문에 없습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "simple-coleslaw-shrimp-wrap",
+    "name": "간단해요리 코울슬로 새우버거",
+    "category": "브런치·샐러드",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "간단해요리 코울슬로 새우버거",
+    "ingredients": [
+      {
+        "name": "양배추",
+        "amount": 0.16666666666666666,
+        "unit": "개"
+      },
+      {
+        "name": "당근",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "저지방 마요네즈",
+        "amount": 3,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "식초",
+        "amount": 2,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "홀그레인",
+        "amount": 1,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "스테비아",
+        "amount": 0.5,
+        "unit": "큰술 (T)"
+      },
+      {
+        "name": "후추 (코울슬로)",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "냉동새우",
+        "amount": 10,
+        "unit": "마리"
+      },
+      {
+        "name": "소금·후추 (패티)",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "통밀 또띠아",
+        "amount": 1,
+        "unit": "장"
+      }
+    ],
+    "steps": [
+      "양배추와 당근은 채 썰고 양파는 다집니다.",
+      "저지방 마요네즈 3큰술, 식초 2큰술, 홀그레인 1큰술, 스테비아 0.5큰술, 후추를 넣고 버무려 코울슬로를 만듭니다.",
+      "새우를 다져 소금·후추로 간하고 패티 모양을 잡아 팬에서 반 정도 익힙니다.",
+      "통밀 또띠아를 얹어 뒤집고 뒷면을 2분 익힙니다. 새우가 충분히 익도록 합니다.",
+      "코울슬로를 넣어 샌드위치처럼 접어 완성합니다."
+    ],
+    "tips": "코울슬로는 물기를 짜지 않고 바로 먹는 버전입니다. 제목의 체중 감량 효과는 검증된 정보로 반영하지 않았습니다.",
+    "youtube": "https://youtu.be/gD-uDxgWoVc",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "간단해요리 본문 설명에서 재료와 조리법을 직접 확인했습니다. 영상은 재생하지 않았습니다. 인분·총 조리 시간은 원문에 없습니다.",
+    "categories": [
+      "브런치·샐러드"
+    ]
+  },
+  {
+    "id": "mathyu-beef-beansprout-stirfry",
+    "name": "맛휴 숙주 우삼겹볶음",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "원문 참고",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "맛휴 숙주 우삼겹볶음",
+    "ingredients": [
+      {
+        "name": "우삼겹",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "숙주",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "양파",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "청양고추",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "진간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "맛술",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "참기름",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "우삼겹 300g을 팬에서 노릇하게 볶아 그릇에 덜어둡니다.",
+      "남은 고기 기름에 대파 1대와 고춧가루 1스푼을 볶아 향을 냅니다.",
+      "다진마늘 1스푼, 양파 1개, 청양고추 1개를 넣고 강불에서 빠르게 볶습니다.",
+      "숙주 300g, 굴소스 1.5스푼, 진간장 1스푼, 맛술 3스푼, 후추를 넣고 높은 화력에서 빠르게 볶습니다.",
+      "덜어둔 우삼겹을 합쳐 섞고 참기름 1스푼과 통깨로 마무리합니다."
+    ],
+    "tips": "원문의 스푼 단위를 유지했습니다. 숙주는 높은 화력에서 빠르게 볶습니다.",
+    "youtube": "https://youtu.be/RSeX8Cn2n9I",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "맛있는휴식(맛휴) 작성자 고정 댓글에서 재료와 조리법을 직접 확인했습니다. 영상은 재생하지 않았습니다. 인분·총 조리 시간은 원문에 없습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "momscooks-cucumber-kimbap",
+    "name": "엄마의집밥 오이김밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍙",
+    "description": "절인 채 썬 오이와 고추냉이·청양고추를 넣은 참치마요를 작은 김에 말아 만드는 김밥입니다.",
+    "ingredients": [
+      {
+        "name": "오이",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "가는 소금 (오이 절이기)",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "청양고추",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "참치캔",
+        "amount": 1,
+        "unit": "개 (용량 미기재)"
+      },
+      {
+        "name": "마요네즈",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "고추냉이",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "밥",
+        "amount": 2,
+        "unit": "공기"
+      },
+      {
+        "name": "참기름",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "깨소금",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "가는 소금 (밥 밑간)",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "김",
+        "amount": null,
+        "unit": "장수 미기재; 4등분해 사용"
+      }
+    ],
+    "steps": [
+      "오이 2개를 채칼로 채 썹니다.",
+      "가는 소금 약간을 넣고 섞어 3분 절인 뒤 손으로 물기를 꼭 짭니다.",
+      "청양고추 2개를 송송 썰어 다집니다. 참치캔 1개는 체망에서 숟가락으로 눌러 기름을 뺍니다.",
+      "참치에 마요네즈 2스푼, 고추냉이 0.5스푼, 다진 청양고추를 넣고 섞습니다.",
+      "밥 2공기에 참기름 2스푼, 깨소금 0.5스푼, 가는 소금 약간을 넣어 섞습니다. 간을 보고 필요하면 조절합니다.",
+      "김을 4등분으로 접어 자릅니다. 거친 면이 위로 가도록 놓고 밥을 얇게 펼칩니다.",
+      "채 썬 오이와 참치마요를 얹어 말아 완성합니다."
+    ],
+    "tips": "오이는 3분 절이고 물기를 꼭 짭니다. 참치 기름은 체에서 눌러 뺍니다. 참치캔 용량·김 장수·인분·총 조리 시간은 스크립트에 없습니다.",
+    "youtube": "https://youtu.be/UF2b_bQGdu8",
+    "verified": false,
+    "scaleIngredients": false,
+    "sourceNote": "사용자의 요청에 따라 엄마의집밥 영상의 한국어 자동 생성 스크립트를 확인해 정리했습니다. 본문·고정 댓글이 아닌 스크립트에서 확인한 레시피입니다. 자동 자막의 참직 등 오타는 문맥상 참치로 정리했으며, 의미가 불명확한 문장은 제외했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "ddokdak-teppan-steak-rice",
+    "name": "뚝딱이형 일본식 철판 스테이크 덮밥",
+    "category": "밥·덮밥",
+    "minutes": 20,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🥩",
+    "description": "구운 꽃갈비살과 밥에 간 양파를 넣은 와후 소스를 붓고 마늘·버터·스위트콘을 곁들이는 덮밥입니다.",
+    "ingredients": [
+      {
+        "name": "식용유",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "마늘 (구이용)",
+        "amount": 30,
+        "unit": "g"
+      },
+      {
+        "name": "꽃갈비살",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "g"
+      },
+      {
+        "name": "후추",
+        "amount": 1,
+        "unit": "g; 마무리는 취향껏"
+      },
+      {
+        "name": "물",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "양조간장",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "미림",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "다진마늘 (소스용)",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "식초",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개; 조리 설명은 간 양파 70g"
+      },
+      {
+        "name": "물엿",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "흰쌀밥",
+        "amount": 1,
+        "unit": "공기"
+      },
+      {
+        "name": "버터",
+        "amount": 15,
+        "unit": "g"
+      },
+      {
+        "name": "쪽파",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "스위트콘",
+        "amount": 4,
+        "unit": "스푼"
+      },
+      {
+        "name": "레드페퍼",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "파슬리",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "마늘 30g을 얇게 썹니다. 식용유 2스푼을 두른 팬에서 약불로 노릇하게 볶아 건져 둡니다.",
+      "같은 팬에 꽃갈비살 350g을 넣고 소금 1g·후추 1g으로 밑간하며 갈색빛이 돌도록 구운 뒤 잠시 빼 둡니다.",
+      "물 3스푼, 양조간장 3스푼, 미림 2스푼, 설탕 1스푼, 다진마늘 1스푼, 식초 0.5스푼을 섞습니다.",
+      "양파 반 개를 강판에 곱게 갑니다. 고기를 구운 팬에 소스 베이스와 간 양파를 넣고 중불에서 3분 끓입니다. 사진 조리 설명의 간 양파 투입량은 70g입니다.",
+      "불을 끄고 물엿 1스푼을 넣어 섞습니다.",
+      "달군 철판에 밥 1공기와 먹기 좋게 자른 구운 고기를 올리고 소스를 붓습니다. 버터 15g, 구운 마늘, 쪽파 10g, 스위트콘 4스푼, 레드페퍼·파슬리·후추로 마무리합니다."
+    ],
+    "tips": "사진 기준 1인분·20분입니다. 재료표에서 적당량으로 표시한 설탕·물엿은 조리 설명의 각 1스푼을 반영했습니다. 소스용 다진마늘 1스푼은 구이용 마늘 30g과 별도로 표시했습니다. 양파 반 개와 간 양파 70g은 같은 재료이며 추가 투입이 아닙니다.",
+    "youtube": "https://youtu.be/sUGbVgZ6B7g",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장에서 계량과 조리 과정 6단계를 확인했습니다. 앞서 읽은 자동 스크립트의 조리 흐름과 함께 정리했으며, 계량은 사진 기준입니다. 양파는 재료표의 반 개와 조리 설명의 70g을 모두 명시했습니다. 기존 유튜브 링크를 유지했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "sung-sikyung-soy-seaweed-noodles",
+    "name": "성시경 간장 김 비빔면",
+    "category": "면",
+    "minutes": 10,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍜",
+    "description": "들기름을 두른 우동면에 간장·라면스프 소스와 구운 김을 곁들이는 비빔면입니다.",
+    "ingredients": [
+      {
+        "name": "우동면",
+        "amount": 1,
+        "unit": "봉지 (용량 미기재)"
+      },
+      {
+        "name": "들기름",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "물 (소스용)",
+        "amount": 200,
+        "unit": "mL"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "라면스프",
+        "amount": 0.5,
+        "unit": "봉지"
+      },
+      {
+        "name": "김",
+        "amount": 2,
+        "unit": "장"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "계란 노른자",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "깨",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "접시에 들기름 1큰술을 두릅니다.",
+      "우동면 1봉지를 끓는 물에 포장에 적힌 시간대로 삶고 찬물에 헹굽니다. 들기름을 두른 접시에 담습니다.",
+      "따뜻한 물 200mL에 설탕 1큰술, 간장 1큰술, 라면스프 반 봉지를 넣어 잘 섞습니다.",
+      "준비한 소스를 우동면 위에 고루 붓습니다.",
+      "김 2장을 팬에서 앞뒤로 살짝 굽습니다. 비닐봉지에 넣어 잘게 부순 뒤 면 위에 올립니다.",
+      "송송 썬 대파, 계란 노른자 1개, 깨를 올려 마무리합니다."
+    ],
+    "tips": "사진 기준 1인분·10분입니다. 물 200mL는 소스용이며 면 삶는 물은 별도입니다. 사진은 따뜻한 물에 소스를 섞지만 앞서 확인한 자동 스크립트는 소스를 끓이라고 안내합니다. 조리 순서는 사용자 사진 기준으로 정리했습니다.",
+    "youtube": "https://youtu.be/SeFTqaMsBVk",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장에서 계량과 조리 과정 6단계를 확인했습니다. 스크립트에서 미확인했던 물·설탕·간장·라면스프의 분량을 사진 기준으로 보완했습니다. 소스 가열 방식은 사진과 자동 스크립트에 차이가 있어 팁에 표시했습니다. 기존 유튜브 링크를 유지했습니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "kimseoul-perilla-mushrooms",
+    "name": "킴서울 새송이 들깨무침",
+    "category": "반찬·기타",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍄",
+    "description": "전자레인지로 익힌 새송이버섯을 들깨가루와 들기름으로 무치는 반찬입니다.",
+    "ingredients": [
+      {
+        "name": "새송이버섯",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "양조간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "국간장",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "통깨",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "들기름",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "들깨가루",
+        "amount": 2,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "새송이버섯 3개를 얇게 썹니다.",
+      "전자레인지용 용기에 담아 랩을 씌우고 구멍을 냅니다. 전자레인지에서 2분 익힙니다.",
+      "한 번 뒤적여 추가로 2분 익힙니다. 원문 기준 총 가열 시간은 4분입니다.",
+      "물기를 짜지 않고 양조간장 1스푼, 국간장 0.5스푼, 통깨 1스푼, 들기름 2스푼, 들깨가루 2스푼을 넣어 무칩니다."
+    ],
+    "tips": "버섯의 물기는 짜지 않는 것이 원문 안내입니다. 전자레인지 출력과 인분·총 조리 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/zKzIY5nc8XU",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "킴서울 작성자 고정 댓글의 계량·조리법을 직접 확인하고 자동 스크립트의 조리 흐름과 비교했습니다. 본문은 해시태그만 있습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "park-eunyoung-pollock-soup",
+    "name": "박은영 셰프 해장 북엇국",
+    "category": "국·탕",
+    "minutes": 40,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍲",
+    "description": "불린 북어와 무를 끓이고 콩나물과 계란을 넣는 북엇국입니다.",
+    "ingredients": [
+      {
+        "name": "건북어",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "무",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "참기름",
+        "amount": 0.3,
+        "unit": "큰술"
+      },
+      {
+        "name": "콩나물",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "계란",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "물 (북어 불린 물을 육수로 사용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "건북어 20g을 물에 약 30분 불립니다. 불린 물은 육수로 사용할 수 있도록 보관합니다.",
+      "불린 북어와 무 반 개를 먹기 좋은 큰 크기로 썹니다.",
+      "냄비에 참기름 0.3큰술을 두르고 북어를 중불에서 약 2~3분, 표면이 마를 때까지 볶습니다.",
+      "북어 불린 물의 반을 넣고 강불에서 끓입니다. 끓어오르려 할 때 무를 넣고 나머지 불린 물을 붓습니다.",
+      "무가 부드럽게 익으면 소금 0.5큰술과 후추 0.5작은술로 간을 맞춥니다.",
+      "콩나물 100g을 넣고 약 1분 더 끓입니다.",
+      "계란 1개를 풀어 끓는 국물에 둥글게 붓습니다. 겉이 살짝 익을 때까지 기다린 뒤 살살 저어 계란이 뭉치지 않게 마무리합니다."
+    ],
+    "tips": "사진 기준 2인분·40분입니다. 물의 양과 무가 익는 데 걸리는 시간은 미기재입니다. 소금·후추는 사진 계량을 기록했으며 간을 보며 조절합니다.",
+    "youtube": "https://youtu.be/nQc5rw4fA0Y",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 5장에서 재료 계량과 조리 순서 7단계를 확인했습니다. 사진의 채널 표시는 맛있수달이며, 기존 링크는 오늘도 남의레시피 영상입니다. 두 영상이 동일하다고 검증한 것은 아니며, 조리법은 사용자 사진을 기준으로 정리하고 기존 링크를 유지했습니다. 물의 양은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "park-solmi-sebalnamul-pancake",
+    "name": "박솔미의 향긋한 세발나물전",
+    "category": "반찬·기타",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🥬",
+    "description": "부침가루와 감자전분을 섞은 묽은 반죽으로 얇게 부치는 세발나물전입니다.",
+    "ingredients": [
+      {
+        "name": "세발나물",
+        "amount": 1,
+        "unit": "줌"
+      },
+      {
+        "name": "부침가루",
+        "amount": 0.5,
+        "unit": "컵"
+      },
+      {
+        "name": "감자전분",
+        "amount": 0.5,
+        "unit": "컵"
+      },
+      {
+        "name": "찬물",
+        "amount": 1,
+        "unit": "컵"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "적당량"
+      },
+      {
+        "name": "홍고추",
+        "amount": 3,
+        "unit": "쪽"
+      }
+    ],
+    "steps": [
+      "부침가루 0.5컵과 감자전분 0.5컵을 볼에 넣습니다. 찬물 1컵을 부어가며 거품기로 섞어 주르륵 흐를 정도로 묽게 만듭니다.",
+      "깨끗이 손질한 세발나물 1줌을 반죽에 넣어 가볍게 무치듯 섞습니다. 나물 사이에 반죽이 얇게 묻도록 합니다.",
+      "팬에 식용유를 넉넉히 두르고 달군 뒤 반죽을 얇고 넓게 폅니다. 고명으로 썬 홍고추 3쪽을 올립니다.",
+      "바닥이 노릇하고 바삭해지면 뒤집습니다. 꾹꾹 눌러가며 중불에서 테두리가 바삭해질 때까지 충분히 굽습니다."
+    ],
+    "tips": "사진 기준 1인분·15분입니다. 컵의 용량은 미기재이며 홍고추는 사진의 단위인 3쪽으로 기록했습니다. 재료 목록에 전분 적당량이 별도로 있지만 조리 단계에는 감자전분 0.5컵만 사용하므로 중복 계량하지 않았습니다.",
+    "youtube": "https://youtu.be/b_1bxqUbQWI",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진 4장에서 재료와 조리 순서 4단계를 확인했습니다. 기존 꾹레시피 유튜브 링크를 유지하고 사진 기준으로 계량과 굽는 과정을 보완했습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "park-solmi-kelp-braised-chicken",
+    "name": "박솔미 다시마 찜닭",
+    "category": "찜·조림",
+    "minutes": 40,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍗",
+    "description": "무와 양파, 다시마를 깔고 닭을 진간장과 쌀엿으로 조리는 찜닭입니다.",
+    "ingredients": [
+      {
+        "name": "닭볶음탕용 닭",
+        "amount": 800,
+        "unit": "g"
+      },
+      {
+        "name": "무",
+        "amount": 0.3,
+        "unit": "개"
+      },
+      {
+        "name": "양파",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "다시마",
+        "amount": 20,
+        "unit": "g"
+      },
+      {
+        "name": "물 (찜닭용)",
+        "amount": 500,
+        "unit": "mL"
+      },
+      {
+        "name": "맛술",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "진간장",
+        "amount": 6,
+        "unit": "큰술"
+      },
+      {
+        "name": "쌀엿",
+        "amount": 4,
+        "unit": "큰술"
+      },
+      {
+        "name": "물 (닭 데치기용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "끓는 물에 닭을 넣고 불순물이 나올 때까지 데칩니다.",
+      "데치는 냄비 안에서 닭에 칼집을 내어 양념이 배기 쉽게 준비합니다.",
+      "찜닭을 만들 냄비 바닥에 큼직하게 썬 무 0.3개와 양파 1개를 깔고 자른 다시마 20g을 올립니다.",
+      "물 500mL를 붓고 데친 닭 800g을 넣습니다.",
+      "맛술 3큰술, 진간장 6큰술, 쌀엿 4큰술을 넣고 약 20분간, 닭이 익고 국물이 졸아들 때까지 끓입니다."
+    ],
+    "tips": "사진 기준 2인분·40분입니다. 물 500mL는 찜닭용이며 데치는 물은 별도입니다. 무 0.3개는 사진 표기를 그대로 기록했습니다.",
+    "youtube": "https://youtu.be/UwBc2jnTCiQ",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진에서 재료 계량과 조리 과정 5단계를 확인했습니다. 기존 꾹레시피 유튜브 링크를 유지했습니다. 데치기 단계의 물 500mL 표시는 재료 태그 반복으로 보이며, 실제 찜닭용 500mL와 중복 합산하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "bapchanam-cabbage-sesame-salad",
+    "name": "밥차남 양배추 참깨무침",
+    "category": "반찬·기타",
+    "minutes": 25,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🥬",
+    "description": "절인 양배추와 오이에 갈아 만든 참깨 소스를 버무리는 반찬입니다.",
+    "ingredients": [
+      {
+        "name": "양배추",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "오이",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "소금 (절임용)",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕 (절임용)",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕 (소스용)",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "알룰로스 (소스용)",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "통깨",
+        "amount": 6,
+        "unit": "스푼"
+      },
+      {
+        "name": "참기름",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "마요네즈",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "간장",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "식초",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "양배추 1개와 오이 1개를 가늘게 채 썹니다.",
+      "채 썬 양배추와 오이에 소금 1스푼, 설탕 1스푼을 넣고 15분 절입니다.",
+      "통깨 6스푼, 참기름 2스푼, 설탕 2스푼, 알룰로스 2스푼, 마요네즈 3스푼, 간장 0.5스푼, 식초 1스푼을 믹서에 넣고 걸쭉해질 때까지 갈아 소스를 만듭니다.",
+      "절인 채소를 물에 가볍게 헹구고 면보나 짤순이로 물기를 꽉 짭니다. 준비한 참깨 소스를 버무려 마무리합니다."
+    ],
+    "tips": "사진 기준 2인분·25분입니다. 재료 태그에는 큰술과 스푼이 혼용되어 있어 단계 본문의 스푼 표기를 따랐습니다. 설탕 총 3스푼은 절임용 1스푼과 소스용 2스푼입니다. 사진은 소스에 설탕과 알룰로스를 각각 2스푼 넣도록 안내하지만, 앞서 확인한 자동 스크립트에서는 둘의 관계가 불명확했습니다. 사진 기준으로 기록했습니다.",
+    "youtube": "https://youtu.be/AYjAEyUqjKM",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 사진에서 양배추 1개·오이 1개 및 조리 과정 4단계를 확인했습니다. 기존 유튜브 링크를 유지했습니다. 감미료 계량은 사진의 단계 본문 기준이며 자동 스크립트의 불명확한 표현을 임의로 대체 관계로 해석하지 않았습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "baegsuman-honey-duck",
+    "name": "백수남편 허니 글레이즈 오리 바베큐",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🦆",
+    "description": "백수남편 허니 글레이즈 오리 바베큐 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "훈제 통오리 (1차 조리 제품)",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "꿀",
+        "amount": 4,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "레몬즙",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "1차 조리된 훈제 통오리 껍질에 사선으로 교차하는 칼집을 냅니다.",
+      "에어프라이어에서 200°C로 5분 굽습니다.",
+      "다진 마늘 1스푼, 꿀 4스푼, 소금 약간, 레몬즙 1스푼을 섞어 껍질에 골고루 바릅니다.",
+      "예열된 에어프라이어에서 180°C로 5분 더 굽습니다."
+    ],
+    "tips": "생오리용 조리법이 아닙니다. 훈제 통오리 중량·인분과 총 조리 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/60_WWoKvYO4",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "작성자 고정댓글의 소스 계량과 온도·시간을 확인하고 본문 및 자동 스크립트를 함께 확인했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "bbaemi-cheese-pizza-cones",
+    "name": "빼미네식탁 치즈 피자콘",
+    "category": "브런치·샐러드",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍕",
+    "description": "빼미네식탁 치즈 피자콘 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "또띠아",
+        "amount": 4,
+        "unit": "장"
+      },
+      {
+        "name": "다짐육",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "미림",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "버터",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "마늘",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "토마토소스",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "파프리카",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "치즈",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "파슬리",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "간 맞추기"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "간 맞추기"
+      },
+      {
+        "name": "청피망·고추",
+        "amount": null,
+        "unit": "선택"
+      }
+    ],
+    "steps": [
+      "또띠아 4장을 반으로 잘라 콘 모양으로 말아 고정합니다. 식용유를 뿌리고 에어프라이어에서 180°C로 8분 굽습니다.",
+      "버터에 양파와 마늘을 볶다가 다짐육 200g을 넣고 소금과 후추로 간합니다.",
+      "토마토소스, 미림 1큰술, 파프리카를 넣고 잘 볶습니다.",
+      "구운 또띠아 콘에 속재료를 넣고 치즈와 파슬리를 올립니다. 에어프라이어에서 180°C로 3~5분 더 굽습니다."
+    ],
+    "tips": "콘을 먼저 구우면 모양이 잘 잡힙니다. 청피망·고추는 선택입니다. 소스·치즈 등 분량 및 인분·총 조리 시간은 원문 미기재입니다.",
+    "youtube": "https://youtu.be/TtixCbX1osg",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문과 작성자 고정댓글의 재료 및 조리 4단계를 확인했습니다. 자동 스크립트도 확인했으며 계량은 본문·고정댓글을 따랐습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "브런치·샐러드"
+    ]
+  },
+  {
+    "id": "homibee-minari-pasta",
+    "name": "호미비 미나리 파스타",
+    "category": "면",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍝",
+    "description": "호미비 미나리 파스타 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "미나리",
+        "amount": 1,
+        "unit": "줌"
+      },
+      {
+        "name": "마늘",
+        "amount": 3,
+        "unit": "알"
+      },
+      {
+        "name": "버섯",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "파스타면",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "올리브오일",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "면수",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "치킨스톡",
+        "amount": null,
+        "unit": "간 맞추기"
+      },
+      {
+        "name": "미원",
+        "amount": null,
+        "unit": "간 맞추기"
+      },
+      {
+        "name": "크러쉬드 페퍼",
+        "amount": null,
+        "unit": "선택"
+      },
+      {
+        "name": "파마산 치즈",
+        "amount": null,
+        "unit": "선택"
+      }
+    ],
+    "steps": [
+      "버섯과 미나리를 잘게 썰고 마늘 3알을 편으로 썹니다.",
+      "올리브오일에 버섯을 볶아 갈색빛이 나면 마늘을 넣고 볶습니다. 매콤하게 먹으려면 크러쉬드 페퍼를 추가합니다.",
+      "삶은 파스타면과 면수를 넣고 치킨스톡과 미원으로 간을 맞춥니다.",
+      "약불로 줄이고 미나리를 넣어 숨이 죽을 때까지 섞습니다. 바로 먹을 때는 파마산 치즈를 선택해서 뿌립니다."
+    ],
+    "tips": "작성자는 도시락으로 준비할 때 치즈를 넣지 않는 것을 권합니다. 면 삶는 시간·면과 버섯의 분량·인분은 미기재입니다.",
+    "youtube": "https://youtu.be/KaGptjWtnC4",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문 설명은 없으며 작성자 고정댓글의 레시피를 확인했습니다. 자동 스크립트도 함께 확인했습니다. 작성자는 준스비스트로 레시피를 참고했다고 표시했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "momscooking-beef-doenjang-stew",
+    "name": "엄마표요리 소고기 된장찌개",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍲",
+    "description": "엄마표요리 소고기 된장찌개 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "된장",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "국거리용 소고기",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "감자",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "새송이버섯",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "두부",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "물",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "끓는 물에 된장 2큰술을 풀고 국거리용 소고기를 넣습니다.",
+      "양파, 감자, 새송이버섯을 넣고 고춧가루 1큰술과 다진 마늘을 넣습니다.",
+      "두부와 대파를 넣고 재료가 익도록 끓여 마무리합니다."
+    ],
+    "tips": "주요 재료·물의 분량 및 인분·조리 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/_qkKO9m_QXk",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문의 재료와 조리 3단계를 확인했습니다. 댓글에는 작성자 고정 레시피가 보이지 않았으며 스크립트는 제공되지 않습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "bebero-pork-sprout-stirfry",
+    "name": "베베로데이 삼겹살 숙주볶음",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🥓",
+    "description": "베베로데이 삼겹살 숙주볶음 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "스푼 (간간하게 먹을 때)"
+      },
+      {
+        "name": "대패삼겹살",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "양배추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "숙주",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "부추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "팬에 식용유를 두르고 대패삼겹살을 볶습니다.",
+      "양파 반 개, 양배추, 숙주를 넣고 센 불에서 아삭한 식감이 남도록 볶습니다.",
+      "숙주가 익으면 굴소스와 후추로 간합니다. 간간하게 먹을 때 굴소스 1스푼을 넣는 것이 작성자 안내입니다.",
+      "부추를 넣고 마지막에 통깨를 뿌려 마무리합니다."
+    ],
+    "tips": "숙주가 익기 전에 양념하면 풋내가 날 수 있다는 작성자 팁입니다. 고기·숙주 등 분량과 인분은 미기재입니다. 제목의 5분은 홍보 표현으로 총 조리 시간에 적용하지 않았습니다.",
+    "youtube": "https://youtu.be/TdrqZK_4Se4",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·작성자 고정댓글·자동 스크립트를 확인했습니다. 고정댓글에서 재료 및 양파 반 개, 굴소스 1스푼 안내를 확인하고 스크립트의 조리 순서를 정리했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "merry-christine-squid-radish-soup",
+    "name": "최슬기 오징어뭇국",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🦑",
+    "description": "최슬기 오징어뭇국 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "무",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "오징어",
+        "amount": 1,
+        "unit": "마리"
+      },
+      {
+        "name": "국간장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "요리의정수 해물맛",
+        "amount": 1,
+        "unit": "봉"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "작은술"
+      },
+      {
+        "name": "백간장",
+        "amount": 1.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "조금"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "무의 하얀 부분 300g을 나박하게 썹니다. 오징어는 칼집을 내어 먹기 좋은 크기로 썹니다.",
+      "냄비에 식용유를 조금 두르고 약불에서 무, 국간장 1큰술, 고춧가루 1큰술을 1~2분 볶습니다.",
+      "물 1L, 요리의정수 해물맛 1봉, 다진 마늘 1작은술을 넣고 뚜껑을 닫아 끓입니다.",
+      "무가 투명하게 익으면 오징어 1마리와 백간장 1.5큰술을 넣고 2분 끓입니다. 불을 끄고 대파를 넣습니다."
+    ],
+    "tips": "원문은 2~3인 기준입니다. 오징어는 무가 익은 뒤 넣고 짧게 끓이는 것이 작성자 팁입니다. 총 조리 시간은 미기재이며 인분 범위가 있어 원문 분량으로 표시합니다.",
+    "youtube": "https://youtu.be/1q_pWufMiog",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문 설명은 없으며 작성자 고정댓글의 계량·조리법을 확인하고 자동 스크립트와 비교했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "ddalsekki-zucchini-soy-noodles",
+    "name": "딸세끼 애호박 간장국수",
+    "category": "면",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍜",
+    "description": "딸세끼 애호박 간장국수 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "애호박",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "소면",
+        "amount": 1,
+        "unit": "줌"
+      },
+      {
+        "name": "진간장",
+        "amount": 2,
+        "unit": "(원문 숫자·단위 미기재)"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "(원문 숫자·단위 미기재)"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "작게 (단위 미기재)"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "참기름",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "애호박 1개를 먹기 좋은 크기로 채 썹니다.",
+      "팬에 식용유를 두르고 소금·후추로 간하여 애호박이 나른해질 때까지 충분히 볶습니다.",
+      "소면 1줌을 끓는 물에서 약 4분 삶고 찬물에 치대어 헹군 뒤 물기를 뺍니다.",
+      "진간장 2, 설탕 1, 다진 마늘 작게 1, 통깨, 참기름으로 양념합니다. 원문은 양념 숫자의 단위를 명시하지 않습니다.",
+      "소면에 양념과 볶은 애호박을 담아 비벼 먹습니다."
+    ],
+    "tips": "양념 숫자를 큰술·스푼으로 임의 환산하지 않았습니다. 소면 삶는 약 4분은 자동 스크립트에서 확인한 시간입니다. 인분과 총 조리 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/2_350ltk7Kc",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문과 작성자 고정댓글에서 재료 및 조리법을 확인했고 자동 스크립트도 확인했습니다. 양념 단위는 원문에 없어 미기재로 표시했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "bobsil-beef-zucchini-noodle-pancake",
+    "name": "김밥실 소고기 애호박 당면전",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🥬",
+    "description": "김밥실 소고기 애호박 당면전 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "소고기 다짐육",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "애호박",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "당면",
+        "amount": 80,
+        "unit": "g"
+      },
+      {
+        "name": "굴소스",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "계란",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "물 (당면 불리기용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "당면 80g을 물에 30분 불립니다.",
+      "애호박 1개를 채 썰고 소금 반 스푼을 넣어 버무린 뒤 10분 절이고 물기를 짭니다.",
+      "볼에 애호박, 핏물을 닦은 소고기 다짐육 200g, 가위로 작게 자른 불린 당면, 다진 대파, 굴소스 반 스푼, 계란 3개를 넣고 섞습니다. 청양고추는 취향껏 추가합니다.",
+      "팬에 식용유를 두르고 반죽을 한 숟가락씩 올려 납작하게 누릅니다. 밑면이 익으면 반으로 접고 지그시 눌러가며 앞뒤로 속까지 익힙니다."
+    ],
+    "tips": "굴소스 대신 가루육수나 소금으로 간해도 된다는 작성자 안내가 있습니다. 인분과 총 조리 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/bbscGJbXeFk",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문 설명은 없으며 작성자 고정댓글의 계량·조리법을 확인하고 자동 스크립트를 비교했습니다. 영상은 재생하지 않았습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "ryu-lifetime-mackerel-braise",
+    "name": "류수영 평생 고등어조림",
+    "category": "찜·조림",
+    "minutes": 45,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🐟",
+    "description": "무를 먼저 익힌 뒤 고등어와 양념을 넣고 조리는 요리입니다.",
+    "ingredients": [
+      {
+        "name": "고등어",
+        "amount": 2,
+        "unit": "마리"
+      },
+      {
+        "name": "무",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "물 (조림용)",
+        "amount": 1,
+        "unit": "L"
+      },
+      {
+        "name": "물 (전처리용)",
+        "amount": null,
+        "unit": "고등어가 잠길 만큼"
+      },
+      {
+        "name": "맛술",
+        "amount": 6,
+        "unit": "큰술"
+      },
+      {
+        "name": "소금 (전처리용)",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "밀가루",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "식초 (전처리용)",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "간장",
+        "amount": 5,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 4,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "식초 (양념용)",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진 생강",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "소금 (양념용)",
+        "amount": 0.3333333333333333,
+        "unit": "큰술"
+      },
+      {
+        "name": "된장",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "10바퀴"
+      },
+      {
+        "name": "고추",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "고등어 2마리에 소금 1큰술, 밀가루 1큰술, 식초 1큰술을 넣고 잠길 만큼 물을 부어 잠시 둡니다.",
+      "간장 5큰술, 고춧가루 4큰술, 설탕 3큰술, 굴소스 2큰술, 식초 1큰술, 다진 마늘 1큰술, 다진 생강 0.5큰술, 후추 10바퀴, 소금 1/3큰술, 된장 1큰술을 섞습니다.",
+      "냄비에 큼직하게 썬 무 반 개를 깔고 양념장 2큰술을 얹은 뒤 물 1L를 붓습니다.",
+      "물이 끓으면 중불로 낮추고 뚜껑을 덮어 15분 끓입니다.",
+      "무가 절반 정도 익으면 전처리한 고등어를 넣고 남은 양념장을 모두 얹습니다.",
+      "큼직하게 썬 대파 1대와 양파 반 개를 올리고 맛술 6큰술을 뿌립니다.",
+      "뚜껑을 열고 강불에서 10분 더 끓입니다.",
+      "어슷 썬 고추를 올리고 한소끔 더 끓여 마무리합니다."
+    ],
+    "tips": "사진 기준 2인분·45분입니다. 재료 목록에는 된장 6큰술로 표시되지만 2단계 설명은 된장 1큰술과 간장 5큰술입니다. 조리 설명을 기준으로 기록했습니다. 소금은 전처리 1큰술과 양념 1/3큰술로 나눴으며, 식초는 각각 1큰술씩입니다. 조림용 물 1L와 전처리용 물은 별도입니다.",
+    "youtube": "https://youtu.be/pMGWq9fneXA",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자 사진 5장에서 계량과 조리 8단계를 확인했습니다. 재료 목록·태그와 단계 본문의 차이는 단계 본문 기준으로 정리하고 팁에 표시했습니다. 기존 유튜브 링크를 유지했습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "baegsuman-cola-pork-jowl",
+    "name": "백수남편 콜라 항정살 조림",
+    "category": "찜·조림",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "백수남편 콜라 항정살 조림 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "통항정살",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "일반 펩시",
+        "amount": 1,
+        "unit": "병 (용량 미기재)"
+      },
+      {
+        "name": "간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "굴소스",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "생강",
+        "amount": null,
+        "unit": "조금"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "곁들임·분량 미기재"
+      }
+    ],
+    "steps": [
+      "달군 팬에 통항정살 500g을 지방 부위부터 올려 노릇하게 굽습니다.",
+      "일반 펩시 1병, 간장 2스푼, 굴소스 3스푼, 생강 조금을 넣습니다.",
+      "중불에서 졸입니다. 고기가 소스에 모두 잠기지 않으면 중간중간 뒤집습니다.",
+      "고기가 익고 소스가 걸쭉해지면 썰어 소스를 끼얹습니다. 양파를 곁들입니다."
+    ],
+    "tips": "작성자는 제로콜라를 사용하지 않도록 안내합니다. 펩시 병 용량, 인분·총 시간은 미기재입니다. 생강이 없으면 마늘도 가능하다는 스크립트 안내가 있습니다.",
+    "youtube": "https://youtu.be/tPSYSiqzJuo",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "kimseoul-garlic-ribs",
+    "name": "킴서울 마늘 폭탄 등갈비",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "킴서울 마늘 폭탄 등갈비 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "등갈비",
+        "amount": 1,
+        "unit": "kg"
+      },
+      {
+        "name": "마늘",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "다진 생강",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "스테비아",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "양조간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "맛술",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "참치액",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "감자전분",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "올리브유",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "물 (핏물 빼기용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "썰린 등갈비 1kg을 물에 30분 담가 핏물을 뺍니다.",
+      "흐르는 물에 씻고 키친타월로 물기를 닦습니다.",
+      "마늘 3스푼, 다진 생강 0.5스푼, 스테비아 2스푼, 양조간장 2스푼, 맛술 1스푼, 참치액 1스푼, 후추, 감자전분 3스푼, 올리브유 1스푼을 섞습니다.",
+      "등갈비에 양념을 버무립니다.",
+      "에어프라이어에서 180°C로 13분 굽고 뒤집어 같은 온도로 8분 더 굽습니다."
+    ],
+    "tips": "작성자 고정댓글 기준입니다. 인분·총 시간은 미기재이며 스크립트는 음악 위주로 조리 정보를 제공하지 않습니다.",
+    "youtube": "https://youtu.be/B12BN5ChVVM",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "anebyul-soboro-jangjorim",
+    "name": "어느별식탁 소보로 장조림",
+    "category": "찜·조림",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "어느별식탁 소보로 장조림 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "깐 메추리알",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "소고기 다짐육",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "꽈리고추",
+        "amount": null,
+        "unit": "듬뿍"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "맛술",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "간장",
+        "amount": 50,
+        "unit": "mL (본문 기준)"
+      },
+      {
+        "name": "참치액",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "올리고당",
+        "amount": 2,
+        "unit": "큰술 (본문 기준)"
+      },
+      {
+        "name": "물",
+        "amount": 400,
+        "unit": "mL"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "통깨·참기름",
+        "amount": null,
+        "unit": "먹을 때"
+      },
+      {
+        "name": "버터·노두유",
+        "amount": null,
+        "unit": "선택"
+      }
+    ],
+    "steps": [
+      "예열한 팬에 핏기를 제거한 소고기 다짐육 300g, 다진 마늘 1큰술, 맛술 3큰술, 후추를 넣고 수분을 날리며 볶습니다.",
+      "설탕 2큰술, 올리고당 2큰술, 간장 50mL, 참치액 1큰술을 넣습니다.",
+      "깐 메추리알 300g과 물 400mL를 넣고 국물이 반으로 줄 때까지 끓입니다. 꽈리고추도 넣어 졸이되 원문은 투입 시점을 명시하지 않습니다.",
+      "먹을 때 통깨와 참기름을 넣습니다. 버터와 색을 내기 위한 노두유는 취향껏 사용합니다."
+    ],
+    "tips": "본문은 간장 50mL·올리고당 2큰술, 수정된 고정댓글은 간장 60mL·알룰로스 2큰술입니다. 본문 기준을 기록하고 별도 원문 차이를 표시했습니다. 인분·총 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/SrgQzDCdLc4",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "haram-pork-jowl-chive",
+    "name": "하람키친 항정살 조림과 부추무침",
+    "category": "찜·조림",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "하람키친 항정살 조림과 부추무침 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "항정살",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "통마늘",
+        "amount": 7,
+        "unit": "개"
+      },
+      {
+        "name": "양조간장",
+        "amount": 6,
+        "unit": "큰술"
+      },
+      {
+        "name": "맛술",
+        "amount": 4,
+        "unit": "큰술"
+      },
+      {
+        "name": "알룰로스 (조림용)",
+        "amount": 4,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": 8,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진 생강",
+        "amount": 1.5,
+        "unit": "큰술 (원문 큐브 6개)"
+      },
+      {
+        "name": "부추",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "멸치액젓 또는 참치액",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 0.5,
+        "unit": "큰술 (원문 큐브 2개)"
+      },
+      {
+        "name": "알룰로스 (무침용)",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "참기름",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "양조간장 6큰술, 맛술 4큰술, 알룰로스 4큰술, 물 8큰술, 다진 생강 1.5큰술을 섞습니다.",
+      "항정살 600g의 핏기를 키친타월로 닦습니다.",
+      "팬에서 중불로 굽고 기름이 나오면 통마늘 7개를 넣어 양면을 노릇하게 굽습니다.",
+      "소스를 붓고 중불에서 소스가 2/3 정도로 줄 때까지 고기에 끼얹으며 졸입니다.",
+      "항정살을 꺼내 한 김 식힙니다. 소스는 남겨둡니다.",
+      "부추 100g을 약 5cm로 썹니다.",
+      "먹기 직전에 부추에 고춧가루 1.5큰술, 멸치액젓 또는 참치액 1큰술, 다진 마늘 0.5큰술, 알룰로스 1큰술, 참기름 1큰술, 통깨를 넣어 무칩니다.",
+      "항정살을 얇게 썰어 부추무침과 담습니다. 남은 조림 소스는 곁들임이나 덮밥 소스로 사용합니다."
+    ],
+    "tips": "고정댓글은 2인 기준입니다. 생강·마늘 큐브의 큰술 환산은 작성자가 명시한 분량입니다. 총 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/SmhOYBZtX6g",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "salimpop-cabbage-oyster-soup",
+    "name": "살림팝 배추굴국밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "살림팝 배추굴국밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "굴",
+        "amount": 280,
+        "unit": "g"
+      },
+      {
+        "name": "배추 잎 (중간 크기)",
+        "amount": 4,
+        "unit": "장"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "쪽"
+      },
+      {
+        "name": "청양고추",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "물",
+        "amount": 800,
+        "unit": "mL"
+      },
+      {
+        "name": "굵은 소금 (세척용)",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "국간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "참치액",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "코인육수",
+        "amount": 1,
+        "unit": "알"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "굴 280g에 굵은 소금 1스푼을 넣고 부드럽게 씻은 뒤 흐르는 물에 헹굽니다.",
+      "냄비에 물 800mL, 자른 배추 잎 4장, 대파 1쪽, 청양고추 2개를 넣습니다.",
+      "국간장 1스푼, 참치액 2스푼, 코인육수 1알, 다진 마늘 1스푼을 넣고 7분 끓입니다.",
+      "굴을 넣고 3분 더 끓여 마무리합니다."
+    ],
+    "tips": "코인육수 대신 해물맛 가루육수가 가능하지만 대체량은 미기재입니다. 제목은 국밥이지만 원문에 밥 분량·투입 단계가 없어 임의로 추가하지 않았습니다. 인분·총 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/Y2hOySEFmvQ",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "zzini-scallion-chicken",
+    "name": "찌니집밥 대파 닭구이",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "찌니집밥 대파 닭구이 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "대파",
+        "amount": 2,
+        "unit": "대"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "돈가스 소스",
+        "amount": 1.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "소금·후추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "페페론치노",
+        "amount": null,
+        "unit": "선택"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "팬에 식용유를 두르고 닭다리살 600g을 중불에서 앞뒤로 노릇하게 굽습니다. 소금으로 간합니다.",
+      "익은 닭을 먹기 좋은 크기로 자르고 대파 2대를 2~3cm로 썹니다.",
+      "대파를 넣고 닭기름에 충분히 볶습니다.",
+      "설탕 1큰술, 굴소스 1큰술, 돈가스 소스 1.5큰술을 넣어 볶습니다. 페페론치노는 선택합니다.",
+      "후추를 뿌리고 부족한 간은 소금으로 맞춥니다."
+    ],
+    "tips": "작성자는 자취요리신 레시피를 참고했다고 표시했습니다. 인분·총 조리 시간은 미기재이며 제목의 10분을 총 시간으로 확정하지 않았습니다.",
+    "youtube": "https://youtu.be/eNkAc7aqkBY",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "ddalsekki-soy-egg-kimbap",
+    "name": "딸세끼 간장 계란김밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "딸세끼 간장 계란김밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "밥",
+        "amount": 2,
+        "unit": "공기"
+      },
+      {
+        "name": "계란",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "김치",
+        "amount": null,
+        "unit": "길게 자른 줄기·분량 미기재"
+      },
+      {
+        "name": "김밥김",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "1~2꼬집"
+      },
+      {
+        "name": "간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "참기름 (밥용)",
+        "amount": 1,
+        "unit": "바퀴"
+      },
+      {
+        "name": "버터",
+        "amount": 1,
+        "unit": "조각"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "참기름 (마무리용)",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "잘 익은 김치를 길게 자릅니다. 묵은지는 한 번 씻습니다.",
+      "팬에 식용유를 두르고 계란 3개를 소금 1~2꼬집으로 간하여 프라이 또는 스크램블로 익힙니다.",
+      "밥 2공기에 계란, 간장 2스푼, 참기름 1바퀴, 통깨, 버터 1조각을 넣고 섞습니다.",
+      "김 위에 간장계란밥을 깔고 김치 한 줄을 얹어 말아 총 2줄을 만듭니다.",
+      "겉에 참기름을 바르고 통깨를 뿌려 한입 크기로 썹니다."
+    ],
+    "tips": "원문은 2줄 기준이며 인분을 뜻하지 않습니다. 김의 장수·버터 무게·총 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/fkjGHCkFOXM",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·댓글·스크립트를 확인했습니다. 계량은 작성자의 본문 또는 고정댓글 기준이며 조리 순서는 원문에서 확인한 내용입니다. 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "duni-ultimate-curry",
+    "name": "더니 카레 끝판왕",
+    "category": "밥·덮밥",
+    "minutes": 20,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "사용자가 제공한 레시피오 페이지 기준 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "다진 돼지고기",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "진간장",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "양파",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "감자",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "마늘가루",
+        "amount": 1,
+        "unit": "작은술"
+      },
+      {
+        "name": "불소스 (페이지 표기)",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "노추",
+        "amount": 2,
+        "unit": "스푼 (선택)"
+      },
+      {
+        "name": "물",
+        "amount": 100,
+        "unit": "mL (제품에 맞춰 조절)"
+      },
+      {
+        "name": "카레 큐브",
+        "amount": 1,
+        "unit": "개 (규격 미기재)"
+      }
+    ],
+    "steps": [
+      "팬에 다진 돼지고기 200g을 넣고 볶아 기름이 나올 때까지 중불로 볶습니다. 기름이 나오면 진간장 2스푼을 넣고 기름에 빠르게 볶아줍니다. 이렇게 기름의 간장을 볶으면 감칠맛이 아주 끝내줍니다.",
+      "다진 양파 1개와 다진 감자 1개를 넣습니다. 마늘이 없어서 마늘가루를 약간 넣어줍니다. 재료들이 볶아지며 향이 올라오도록 저어줍니다.",
+      "불소스 1스푼과 설탕 1스푼을 넣습니다. 마지막으로 노추 2스푼을 넣고 1분 정도 중불로 볶아줍니다. 노추는 없어도 되지만 넣으면 풍미가 더해집니다.",
+      "물을 자작하게 부어줍니다. 카레 큐브 1개를 넣고 카레 블록에 맞춰 물의 양을 조절합니다. 중불로 끓여줍니다.",
+      "감자가 다 익을 때까지 끓입니다. 감자가 부드러워지면 불을 끄고 완성입니다. 꿀꿀한 카레가 됩니다."
+    ],
+    "tips": "레시피오 화면 기준 2인분·20분입니다. 불소스는 페이지 표기를 유지했습니다. 앞서 유튜브 스크립트에서 불명확했던 마늘가루·노추 계량은 이 페이지 기준입니다. 물은 목록상 100mL이나 단계 설명은 카레 제품에 맞춰 조절하도록 안내합니다.",
+    "youtube": "https://youtu.be/Q0KJjfpk6YM",
+    "sourceUrl": "https://www.recipio.kr/recipes/0J8LppJv",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 페이지에서 재료와 모든 조리 단계를 확인했습니다. 원본 유튜브 링크를 유지했습니다. 계량은 유튜브 작성자가 직접 확인한 값이 아니라 해당 페이지 기준입니다. 출처: https://www.recipio.kr/recipes/0J8LppJv",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "kang-leo-button-mushroom-saute",
+    "name": "강레오 양송이버섯 볶음",
+    "category": "반찬·기타",
+    "minutes": 10,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "사용자가 제공한 레시피오 페이지 기준 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "양송이버섯",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "양파",
+        "amount": 0.3,
+        "unit": "개"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "올리브유",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "버터",
+        "amount": 0.7,
+        "unit": "큰술"
+      },
+      {
+        "name": "파슬리",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술"
+      }
+    ],
+    "steps": [
+      "양송이버섯 표면의 이물질을 키친타월이나 마른 천으로 가볍게 닦습니다.",
+      "손질한 양송이버섯을 4등분으로 자릅니다. 일정한 크기로 잘라야 고르게 익고 조리 후에도 모양이 예쁘게 유지됩니다.",
+      "마른 팬에 버섯을 넣고 소금과 후추로 밑간을 한 뒤 센 불에서 볶습니다. 기름을 넣기 전 버섯 자체의 수분을 최대한 날려 보내야 쫄깃한 식감을 살릴 수 있습니다.",
+      "버섯의 수분이 어느 정도 날아가면 올리브 오일을 두르고 계속해서 볶아줍니다. 이때 오일이 타지 않도록 주의하며 버섯 표면에 윤기가 돌게 합니다.",
+      "잘게 다진 양파와 다진 마늘을 넣고 함께 볶아 향을 올립니다. 양파가 투명해질 때까지 볶아 채소의 단맛과 풍미가 버섯에 배어들게 합니다.",
+      "마지막으로 버터 한 조각과 다진 파슬리를 넣어 고소한 풍미와 색감을 더해 마무리합니다. 버터가 녹아 버섯을 전체적으로 코팅하면 즉시 불을 끕니다."
+    ],
+    "tips": "레시피오 계량을 기준으로 기록했습니다. 원본 스크립트에는 구체적인 분량이 없으며 기름 없이 먼저 볶는 순서도 명시되지 않아, 이 페이지 조리법과 원본이 완전히 같다고 확인한 것은 아닙니다. 버터는 목록 0.7큰술, 단계는 한 조각으로 표현됩니다.",
+    "youtube": "https://youtu.be/iSOYq3bt0d4",
+    "sourceUrl": "https://www.recipio.kr/recipes/xBKrppw5",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 페이지에서 재료와 모든 조리 단계를 확인했습니다. 원본 유튜브 링크를 유지했습니다. 계량은 유튜브 작성자가 직접 확인한 값이 아니라 해당 페이지 기준입니다. 출처: https://www.recipio.kr/recipes/xBKrppw5",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "kang-minkyung-oyster-pasta",
+    "name": "강민경표 굴 파스타",
+    "category": "면",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "사용자가 제공한 레시피오 페이지 기준 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "굴",
+        "amount": 1,
+        "unit": "팩 (중량 미기재)"
+      },
+      {
+        "name": "파스타면",
+        "amount": 1,
+        "unit": "인분"
+      },
+      {
+        "name": "마늘",
+        "amount": 10,
+        "unit": "쪽"
+      },
+      {
+        "name": "올리브유",
+        "amount": null,
+        "unit": "넉넉히"
+      },
+      {
+        "name": "페페론치노",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "면수",
+        "amount": 1.5,
+        "unit": "국자"
+      },
+      {
+        "name": "치킨스톡",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "루꼴라",
+        "amount": null,
+        "unit": "듬뿍"
+      },
+      {
+        "name": "치즈",
+        "amount": null,
+        "unit": "약간"
+      }
+    ],
+    "steps": [
+      "면을 삶을 물을 끓이는 동안 굴의 일부를 잘게 다져줍니다. 이렇게 하면 굴의 감칠맛이 소스에 더 진하게 배어 나옵니다.",
+      "팬에 올리브유를 넉넉하게 두르고 편으로 썬 마늘을 아주 많이 넣어 볶습니다. 마늘 향이 충분히 올라올 때까지 중불에서 조리합니다.",
+      "마늘 향이 올라오면 페페론치노를 손으로 부수어 넣고 함께 볶아 매콤한 풍미를 더해줍니다.",
+      "마늘 색이 노릇하게 변하기 시작하면 다져놓은 굴을 먼저 넣어 볶다가, 남은 통굴을 모두 투하합니다.",
+      "면수 1.5국자와 치킨스톡 1큰술을 넣어 소스의 베이스를 만들고 감칠맛을 끌어올립니다.",
+      "삶아둔 파스타 면을 팬에 넣고 소스가 면에 잘 배도록 가볍게 볶은 뒤 후춧가루를 뿌려 마무리합니다.",
+      "완성된 파스타를 그릇에 담고 루꼴라를 듬뿍 올린 뒤 치즈를 갈아서 뿌려 완성합니다."
+    ],
+    "tips": "제공된 레시피오 페이지는 옷장 채널의 _fnRGdbvFuw 영상을 출처로 사용합니다. 이전 맛있다던디 링크와 다른 영상이며 계량·조리법은 이번 페이지 기준입니다. 굴 1팩의 중량과 면 삶는 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/acvwdLQZL2s",
+    "sourceUrl": "https://www.recipio.kr/recipes/realMgkB",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 페이지에서 계량과 전체 조리 단계를 확인했습니다. 기존 유튜브 링크를 유지하고 페이지와 원본의 차이를 팁에 표시했습니다. 출처: https://www.recipio.kr/recipes/realMgkB",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "sung-yakiniku-rice",
+    "name": "성시경 야키니쿠 덮밥",
+    "category": "밥·덮밥",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "사용자가 제공한 레시피오 페이지 기준 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "돼지고기 목살",
+        "amount": 2,
+        "unit": "덩이 (중량 미기재)"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "치킨스톡",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 0.3333333333333333,
+        "unit": "큰술"
+      },
+      {
+        "name": "참기름",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "깨",
+        "amount": 5,
+        "unit": "g"
+      },
+      {
+        "name": "소금",
+        "amount": 0.3,
+        "unit": "큰술 (목록 기준·나눠 사용)"
+      },
+      {
+        "name": "후추",
+        "amount": 0.3,
+        "unit": "작은술 (목록 기준·나눠 사용)"
+      },
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      }
+    ],
+    "steps": [
+      "대파를 잘게 다진 후 찬물에 담가 매운기를 뺍니다. 물기를 제거한 뒤 준비합니다.",
+      "달궈진 프라이팬에 돼지고기 목살 2덩이를 올리고 소금과 후추를 살짝 뿌려 앞뒤로 노릇하게 굽습니다.",
+      "다진 대파에 소금과 후추 약간, 치킨스톡 0.5큰술, 굴소스 1/3큰술, 참기름 1큰술, 깨 5g을 넣어 섞습니다. 소금·후추는 고기 밑간과 나누어 사용합니다.",
+      "노릇하게 구워진 목살을 가위로 한입 크기로 자릅니다. 고기가 타지 않도록 주의하며 속까지 익힙니다.",
+      "그릇에 밥을 담고 구운 고기와 대파 소스를 넉넉히 올려 마무리합니다."
+    ],
+    "tips": "치킨스톡은 목록 1.5작은술과 단계 0.5큰술이 같은 계량입니다. 굴소스는 목록 0.3큰술 대신 단계의 1/3큰술로 기록했습니다. 소금·후추는 목록 계량이 있으나 단계는 약간으로 안내하므로 중복 투입하지 않습니다. 목살 중량은 미기재입니다.",
+    "youtube": "https://youtu.be/7D7oXDydJP8",
+    "sourceUrl": "https://www.recipio.kr/recipes/WwY8MXJo",
+    "verified": false,
+    "scaleIngredients": true,
+    "sourceNote": "사용자가 제공한 레시피오 페이지에서 계량과 전체 조리 단계를 확인했습니다. 기존 유튜브 링크를 유지하고 페이지와 원본의 차이를 팁에 표시했습니다. 출처: https://www.recipio.kr/recipes/WwY8MXJo",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "boppt-tortilla-garlic-bread",
+    "name": "밥피티 또띠아 마늘빵",
+    "category": "브런치·샐러드",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "밥피티 또띠아 마늘빵 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "또띠아",
+        "amount": null,
+        "unit": "분량·크기 미기재"
+      },
+      {
+        "name": "올리브유",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "알룰로스",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "파슬리",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "꼬집 (선택)"
+      }
+    ],
+    "steps": [
+      "올리브유 1스푼, 알룰로스 2스푼, 다진 마늘 1스푼, 파슬리 1스푼을 섞습니다. 소금 1꼬집은 생략할 수 있습니다.",
+      "또띠아에 얇게 펴 바르고 가위로 잘라줍니다.",
+      "에어프라이어에서 160°C로 10분 굽고 뒤집어 2분 더 굽습니다.",
+      "한 김 식혀 먹습니다."
+    ],
+    "tips": "또띠아의 장수·크기는 원문 미기재입니다. 뒤집은 뒤 2분 추가 굽기는 본문 안내이고, 가위로 자르기는 스크립트에서 확인했습니다.",
+    "youtube": "https://youtu.be/4hdtvR3J3J8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정댓글·자동 스크립트를 확인했습니다. 계량은 작성자 본문 또는 고정댓글, 조리 순서는 확인된 원문 기준입니다. 인분과 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "브런치·샐러드"
+    ]
+  },
+  {
+    "id": "oh-pork-neck-steak",
+    "name": "오밥상 서가앤쿡 스타일 목살 스테이크",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "오밥상 서가앤쿡 스타일 목살 스테이크 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "돼지고기 목살",
+        "amount": null,
+        "unit": "300~400g"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "꼬집"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "다진 마늘",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "돈가스 소스 또는 스테이크 소스",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "알룰로스",
+        "amount": 1,
+        "unit": "스푼 (또는 설탕 0.5스푼)"
+      },
+      {
+        "name": "맛술",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "버터",
+        "amount": 1,
+        "unit": "작은 조각 (무게 미기재)"
+      }
+    ],
+    "steps": [
+      "팬에 식용유를 두르고 센 불에서 목살 300~400g을 소금 한 꼬집으로 간하여 앞뒤로 노릇하게 굽습니다.",
+      "고기가 구워지면 중불로 낮춥니다.",
+      "다진 마늘 반 스푼, 돈가스 소스 3스푼, 굴소스 1스푼, 알룰로스 1스푼, 맛술 2스푼, 버터 작은 한 조각을 넣습니다.",
+      "고기가 속까지 익고 소스가 잘 배도록 졸여 마무리합니다."
+    ],
+    "tips": "알룰로스 1스푼 대신 설탕 반 스푼, 돈가스 소스 대신 스테이크 소스를 사용할 수 있다는 작성자 안내입니다. 고기 분량은 원문 범위를 유지했습니다.",
+    "youtube": "https://youtu.be/1uDNoAzBWwY",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정댓글·자동 스크립트를 확인했습니다. 계량은 작성자 본문 또는 고정댓글, 조리 순서는 확인된 원문 기준입니다. 인분과 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "jihyuncook-spam-potato-pancake",
+    "name": "지현쿡 스팸 감자전",
+    "category": "반찬·기타",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "지현쿡 스팸 감자전 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "감자 (중간 크기)",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "스팸",
+        "amount": 1,
+        "unit": "통 (중량 미기재·취향껏 조절)"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "계란",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "감자전분",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "윗면에 살짝"
+      },
+      {
+        "name": "케첩",
+        "amount": null,
+        "unit": "곁들임"
+      }
+    ],
+    "steps": [
+      "감자 3개와 스팸 1통을 비슷한 크기로 깍둑썰기합니다.",
+      "소금 반 작은술, 후추, 계란 1개, 감자전분 2큰술을 넣고 섞습니다.",
+      "종이호일 위에 올리고 윗면에 식용유를 살짝 바릅니다.",
+      "에어프라이어에서 180°C로 15~20분 굽고 케첩을 곁들입니다."
+    ],
+    "tips": "스팸 통 중량은 미기재입니다. 윗면에 기름 바르기는 작성자가 고정댓글에서 보완한 내용입니다. 스크립트는 썰기 이후 조리법이 누락되어 고정댓글의 전체 순서를 따랐습니다.",
+    "youtube": "https://youtu.be/7G4mRS6Mct8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정댓글·자동 스크립트를 확인했습니다. 계량은 작성자 본문 또는 고정댓글, 조리 순서는 확인된 원문 기준입니다. 인분과 미기재 분량은 임의로 보충하지 않았습니다.",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "kimjinsoon-egg-curry",
+    "name": "김진순 계란 오뚜기 카레",
+    "category": "밥·덮밥",
+    "minutes": 25,
+    "difficulty": "보통",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "김진순 계란 오뚜기 카레 레시피오 페이지 기준입니다.",
+    "ingredients": [
+      {
+        "name": "양파",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "계란",
+        "amount": 10,
+        "unit": "개"
+      },
+      {
+        "name": "버터",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 2,
+        "unit": "큰술 (단계 기준·목록은 작은술)"
+      },
+      {
+        "name": "불닭소스",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "오뚜기 카레",
+        "amount": 2,
+        "unit": "컵 (컵 용량 미기재)"
+      },
+      {
+        "name": "물",
+        "amount": 8,
+        "unit": "컵 (단계 기준·목록은 8mL)"
+      },
+      {
+        "name": "파슬리가루",
+        "amount": 0.5,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "양파를 얇게 채썰어 전자레인지에서 10분 돌립니다.",
+      "계란 10개를 볼에 깨서 포크로 풀어줍니다.",
+      "냄비에 버터를 녹이고 양파와 설탕을 넣어 중불에서 5분 볶습니다.",
+      "고춧가루 2큰술, 불닭소스 2큰술, 카레 2컵을 넣어 30초 섞습니다.",
+      "물 8컵을 넣고 강불에서 끓어오르면 중불로 줄여 2분 끓입니다.",
+      "계란물을 원을 그리며 붓고 20초 기다린 뒤 부드럽게 젓습니다.",
+      "밥에 곁들이고 파슬리가루를 뿌립니다."
+    ],
+    "tips": "물: 재료 목록 8mL와 단계 8컵이 불일치합니다. 고춧가루: 목록 2작은술과 단계 2큰술이 불일치합니다. 단계 표기를 사용했으며 컵 용량은 미기재입니다. 페이지의 인분은 2인분입니다.",
+    "youtube": "https://youtu.be/1oj7NCf6f70",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 레시피오 페이지의 재료·단계를 확인했습니다. 원문 불일치는 메모에 표시했습니다. 출처: https://www.recipio.kr/recipes/AeL5glJL",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "sallimpop-choegang-dongpayuk",
+    "name": "살림팝 최강동파육",
+    "category": "반찬·기타",
+    "minutes": 70,
+    "difficulty": "보통",
+    "servings": 4,
+    "emoji": "🍽️",
+    "description": "살림팝 최강동파육 레시피오 페이지 기준입니다.",
+    "ingredients": [
+      {
+        "name": "돼지고기 앞다리살",
+        "amount": 1000,
+        "unit": "g"
+      },
+      {
+        "name": "콜라",
+        "amount": 500,
+        "unit": "mL"
+      },
+      {
+        "name": "쌍화탕",
+        "amount": 1,
+        "unit": "개 (용량 미기재)"
+      },
+      {
+        "name": "물",
+        "amount": 500,
+        "unit": "mL (고기 조리용)"
+      },
+      {
+        "name": "진간장",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 4,
+        "unit": "큰술"
+      },
+      {
+        "name": "청경채",
+        "amount": 50,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "저압냄비에 앞다리살, 콜라, 쌍화탕, 물, 진간장, 굴소스를 넣습니다.",
+      "뚜껑을 닫고 중불에서 50분 익힙니다.",
+      "청경채를 반으로 갈라 끓는 물에 1분 데치고 찬물에 헹굽니다.",
+      "뚜껑을 열고 강불에서 20분 더 졸입니다. 원문에 뚜껑을 여는 시점이 50분 후와 40분 시점으로 혼재해 정확한 시점은 확인이 필요합니다.",
+      "고기를 한입 크기로 썰어 청경채 위에 올리고 소스를 끼얹습니다."
+    ],
+    "tips": "저압냄비 기준입니다. 4단계 원문은 “50분 쪈 후 40분 시점”으로 시간이 모순됩니다. 단계 타이머 110분도 설명의 20분과 다릅니다. 해당 시간은 확정하지 않았습니다. 쌍화탕 용량과 청경채 데침물 양은 미기재입니다. 조리용 물 500mL와 데침물은 별개입니다.",
+    "youtube": "https://youtu.be/fFX3Z1mZi90",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 레시피오 페이지의 재료·단계를 확인했습니다. 원문 불일치는 메모에 표시했습니다. 출처: https://www.recipio.kr/recipes/GezKElJA",
+    "categories": [
+      "반찬·기타"
+    ]
+  },
+  {
+    "id": "yt--gqmxrBP8tU",
+    "name": "엄마의 주방 간장치킨",
+    "category": "고기·해산물",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "엄마의 주방 간장치킨 원문 기준입니다.",
+    "ingredients": [
+      {
+        "name": "닭날개",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "0.3~0.5작은술"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "조금"
+      },
+      {
+        "name": "마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "파",
+        "amount": 1,
+        "unit": "줌"
+      },
+      {
+        "name": "흑설탕",
+        "amount": 1,
+        "unit": "(단위 미기재)"
+      },
+      {
+        "name": "식초",
+        "amount": 0.5,
+        "unit": "(단위 미기재)"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "(단위 미기재)"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "(단위 미기재)"
+      },
+      {
+        "name": "물엿",
+        "amount": 1.5,
+        "unit": "(단위 미기재)"
+      },
+      {
+        "name": "물",
+        "amount": 2,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "닭날개에 소금과 후추를 넣어 30분 재웁니다.",
+      "팬에서 앞뒤를 노릇하게 굽습니다.",
+      "마늘과 파를 넣어 살짝 볶고 뚜껑을 덮어 5분 익힙니다.",
+      "닭을 한쪽으로 밀고 팬의 빈 곳에서 소스를 끓입니다.",
+      "소스가 졸아들면 닭과 함께 볶아 마무리합니다."
+    ],
+    "tips": "소스의 물 외 계량 단위는 본문에 명시되지 않아 숫자만 보존했습니다. 총 조리시간과 인분은 미기재입니다.",
+    "youtube": "https://youtu.be/-gqmxrBP8tU",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 열었으나 로딩 중으로 내용을 읽지 못했습니다.",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "yt-CZOl3r-p_ts",
+    "name": "체리밀 황태국",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "체리밀 황태국 원문 기준입니다.",
+    "ingredients": [
+      {
+        "name": "황태채",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "무",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "두부",
+        "amount": 1,
+        "unit": "모 (중량 미기재)"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "들기름",
+        "amount": 2,
+        "unit": "T"
+      },
+      {
+        "name": "해물가루",
+        "amount": 2,
+        "unit": "포"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "물 (갈기용)",
+        "amount": 500,
+        "unit": "mL"
+      },
+      {
+        "name": "물 (추가)",
+        "amount": 1000,
+        "unit": "mL"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "황태채를 가볍게 씻어 물기를 짜고 가위로 작게 자릅니다.",
+      "황태와 물 500mL를 믹서에 넣어 곱게 갑니다.",
+      "냄비에 간 황태와 들기름 2T를 넣고 5분 끓입니다.",
+      "썬 무, 다진마늘, 물 1L를 넣고 뚜껑을 덮어 15분 끓입니다.",
+      "해물가루와 소금으로 간하고 두부와 계란물을 넣습니다. 30초 뒤 섞고 대파와 후추로 마무리합니다."
+    ],
+    "tips": "작성자 고정 댓글 기준. 해물가루·소금은 액젓 2T와 부족한 간을 소금으로 맞추는 방식으로 대체 가능하다고 원문에 적혀 있습니다. 잔가시가 모두 제거된다는 주장은 검증하지 않았습니다.",
+    "youtube": "https://youtu.be/CZOl3r-p_ts",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 열었으나 로딩 중으로 내용을 읽지 못했습니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-GQbRS1DNQMU",
+    "name": "집순이 비지 대패삼겹 덮밥",
+    "category": "밥·덮밥",
+    "minutes": 10,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "집순이 비지 대패삼겹 덮밥 원문 기준입니다.",
+    "ingredients": [
+      {
+        "name": "대패삼겹살",
+        "amount": 2,
+        "unit": "줌"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "맛술",
+        "amount": 1,
+        "unit": "(고정 댓글 단위 미기재)"
+      },
+      {
+        "name": "물엿",
+        "amount": 1,
+        "unit": "(고정 댓글 단위 미기재)"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 0.5,
+        "unit": "(고정 댓글 단위 미기재)"
+      },
+      {
+        "name": "밥",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "참기름",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "쪽파",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "계란 노른자",
+        "amount": null,
+        "unit": "취향껏"
+      }
+    ],
+    "steps": [
+      "달군 팬에 대패삼겹살 두 줌을 펼쳐 굽습니다.",
+      "고기가 약 80% 익으면 설탕 1스푼과 채 썬 양파 반 개를 넣어 볶습니다.",
+      "양파가 살짝 투명해지면 고기를 밀고 빈 곳에 간장 2스푼을 넣어 잠시 끓인 뒤 섞습니다.",
+      "맛술, 물엿, 다진마늘을 넣어 섞습니다.",
+      "밥 위에 올리고 취향껏 노른자와 쪽파로 마무리합니다."
+    ],
+    "tips": "원문에 없는 중량과 계량 단위는 보충하지 않았습니다.",
+    "youtube": "https://youtu.be/GQbRS1DNQMU",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·작성자 고정 댓글·자동 스크립트를 확인했습니다. 계량은 고정 댓글, 조리 순서는 스크립트 기준입니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-2lO0P1ZHcgQ",
+    "name": "하람키친 우삼겹 버섯솥밥",
+    "category": "밥·덮밥",
+    "minutes": 15,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "하람키친 우삼겹 버섯솥밥 원문 기준입니다.",
+    "ingredients": [
+      {
+        "name": "표고버섯",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "느타리버섯",
+        "amount": 1,
+        "unit": "줌"
+      },
+      {
+        "name": "우삼겹",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 0.5,
+        "unit": "T"
+      },
+      {
+        "name": "양조간장",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "쯔유",
+        "amount": 1,
+        "unit": "T (저당 굴소스 1T로 대체 가능)"
+      },
+      {
+        "name": "찬밥",
+        "amount": 180,
+        "unit": "g"
+      },
+      {
+        "name": "쪽파",
+        "amount": 2,
+        "unit": "줄"
+      },
+      {
+        "name": "기버터",
+        "amount": 1,
+        "unit": "T (선택)"
+      }
+    ],
+    "steps": [
+      "표고 1개는 채 썰고 나머지 1개는 다집니다. 느타리는 잘게 찢습니다.",
+      "베이비 웍에 약불로 우삼겹 100g을 굽습니다.",
+      "고기를 덜어내고 버섯, 다진마늘, 양조간장, 쯔유를 넣어 버섯 숨이 죽을 때까지 볶습니다.",
+      "찬밥 180g을 넣어 골고루 섞고 평평하게 펼칩니다.",
+      "쪽파와 우삼겹을 올려 뚜껑을 닫고 약 2분 뜸들입니다. 선택으로 기버터를 올립니다."
+    ],
+    "tips": "꼬들한 현미밥을 추천하며 차돌박이도 어울린다고 작성자가 안내했습니다.",
+    "youtube": "https://youtu.be/2lO0P1ZHcgQ",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 열었으나 로딩 중으로 내용을 읽지 못했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-T7NmYo7FPws",
+    "name": "밥피티 감자 누룽지",
+    "category": "브런치·샐러드",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "밥피티 감자 누룽지 원문 기준입니다.",
+    "ingredients": [
+      {
+        "name": "감자",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "올리브오일",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "페퍼론치노",
+        "amount": 1,
+        "unit": "티스푼"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "꼬집"
+      },
+      {
+        "name": "모짜렐라 치즈",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "그릭요거트",
+        "amount": null,
+        "unit": "소스·분량 미기재"
+      },
+      {
+        "name": "알룰로스",
+        "amount": null,
+        "unit": "소스·분량 미기재"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "소스·분량 미기재"
+      }
+    ],
+    "steps": [
+      "감자를 삶아 반으로 자릅니다.",
+      "종이호일에 올리브오일을 뿌리고 감자를 올린 뒤 다시 호일로 덮습니다.",
+      "와인잔으로 감자를 평평하게 누릅니다.",
+      "나머지 재료를 올려 에어프라이어 200°C에서 10분 굽고 뒤집어 5분 더 굽습니다."
+    ],
+    "tips": "소스는 그릭요거트·알룰로스·후추 조합이며 분량은 미기재입니다. 온도와 시간은 본문 기준입니다.",
+    "youtube": "https://youtu.be/T7NmYo7FPws",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 열었으나 로딩 중으로 내용을 읽지 못했습니다.",
+    "categories": [
+      "브런치·샐러드"
+    ]
+  },
+  {
+    "id": "yt-FR-F48seQv8",
+    "name": "자취요리신 대파 닭구이",
+    "category": "고기·해산물",
+    "minutes": 15,
+    "difficulty": "보통",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "자취요리신 대파 닭구이 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 400,
+        "unit": "g"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "돈까스소스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "물",
+        "amount": 30,
+        "unit": "mL"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "큰술 (목록 표기·단계는 살짝)"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술 (목록 표기·단계는 약간)"
+      },
+      {
+        "name": "페페론치노",
+        "amount": null,
+        "unit": "약간 (목록만 기재)"
+      }
+    ],
+    "steps": [
+      "달군 팬에 닭다리살을 올리고 소금을 살짝 뿌려 중불에서 앞뒤로 약 5분 굽습니다.",
+      "한입 크기로 잘라 다시 팬에 넣고 4cm 길이 대파를 넣어 중불에서 2~3분 굽습니다.",
+      "설탕·굴소스·돈까스소스 각 1큰술과 물 2큰술을 넣고 강불에서 1~2분 볶아 졸입니다.",
+      "후추를 약간 뿌려 마무리합니다."
+    ],
+    "tips": "대파 목록 1대와 단계의 한 단이 불일치하여 목록 1대 기준으로 기록했습니다. 물은 목록 30mL/단계 2큰술입니다. 소금·후추는 목록 계량과 단계의 정성 표현을 함께 표시했습니다. 페페론치노는 사용 단계가 없습니다.",
+    "youtube": "https://youtu.be/FR-F48seQv8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/zJRlMMBl",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "yt-sQ_yalKeCsk",
+    "name": "정호영 닭다리살 데리야끼 덮밥",
+    "category": "밥·덮밥",
+    "minutes": 20,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "정호영 닭다리살 데리야끼 덮밥 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 350,
+        "unit": "g"
+      },
+      {
+        "name": "소금",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "청주",
+        "amount": 45,
+        "unit": "mL (3큰술)"
+      },
+      {
+        "name": "맛술",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "진간장",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "양배추",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "식용유",
+        "amount": 15,
+        "unit": "mL"
+      },
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      }
+    ],
+    "steps": [
+      "닭다리살에 소금·후추로 밑간합니다.",
+      "청주·맛술·진간장 각 3큰술과 설탕 2큰술을 중불에서 가볍게 끓여 소스를 만듭니다.",
+      "계란 2개로 촉촉한 스크램블 에그를 만듭니다.",
+      "팬에 기름을 두르고 닭 껍질부터 굽습니다. 뚜껑을 닫고 속까지 익힌 뒤 뒤집어 노릇하게 굽습니다.",
+      "닭을 반 정도 자르고 소스를 부어 강불에서 걸쭉해질 때까지 졸입니다.",
+      "밥에 채 썬 양배추와 스크램블을 올리고 한입 크기의 닭과 남은 소스로 마무리합니다."
+    ],
+    "tips": "인분과 계량은 레시피오 페이지 표기입니다.",
+    "youtube": "https://youtu.be/sQ_yalKeCsk",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/6wGo65w1",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-8fvWnSMIT8A",
+    "name": "추추 잔치국수",
+    "category": "면",
+    "minutes": 40,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "추추 잔치국수 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "물 (육수)",
+        "amount": 1800,
+        "unit": "mL"
+      },
+      {
+        "name": "멸치",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "다시마",
+        "amount": 10,
+        "unit": "g"
+      },
+      {
+        "name": "무",
+        "amount": 120,
+        "unit": "g"
+      },
+      {
+        "name": "청양고추",
+        "amount": 1,
+        "unit": "개 (10g)"
+      },
+      {
+        "name": "국간장",
+        "amount": 3,
+        "unit": "스푼 (1스푼=10mL)"
+      },
+      {
+        "name": "참치액",
+        "amount": 3,
+        "unit": "스푼 (1스푼=10mL)"
+      },
+      {
+        "name": "당근",
+        "amount": 100,
+        "unit": "g (1/3개)"
+      },
+      {
+        "name": "애호박",
+        "amount": 140,
+        "unit": "g (1/2개)"
+      },
+      {
+        "name": "양파",
+        "amount": 60,
+        "unit": "g (1/4개)"
+      },
+      {
+        "name": "소면",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "김가루",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "김치",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "깻가루",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "물 1.8L에 멸치·다시마·무·청양고추를 넣고 끓기 직전 약불로 줄여 30분 우립니다.",
+      "육수 재료를 건져 국간장·참치액과 채 썬 양파·당근·애호박을 넣어 중불에서 2분 끓입니다.",
+      "별도의 끓는 물에 소면을 3분 삶고 찬물에 헹궈 물기를 뺍니다.",
+      "그릇에 면과 육수를 담고 김가루·김치·깻가루를 올립니다."
+    ],
+    "tips": "계량은 앞서 확인한 작성자 고정 댓글을 우선했습니다. 사이트는 멸치 누락, 참치액을 멸치액으로 표기, 양파 1/2개·소면 30g 등 댓글과 다르게 적혀 있습니다. 조리 순서는 사이트로 보완했습니다. 사이트 2단계 타이머 32분 대신 설명의 2분을 반영했습니다.",
+    "youtube": "https://youtu.be/8fvWnSMIT8A",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/xBO54AJG",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "yt-SvKOJyLDnVk",
+    "name": "임성근 초간단 골동면",
+    "category": "면",
+    "minutes": 15,
+    "difficulty": "보통",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "임성근 초간단 골동면 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "간장",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "들기름",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 0.5,
+        "unit": "큰술"
+      },
+      {
+        "name": "소면",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "김",
+        "amount": 0.5,
+        "unit": "장"
+      }
+    ],
+    "steps": [
+      "간장·들기름·설탕을 볼에 넣고 설탕이 녹도록 섞습니다.",
+      "소면을 삶아 찬물에 헹구고 물기를 빼 양념장에 넣습니다.",
+      "구운 김을 곱게 갈아 면 위에 뿌립니다.",
+      "양념과 김가루가 골고루 묻도록 가볍게 버무립니다.",
+      "그릇에 담고 선택으로 달걀 지단이나 채소 고명을 올립니다."
+    ],
+    "tips": "소면 삶는 시간과 고명 분량은 미기재입니다.",
+    "youtube": "https://youtu.be/SvKOJyLDnVk",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/6wGoWvw1",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "yt-SIREFCEBE_I",
+    "name": "자취요리신 설동굴 소스 닭다리살 구이",
+    "category": "고기·해산물",
+    "minutes": 15,
+    "difficulty": "보통",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "자취요리신 설동굴 소스 닭다리살 구이 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 500,
+        "unit": "g"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "돈까스소스",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "굴소스",
+        "amount": 2,
+        "unit": "큰술"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술 (목록·단계는 취향껏)"
+      }
+    ],
+    "steps": [
+      "닭다리살의 물기를 제거하고 한입 크기로 썹니다.",
+      "설탕·돈까스소스·굴소스 각 2큰술과 다진마늘 1큰술을 넣어 버무립니다.",
+      "달군 팬에 닭을 넣고 뚜껑을 덮어 중불에서 익힙니다.",
+      "속까지 익으면 뚜껑을 열고 토치로 겉면에 불맛을 입힙니다.",
+      "계란 2개를 풀어 고기 사이에 붓고 부드럽게 익힙니다.",
+      "후추로 마무리하고 밥에 곁들입니다."
+    ],
+    "tips": "사이트의 생닭 세척 단계는 교차오염 방지를 위해 생략했습니다. 사이트는 계란을 반숙으로 설명합니다. 조리 시간은 페이지 표기이며 닭을 익히는 세부 시간은 미기재입니다.",
+    "youtube": "https://youtu.be/SIREFCEBE_I",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/beE3Wmwg",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "yt-KHUsN6i9Nvs",
+    "name": "김진순 즉석 1-2-3 양념갈비",
+    "category": "고기·해산물",
+    "minutes": 20,
+    "difficulty": "보통",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "김진순 즉석 1-2-3 양념갈비 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "목살",
+        "amount": 600,
+        "unit": "g"
+      },
+      {
+        "name": "진간장",
+        "amount": 1,
+        "unit": "큰술 (사이트 기준)"
+      },
+      {
+        "name": "맛술",
+        "amount": 2,
+        "unit": "큰술 (사이트 기준)"
+      },
+      {
+        "name": "배즙",
+        "amount": 3,
+        "unit": "큰술 (사이트 기준)"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "설탕",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "물엿",
+        "amount": 3,
+        "unit": "큰술"
+      },
+      {
+        "name": "소주",
+        "amount": 120,
+        "unit": "mL (8큰술)"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "선택·분량 미기재"
+      },
+      {
+        "name": "당근",
+        "amount": null,
+        "unit": "선택·분량 미기재"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "선택·분량 미기재"
+      }
+    ],
+    "steps": [
+      "얇은 목살을 준비합니다.",
+      "팬에서 중불로 노릇하게 굽고 불을 끈 뒤 한입 크기로 자릅니다.",
+      "진간장 1큰술·맛술 2큰술과 배즙·다진마늘·설탕·물엿 각 3큰술을 섞습니다.",
+      "고기를 팬에 다시 넣고 선택으로 채소를 넣어 볶습니다. 소주 8큰술을 넣어 강불에서 1분 더 볶습니다.",
+      "소스를 넣고 중불에서 걸쭉해질 때까지 졸입니다."
+    ],
+    "tips": "사이트 계량을 보존했습니다. 앞서 유튜브 일반 댓글은 진간장·맛술 각 12숟가락, 굴소스·다진마늘·설탕·물엿 각 3숟가락이라고 적혀 있어 사이트의 간장1·맛술2·배즙3과 크게 다릅니다. 영상 원문 계량으로 확정된 것은 아닙니다.",
+    "youtube": "https://youtu.be/KHUsN6i9Nvs",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: https://www.recipio.kr/recipes/0J37xvJM",
+    "categories": [
+      "고기·해산물"
+    ]
+  },
+  {
+    "id": "yt-pPCJaRxEmcg",
+    "name": "살림팝 새우들깨탕",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "보통",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "살림팝 새우들깨탕 제공 자료 기준입니다.",
+    "ingredients": [
+      {
+        "name": "작은 새우",
+        "amount": 20,
+        "unit": "마리"
+      },
+      {
+        "name": "느타리버섯",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "두부 (탕용)",
+        "amount": 0.5,
+        "unit": "모"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 0.5,
+        "unit": "대"
+      },
+      {
+        "name": "들기름",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "두부 (갈기용)",
+        "amount": 0.5,
+        "unit": "모"
+      },
+      {
+        "name": "들깨가루",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "물 (갈기용)",
+        "amount": 200,
+        "unit": "mL"
+      },
+      {
+        "name": "물 (탕용)",
+        "amount": 500,
+        "unit": "mL"
+      },
+      {
+        "name": "국간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "참치액",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "코인육수",
+        "amount": 1,
+        "unit": "알"
+      }
+    ],
+    "steps": [
+      "냄비에 들기름 2스푼, 새우 20마리, 느타리버섯 100g, 양파 반 개를 넣어 2분 볶습니다.",
+      "탕용 물 500mL와 국간장 1스푼·참치액 2스푼·코인육수 1알을 넣습니다.",
+      "두부 반 모·들깨가루 3스푼·물 200mL를 갈아 냄비에 붓습니다.",
+      "5분 끓인 뒤 탕용 두부 반 모와 대파 반 대를 넣고 2분 더 끓입니다."
+    ],
+    "tips": "사진의 재료 목록과 스크립트를 함께 사용했습니다. 자동 자막의 누락·오타(느타리버섯, 들기름 등)는 명확한 재료 목록으로 보완했습니다. 두부 총 1모이며 중량은 미기재입니다.",
+    "youtube": "https://youtu.be/pPCJaRxEmcg",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 자료의 재료와 조리 단계를 확인했습니다. 원문 불일치는 메모에 기록했습니다. 출처: 사용자가 제공한 재료·스크립트 사진 2장",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-aQQv_ABUIjs",
+    "name": "초이프 훈제오리 묵은지 파스타",
+    "category": "면",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "초이프 훈제오리 묵은지 파스타 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "묵은지",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "마늘쫑 또는 쪽파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "훈제오리",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "오일",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "간장",
+        "amount": null,
+        "unit": "1~2스푼"
+      },
+      {
+        "name": "파스타면",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "면수",
+        "amount": 1,
+        "unit": "국자"
+      },
+      {
+        "name": "들기름",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "묵은지·마늘쫑·훈제오리를 잘게 다집니다.",
+      "오일에 마늘쫑을 가볍게 볶아 덜어냅니다.",
+      "묵은지와 훈제오리를 익히고 간장 1~2스푼으로 간합니다.",
+      "파스타면을 삶아 재료에 면과 면수 1국자를 넣어 볶습니다.",
+      "접시에 담고 볶은 마늘쫑·들기름·깨로 마무리합니다."
+    ],
+    "tips": "본문 레시피 기준이며 주요 재료 중량은 미기재입니다. 고정 댓글의 긴 원본 영상은 추가 확인하지 않았습니다.",
+    "youtube": "https://youtu.be/aQQv_ABUIjs",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 자동 스크립트도 확인했습니다.",
+    "categories": [
+      "면"
+    ]
+  },
+  {
+    "id": "yt-vrzgtK9xEO0",
+    "name": "J 우삼겹 숙주덮밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "J 우삼겹 숙주덮밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "우삼겹",
+        "amount": 150,
+        "unit": "g"
+      },
+      {
+        "name": "양파",
+        "amount": 0.25,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕",
+        "amount": 0.5,
+        "unit": "단위 미기재"
+      },
+      {
+        "name": "진간장",
+        "amount": 0.5,
+        "unit": "단위 미기재"
+      },
+      {
+        "name": "맛술",
+        "amount": 1,
+        "unit": "단위 미기재"
+      },
+      {
+        "name": "굴소스",
+        "amount": 1,
+        "unit": "단위 미기재"
+      },
+      {
+        "name": "숙주",
+        "amount": 1,
+        "unit": "큰 줌"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "통깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "참기름",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "밥",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "우삼겹·채 썬 양파·다진마늘을 볶습니다.",
+      "핏기가 줄면 설탕·진간장·맛술·굴소스·숙주를 넣고 센불로 30초 볶습니다.",
+      "대파를 넣어 빠르게 볶아 숙주 숨이 죽으면 불을 끕니다.",
+      "통깨와 참기름을 넣고 밥 위에 올립니다."
+    ],
+    "tips": "2인분은 고기 기름을 일부 제거하면 느끼함이 줄어든다는 작성자 안내입니다.",
+    "youtube": "https://youtu.be/vrzgtK9xEO0",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 자동 스크립트도 확인했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-e_PLQDWcsjA",
+    "name": "리뇸뇸 파개장",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "리뇸뇸 파개장 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "듬뿍"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "물",
+        "amount": 2,
+        "unit": "종이컵 (컵 용량 미기재)"
+      },
+      {
+        "name": "다시다",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "참치액",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "당면",
+        "amount": null,
+        "unit": "불린 것·분량 미기재"
+      },
+      {
+        "name": "팽이버섯",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "간 맞추기"
+      }
+    ],
+    "steps": [
+      "냄비에 기름을 두르고 중불로 예열합니다.",
+      "대파를 듬뿍 볶아 파기름을 냅니다.",
+      "불을 끄고 고춧가루를 잔열로 섞습니다.",
+      "물·다시다·마늘·참치액을 넣어 끓입니다.",
+      "끓으면 불린 당면·팽이버섯·계란물을 넣습니다.",
+      "부족한 간을 소금으로 맞춥니다."
+    ],
+    "tips": "",
+    "youtube": "https://youtu.be/e_PLQDWcsjA",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-CZXAFdqVpH8",
+    "name": "오오밥상 얼큰계란탕",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "오오밥상 얼큰계란탕 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "당면",
+        "amount": 50,
+        "unit": "g"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "살짝"
+      },
+      {
+        "name": "대파",
+        "amount": 0.5,
+        "unit": "대"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 2,
+        "unit": "T"
+      },
+      {
+        "name": "물",
+        "amount": 550,
+        "unit": "mL"
+      },
+      {
+        "name": "국간장",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "참치액",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "다시다",
+        "amount": 0.5,
+        "unit": "T (선택)"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "취향껏"
+      },
+      {
+        "name": "청양고추",
+        "amount": null,
+        "unit": "선택"
+      }
+    ],
+    "steps": [
+      "당면을 따뜻한 물에 불립니다.",
+      "기름에 길게 썬 대파와 마늘을 볶고 고춧가루를 넣어 약불로 고추기름을 냅니다.",
+      "물·국간장·참치액을 넣습니다. 선택으로 다시다를 더합니다.",
+      "끓으면 불린 당면과 계란 두 알을 풀어 넣습니다.",
+      "계란이 익으면 후추와 선택으로 청양고추를 넣습니다."
+    ],
+    "tips": "원문 불림 시간은 “2-30분”으로 적혀 있어 확정하지 않았습니다. 물 대신 시판 사골육수 사용 가능하다고 안내합니다.",
+    "youtube": "https://youtu.be/CZXAFdqVpH8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-w2PqDcoJmhw",
+    "name": "꿀팁스쿨 간장 계란덮밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "꿀팁스쿨 간장 계란덮밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "계란",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "진간장",
+        "amount": 2,
+        "unit": "스푼"
+      },
+      {
+        "name": "설탕",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "조미김",
+        "amount": 1,
+        "unit": "봉 (중량 미기재)"
+      },
+      {
+        "name": "밥",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "팬에 기름을 두르고 진간장·설탕을 섞습니다.",
+      "중약불로 줄여 계란 3개를 넣습니다.",
+      "스크램블처럼 익혀 반숙으로 마무리합니다.",
+      "밥 위에 올리고 조미김을 뿌려 비빕니다."
+    ],
+    "tips": "",
+    "youtube": "https://youtu.be/w2PqDcoJmhw",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-IQRFr9iM6_Y",
+    "name": "꿀팁스쿨 근본 볶음밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "꿀팁스쿨 근본 볶음밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "대파",
+        "amount": 0.5,
+        "unit": "대"
+      },
+      {
+        "name": "당근",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "돼지고기",
+        "amount": 1,
+        "unit": "줌 (기름 많은 부위)"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "밥",
+        "amount": 1,
+        "unit": "공기"
+      },
+      {
+        "name": "진간장",
+        "amount": 0.5,
+        "unit": "스푼"
+      },
+      {
+        "name": "소금",
+        "amount": 2,
+        "unit": "꼬집"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "물",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "대파·당근·돼지고기를 잘게 썹니다.",
+      "기름에 고기를 볶고 간장을 넣어 30초 더 볶습니다.",
+      "고기를 덜고 기름을 추가해 계란을 30초 스크램블합니다.",
+      "밥을 넣어 1분 볶은 뒤 고기를 다시 넣고 소금으로 간합니다.",
+      "대파·당근·물 1스푼을 넣어 1분 더 볶습니다."
+    ],
+    "tips": "원문 “소파”는 재료 목록의 대파로 정리했습니다. 토핑 짜장 조리법은 원문에 없습니다.",
+    "youtube": "https://youtu.be/IQRFr9iM6_Y",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-xl29HFnIbl8",
+    "name": "김종선 오야코동",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "김종선 오야코동 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 200,
+        "unit": "g (약)"
+      },
+      {
+        "name": "양파",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "계란",
+        "amount": 2,
+        "unit": "개"
+      },
+      {
+        "name": "진간장",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "참치액",
+        "amount": 1.5,
+        "unit": "T"
+      },
+      {
+        "name": "설탕",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "물",
+        "amount": 1,
+        "unit": "소주컵 (용량 미기재)"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "밥",
+        "amount": 210,
+        "unit": "g"
+      }
+    ],
+    "steps": [
+      "달군 팬에 잘게 썬 닭과 양파를 볶습니다.",
+      "닭이 반쯤 익으면 간장·참치액·설탕·물로 만든 양념장을 넣고 중약불로 줄입니다.",
+      "계란에 후추를 넣어 대충 풀어 닭 위에 붓습니다.",
+      "닭이 익고 계란이 몽글몽글해지면 밥 위에 덮고 잘게 썬 대파를 올립니다."
+    ],
+    "tips": "밥이 210g보다 적으면 짤 수 있다는 작성자 안내입니다.",
+    "youtube": "https://youtu.be/xl29HFnIbl8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 자동 스크립트도 확인했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-gc62xRy0lnQ",
+    "name": "체리밀 백짬뽕 국밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "체리밀 백짬뽕 국밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "소고기 다짐육",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "알배추",
+        "amount": 6,
+        "unit": "장"
+      },
+      {
+        "name": "숙주",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "표고버섯",
+        "amount": 3,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "대파",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "약간"
+      },
+      {
+        "name": "백간장",
+        "amount": 1,
+        "unit": "T"
+      },
+      {
+        "name": "소금",
+        "amount": null,
+        "unit": "부족한 간"
+      },
+      {
+        "name": "물",
+        "amount": 1500,
+        "unit": "mL"
+      },
+      {
+        "name": "한우가루육수",
+        "amount": 12,
+        "unit": "g"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "밥",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "알배추와 표고버섯을 얇게 썹니다.",
+      "기름에 마늘을 볶다가 다짐육을 넣습니다.",
+      "고기가 어느 정도 익으면 알배추·버섯·물·한우가루육수를 넣고 10분 끓입니다.",
+      "숙주와 대파를 넣어 1~2분 더 끓이고 후추로 마무리합니다.",
+      "밥을 곁들여 먹습니다."
+    ],
+    "tips": "백간장과 부족한 간 소금은 재료 목록에 있으나 넣는 시점은 미기재입니다. 자막의 양배추는 작성자 고정 댓글 기준 알배추로 기록했습니다.",
+    "youtube": "https://youtu.be/gc62xRy0lnQ",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 자동 스크립트도 확인했습니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-d-JwvsaEYP8",
+    "name": "살림팝 명란 순두부 계란탕",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "살림팝 명란 순두부 계란탕 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "달걀",
+        "amount": 4,
+        "unit": "개"
+      },
+      {
+        "name": "순두부",
+        "amount": 0.5,
+        "unit": "봉 (중량 미기재)"
+      },
+      {
+        "name": "명란",
+        "amount": 1,
+        "unit": "개 (단계 기준·목록은 2개)"
+      },
+      {
+        "name": "물",
+        "amount": 400,
+        "unit": "mL"
+      },
+      {
+        "name": "맛소금",
+        "amount": 4,
+        "unit": "꼬집"
+      },
+      {
+        "name": "미원",
+        "amount": 2,
+        "unit": "꼬집"
+      },
+      {
+        "name": "코인육수",
+        "amount": 1,
+        "unit": "알"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "툭툭"
+      }
+    ],
+    "steps": [
+      "물 400mL와 코인육수 1알을 끓입니다.",
+      "계란 4알을 풀어 맛소금·미원을 넣습니다.",
+      "끓는 물에 계란을 넣어 1분 저어줍니다.",
+      "순두부 반 봉을 넣어 으깨며 섞습니다.",
+      "명란 1개를 잘게 잘라 넣고 섞어 뚜껑을 닫아 2분 더 끓입니다."
+    ],
+    "tips": "명란은 목록 2개와 조리 설명 1개가 불일치하여 단계 기준으로 기록했습니다. 후추 투입 시점과 코인육수 종류는 미기재입니다.",
+    "youtube": "https://youtu.be/d-JwvsaEYP8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-1EBumjoghec",
+    "name": "김밥실 소고기 애호박 고명·국수",
+    "category": "면",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "김밥실 소고기 애호박 고명·국수 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "소고기 다짐육",
+        "amount": 200,
+        "unit": "g"
+      },
+      {
+        "name": "애호박",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "청양고추",
+        "amount": 2,
+        "unit": "개 (아이용 생략)"
+      },
+      {
+        "name": "참치액젓",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "간장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "참기름",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "깨",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "조미김",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "소금",
+        "amount": 0.3,
+        "unit": "스푼 (절임용)"
+      },
+      {
+        "name": "오일",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "애호박을 채 썰어 소금 0.3스푼으로 10분 절이고 물기를 짭니다.",
+      "오일에 마늘·다진 파·고추를 볶습니다.",
+      "소고기를 넣어 물기 없이 바싹 볶습니다.",
+      "애호박·간장·참치액을 넣어 2분 볶습니다.",
+      "불을 끄고 참기름과 깨를 넣어 덮밥이나 국수 고명으로 사용합니다."
+    ],
+    "tips": "고명은 어른2·아이2 분량입니다. 비빔국수 양념(1인분): 간장2·설탕1·레몬즙1스푼, 참기름0.5(단위 미기재), 깨. 잔치국수 육수(1~1.5인분): 물700mL·쯔유1.5·참치액젓1스푼. 밥·면 분량은 미기재입니다.",
+    "youtube": "https://youtu.be/1EBumjoghec",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "면",
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-wLMzea6RmZ8",
+    "name": "꿀팁스쿨 강된장",
+    "category": "국·탕",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": null,
+    "emoji": "🍽️",
+    "description": "꿀팁스쿨 강된장 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "돼지고기",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "양파",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "대파",
+        "amount": 1,
+        "unit": "대"
+      },
+      {
+        "name": "새송이버섯",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "애호박",
+        "amount": 0.5,
+        "unit": "개"
+      },
+      {
+        "name": "마늘",
+        "amount": 5,
+        "unit": "톨"
+      },
+      {
+        "name": "당근",
+        "amount": null,
+        "unit": "1/3개"
+      },
+      {
+        "name": "두부",
+        "amount": 0.5,
+        "unit": "모"
+      },
+      {
+        "name": "물",
+        "amount": 250,
+        "unit": "mL"
+      },
+      {
+        "name": "된장",
+        "amount": 3,
+        "unit": "스푼"
+      },
+      {
+        "name": "고추장",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "고춧가루",
+        "amount": 1,
+        "unit": "스푼"
+      },
+      {
+        "name": "알룰로스",
+        "amount": 1,
+        "unit": "스푼"
+      }
+    ],
+    "steps": [
+      "고기를 볶아 기름을 냅니다.",
+      "채소를 넣어 2분 볶습니다.",
+      "물·된장·고추장을 넣어 2분 더 익힙니다.",
+      "두부를 넣어 1분 익힙니다.",
+      "밥에 올려 비벼 먹습니다."
+    ],
+    "tips": "고춧가루와 알룰로스는 재료 목록에 있으나 요약 조리법에 투입 시점이 없습니다. 스크립트 로딩 문제로 확인하지 못해 해당 시점은 미기재로 유지했습니다.",
+    "youtube": "https://youtu.be/wLMzea6RmZ8",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "국·탕"
+    ]
+  },
+  {
+    "id": "yt-TEtIjtdokJI",
+    "name": "김진순 닭다리살 간장덮밥",
+    "category": "밥·덮밥",
+    "minutes": null,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "김진순 닭다리살 간장덮밥 원문 조리법입니다.",
+    "ingredients": [
+      {
+        "name": "닭다리살",
+        "amount": 300,
+        "unit": "g"
+      },
+      {
+        "name": "진간장",
+        "amount": 2,
+        "unit": "숟갈"
+      },
+      {
+        "name": "맛술 (소스)",
+        "amount": 2,
+        "unit": "숟갈"
+      },
+      {
+        "name": "굴소스",
+        "amount": 2,
+        "unit": "숟갈"
+      },
+      {
+        "name": "설탕",
+        "amount": 2,
+        "unit": "숟갈"
+      },
+      {
+        "name": "다진마늘",
+        "amount": 1,
+        "unit": "숟갈"
+      },
+      {
+        "name": "생강가루",
+        "amount": 1,
+        "unit": "꼬집"
+      },
+      {
+        "name": "물",
+        "amount": null,
+        "unit": "2/3컵 (컵 용량 미기재)"
+      },
+      {
+        "name": "맛술 (밑간)",
+        "amount": 3,
+        "unit": "숟갈"
+      },
+      {
+        "name": "꽃소금",
+        "amount": 1,
+        "unit": "꼬집"
+      },
+      {
+        "name": "후추",
+        "amount": null,
+        "unit": "조금"
+      },
+      {
+        "name": "전분가루",
+        "amount": 1,
+        "unit": "숟갈"
+      },
+      {
+        "name": "식용유",
+        "amount": null,
+        "unit": "넉넉히"
+      },
+      {
+        "name": "꽈리고추",
+        "amount": null,
+        "unit": "선택"
+      },
+      {
+        "name": "밥",
+        "amount": null,
+        "unit": "분량 미기재"
+      },
+      {
+        "name": "양파",
+        "amount": null,
+        "unit": "분량 미기재"
+      }
+    ],
+    "steps": [
+      "닭에 밑간용 맛술·소금·후추를 넣어 20분 재웁니다.",
+      "소스 재료를 섞습니다.",
+      "닭을 체에 받친 뒤 전분가루 1숟갈로 버무립니다.",
+      "기름을 넉넉히 두르고 중불에서 껍질부터 양면을 노릇하게 굽습니다.",
+      "기름을 제거하고 소스와 선택으로 꽈리고추를 넣어 센불에서 끓입니다.",
+      "끓으면 중불로 줄여 총 5분 졸입니다. 3분 후 뒤집어 2분 더 졸입니다.",
+      "밥에 얇게 썬 양파·소스 한 국자·썬 닭을 올립니다."
+    ],
+    "tips": "고정 댓글의 소스 계량은 각 2숟갈이나 조리 설명은 “7777 소스”로 표현됩니다. 숫자를 7로 바꾸지 않고 명시된 계량을 유지했습니다.",
+    "youtube": "https://youtu.be/TEtIjtdokJI",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "본문·고정 댓글 확인. 스크립트는 로딩 중으로 미확인이거나 표시 버튼이 없습니다. 조리법은 본문/작성자 고정 댓글 기준입니다.",
+    "categories": [
+      "밥·덮밥"
+    ]
+  },
+  {
+    "id": "yt-pZgsubq6Z1c",
+    "name": "요정레시피 들기름 김치찜",
+    "category": "찜·조림",
+    "minutes": 35,
+    "difficulty": "쉬움",
+    "servings": 2,
+    "emoji": "🍽️",
+    "description": "요정레시피 들기름 김치찜 제공 페이지 기준입니다.",
+    "ingredients": [
+      {
+        "name": "김치",
+        "amount": 0.5,
+        "unit": "포기 (단계 기준·목록은 300g)"
+      },
+      {
+        "name": "쌀뜨물",
+        "amount": 200,
+        "unit": "mL"
+      },
+      {
+        "name": "들기름",
+        "amount": 100,
+        "unit": "mL (단계 기준·목록은 7큰술)"
+      },
+      {
+        "name": "매실액",
+        "amount": 65,
+        "unit": "mL"
+      }
+    ],
+    "steps": [
+      "냄비에 김치 반 포기를 넣습니다.",
+      "쌀뜨물 200mL·들기름 100mL·매실액 65mL를 붓습니다.",
+      "가볍게 섞고 뚜껑을 닫아 약불에서 30분 끓입니다.",
+      "중간에 한두 번 뒤집어 눌어붙지 않게 하고 국물이 자작해지면 불을 끕니다."
+    ],
+    "tips": "김치 목록 300g과 단계 반 포기는 동일량으로 확정하지 않았습니다. 들기름도 목록 7큰술과 단계 100mL가 달라 단계 기준으로 기록했습니다.",
+    "youtube": "https://youtu.be/pZgsubq6Z1c",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 레시피오 페이지의 재료와 조리 단계를 확인했습니다. 출처: https://www.recipio.kr/recipes/beE3v2wg",
+    "categories": [
+      "찜·조림"
+    ]
+  },
+  {
+    "id": "yt-XNJa9L8sk4o",
+    "name": "유지만 청양 들기름 파스타",
+    "category": "면",
+    "minutes": 20,
+    "difficulty": "쉬움",
+    "servings": 1,
+    "emoji": "🍽️",
+    "description": "유지만 청양 들기름 파스타 제공 페이지 기준입니다.",
+    "ingredients": [
+      {
+        "name": "스파게티면",
+        "amount": 60,
+        "unit": "g"
+      },
+      {
+        "name": "소금",
+        "amount": 1,
+        "unit": "큰술 (면 삶기용)"
+      },
+      {
+        "name": "훈제오리",
+        "amount": 100,
+        "unit": "g"
+      },
+      {
+        "name": "간장",
+        "amount": 1.5,
+        "unit": "스푼 (작성자 본문 기준·사이트는 2큰술)"
+      },
+      {
+        "name": "알룰로스",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "들기름",
+        "amount": 1,
+        "unit": "큰술"
+      },
+      {
+        "name": "후추",
+        "amount": 0.5,
+        "unit": "작은술"
+      },
+      {
+        "name": "깨",
+        "amount": 9,
+        "unit": "g"
+      },
+      {
+        "name": "깻잎",
+        "amount": 5,
+        "unit": "장 (목록 기준·단계는 한 줌)"
+      },
+      {
+        "name": "청양고추",
+        "amount": 1,
+        "unit": "개"
+      },
+      {
+        "name": "김가루",
+        "amount": 1,
+        "unit": "큰술"
+      }
+    ],
+    "steps": [
+      "끓는 물에 소금 1큰술을 넣고 면 60g을 12분 삶습니다.",
+      "훈제오리 100g을 팬에서 앞뒤로 노릇하게 굽습니다.",
+      "면을 찬물에 가볍게 헹구고 물기를 충분히 뺍니다.",
+      "간장·알룰로스·들기름·후추·깨를 넣어 면과 버무립니다.",
+      "깻잎을 썰고 청양고추를 잘게 잘라 넣습니다.",
+      "훈제오리·김가루·깨를 고명으로 올립니다."
+    ],
+    "tips": "간장은 작성자가 유튜브 본문에 면60g 기준 1.5스푼이라고 명시한 값을 우선했고, 사이트의 2큰술과 차이를 남겼습니다. 깻잎은 목록 5장/단계 한 줌입니다. 면 삶기 물 양은 미기재입니다.",
+    "youtube": "https://youtu.be/XNJa9L8sk4o",
+    "verified": true,
+    "scaleIngredients": false,
+    "sourceNote": "사용자가 제공한 레시피오 페이지의 재료와 조리 단계를 확인했습니다. 출처: https://www.recipio.kr/recipes/oJQrZDwO",
+    "categories": [
+      "면"
+    ]
   }
 ]
