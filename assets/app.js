@@ -2,7 +2,64 @@
 const $=id=>document.getElementById(id);
 const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 function normalizeSearch(v){return String(v??'').normalize('NFKC').toLowerCase().replace(/달걀/g,'계란').replace(/\s+/g,'');}
-function matchesRecipe(r,v){const h=normalizeSearch([r.name,...r.ingredients.map(i=>i.name)].join(' '));return String(v).trim().split(/[\s,，]+/).filter(Boolean).every(t=>h.includes(normalizeSearch(t)));}
+// Ingredient labels contain section names and preparation notes, not extra ingredients.
+function ingredientSearchParts(raw){
+ let s=String(raw??'').normalize('NFKC').replace(/\([^)]*\)/g,'').replace(/^[^:：]+[:：]\s*/, '').trim();
+ if(/(?:용|데침|삶는|볶음용|밑간용|추가 간용)/.test(s)){
+  s=s.replace(/^.*?용\s+/, '').replace(/^면 삶는\s+/, '').replace(/^밥 짓는\s+/, '');
+ }
+ return s.split(/·|,|또는|등\s*채소/).map(normalizeSearch).filter(Boolean);
+}
+const ingredientSearchRules={
+ 감자:{exclude:['감자전분','감자수제비']},
+ 마늘:{exclude:['마늘쫑','마늘햄']},
+ 파:{include:['파','대파','쪽파','실파','다진파','파채'],exact:true},
+ 무:{include:['무','무채','무편썰기'],exact:true},
+ 배:{include:['배'],exact:true},
+ 김:{include:['김','구운김','김밥김','조미김','김가루','불닭김가루'],exact:true},
+ 굴:{include:['굴','생굴'],exact:true},
+ 새우:{exclude:['새우젓','새우만두']},
+ 참치:{exclude:['참치액','참치액젓']},
+ 멸치:{exclude:['액젓','다시다','육수']},
+ 소고기:{exclude:['다시다']},
+ 닭:{exclude:['육수','불닭']},닭고기:{include:['닭','닭고기','닭날개','닭다리살','닭볶음탕용닭','손질한닭다리살','통닭다리장각'],exact:true},
+ 버터:{exclude:['땅콩버터']},
+ 사과:{exclude:['식초','잼']},
+ 토마토:{exclude:['소스','주스','케첩']},
+ 쌀:{include:['쌀'],exact:true},
+ 김치:{exclude:['국물']},
+ 만두:{exclude:['만두피']},
+ 라면:{exclude:['스프']},
+ 우유:{include:['우유'],exact:true},
+ 고추:{exclude:['고추장','고추기름','고추냉이']},
+ 깨:{include:['깨','참깨','통깨','볶은깨','간깨','깻가루','깨소금'],exact:true},
+ 소금:{exclude:['깨소금']},
+ 물:{include:['물','생수','찬물','뜨거운물','얼음물'],exact:true},
+ 밥:{include:['밥','따뜻한밥','쌀밥','흰쌀밥','귀리밥','즉석밥','찬밥','현미밥'],exact:true},
+ 면:{exclude:['면수','스프','육수']},
+ 전분:{},소스:{},육수:{},액젓:{}
+};
+function ingredientPartMatches(part,term){
+ const rule=ingredientSearchRules[term];
+ if(!rule)return part.includes(term);
+ if(rule.exclude?.some(word=>part.includes(word)))return false;
+ if(rule.exact){
+  // Strip quantities embedded in old ingredient labels (e.g. 대파 반단).
+  const base=part.replace(/(?:\d.*|반단|반쪽|한쪽|한주먹|한스푼|큰거.*|흰부분|파란부분|반개)$/,'');
+  return rule.include.includes(base);
+ }
+ return part.includes(term);
+}
+function matchesRecipe(r,v){
+ const parts=r.ingredients.flatMap(i=>ingredientSearchParts(i.name));
+ const title=normalizeSearch(r.name);
+ return String(v).trim().split(/[\s,，]+/).filter(Boolean).every(raw=>{
+  const term=normalizeSearch(raw);
+  // Basic ingredient searches use actual ingredients; dish names remain partial searches.
+  if(Object.hasOwn(ingredientSearchRules,term))return title===term||parts.some(p=>ingredientPartMatches(p,term));
+  return title.includes(term)||parts.some(p=>ingredientPartMatches(p,term));
+ });
+}
 const categoryNames=['국·탕','면','밥·덮밥','반찬·기타','고기·해산물','찜·조림','브런치·샐러드','소스','즐겨찾기'];
 const categoryIcons=['🍲','🍜','🍚','🥞','🍗','🥘','🥗','🫙','♥'];
 let recipes=[],filter=null,query='',currentRecipe=null,selected=new Set(),serving=1,completed=new Set(),previousFocus=null;
@@ -78,6 +135,6 @@ $('export-cart').onclick=()=>{renderShopping();$('export-result').classList.remo
 $('clear-favorites').onclick=()=>{if(!saveStore('recipe-favs',[]))return;renderCards();toast('모든 즐겨찾기를 해제했어요.');};
 $('cards').onclick=e=>{const fav=e.target.closest('[data-fav]');if(fav){toggleFav(fav.dataset.fav);return;}const b=e.target.closest('[data-id]');if(b)navigate('recipe='+encodeURIComponent(b.dataset.id));};$('filters').onclick=e=>{const b=e.target.closest('[data-filter]');if(b)navigate('category='+encodeURIComponent(b.dataset.filter));};$('categoryback').onclick=()=>navigate('');$('search').oninput=e=>{const q=e.target.value.trim();const h=q?'search='+encodeURIComponent(q):filter?'category='+encodeURIComponent(filter):'';if(!routeHash())history.pushState({recipeApp:true},'',location.pathname+location.search+'#'+h);else history.replaceState({recipeApp:true},'',location.pathname+location.search+(h?'#'+h:''));query=q;renderCards();};$('home-tab').onclick=()=>navigate('');$('cart-tab').onclick=()=>navigate('cart');$('back').onclick=()=>history.back();window.addEventListener('popstate',()=>{if(!history.state?.quantityDialog)renderRoute();});window.addEventListener('hashchange',()=>{if(!history.state?.quantityDialog)renderRoute();});window.addEventListener('storage',e=>{if(e.key==='recipe-cart-v1'){cart=readStore('recipe-cart-v1',[]);updateCartCount();if(parseRoute().page==='cart')renderCart();}});
 const initialHash=routeHash();history.replaceState({recipeApp:true},'',location.pathname+location.search);if(initialHash)history.pushState({recipeApp:true},'',location.pathname+location.search+'#'+initialHash);
-fetch('data/recipes.json?v=88',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{recipes=data;renderRoute();}).catch(()=>{$('cards').innerHTML='<p class="empty">레시피를 불러오지 못했어요. 연결을 확인하고 다시 열어주세요.</p>';});
+fetch('data/recipes.json?v=89',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{recipes=data;renderRoute();}).catch(()=>{$('cards').innerHTML='<p class="empty">레시피를 불러오지 못했어요. 연결을 확인하고 다시 열어주세요.</p>';});
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
 let installPrompt;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('installbar').classList.remove('hidden');});$('install').onclick=async()=>{if(installPrompt){await installPrompt.prompt();installPrompt=null;$('installbar').classList.add('hidden');}else alert('Safari의 공유 메뉴에서 홈 화면에 추가를 선택하세요.');};$('installclose').onclick=()=>$('installbar').classList.add('hidden');if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!navigator.standalone){$('installbar').classList.remove('hidden');$('install').textContent='iPhone 홈 화면에 추가 안내';}
