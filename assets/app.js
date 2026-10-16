@@ -12,7 +12,7 @@ const favorites=()=>readStore('recipe-favs',[]);
 let cart=readStore('recipe-cart-v1',[]);if(!Array.isArray(cart))cart=[];
 function toast(message){$('toast').textContent=message;$('toast').classList.remove('hidden');clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').classList.add('hidden'),2600);}
 function toggleFav(id){const f=favorites();saveStore('recipe-favs',f.includes(id)?f.filter(x=>x!==id):[...f,id]);renderCards();if(currentRecipe)$('detailfav').textContent=favorites().includes(currentRecipe.id)?'♥':'♡';}
-function renderFilters(){const f=favorites();$('filters').innerHTML=categoryNames.map((c,i)=>`<button data-filter="${esc(c)}"><span>${categoryIcons[i]}</span><strong>${c}</strong><small>${recipes.filter(r=>c==='즐겨찾기'?f.includes(r.id):(r.categories||[r.category]).includes(c)).length}개</small></button>`).join('');$('filters').classList.toggle('hidden',!!filter||!!query);$('categoryback').classList.toggle('hidden',!filter&&!query);$('listtitle').textContent=query?'검색 결과':filter||'카테고리';}
+function renderFilters(){const f=favorites();$('filters').innerHTML=categoryNames.map((c,i)=>`<button data-filter="${esc(c)}"><span>${categoryIcons[i]}</span><strong>${c}</strong><small>${recipes.filter(r=>c==='즐겨찾기'?f.includes(r.id):(r.categories||[r.category]).includes(c)).length}개</small></button>`).join('');$('filters').classList.toggle('hidden',!!filter||!!query);$('categoryback').classList.toggle('hidden',!filter&&!query);$('listtitle').textContent=query?'검색 결과':filter||'카테고리';$('clear-favorites').classList.toggle('hidden',filter!=='즐겨찾기'||!!query);$('clear-favorites').disabled=!f.length;}
 function renderCards(){renderFilters();if(!filter&&!query){$('cards').innerHTML='';$('count').textContent=recipes.length+'개 레시피';return;}const f=favorites();const list=recipes.filter(r=>query?matchesRecipe(r,query):(filter==='즐겨찾기'?f.includes(r.id):(r.categories||[r.category]).includes(filter)));$('count').textContent=list.length+'개';$('cards').innerHTML=list.length?list.map(r=>`<article class="recipe-row"><button class="recipe-open" data-id="${esc(r.id)}">${esc(r.name)}</button><button class="fav" data-fav="${esc(r.id)}" aria-label="${esc(r.name)} 좋아요" aria-pressed="${f.includes(r.id)}">${f.includes(r.id)?'♥':'♡'}</button></article>`).join(''):'<p class="empty">해당하는 레시피가 없어요.</p>';}
 function routeHash(){return location.hash.slice(1);}
 function navigate(hash){if(routeHash()===hash){renderRoute();return;}history.pushState({recipeApp:true},'',location.pathname+location.search+(hash?'#'+hash:''));renderRoute();window.scrollTo(0,0);}
@@ -37,11 +37,47 @@ $('quantity-dialog').addEventListener('cancel',e=>{e.preventDefault();closeDialo
 $('quantity-form').onsubmit=e=>{e.preventDefault();const added=[...$('quantity-fields').querySelectorAll('input')].map(input=>({id:globalThis.crypto?.randomUUID?.()||Date.now()+'-'+Math.random().toString(36).slice(2),name:currentRecipe.ingredients[Number(input.dataset.index)].name,quantity:input.value.trim(),recipe:currentRecipe.name}));const next=[...cart,...added];if(!saveStore('recipe-cart-v1',next))return;cart=next;closeDialog();selected.clear();paintIngredients();updateCartCount();toast(added.length+'개 재료를 장바구니에 넣었어요.');};
 function updateCartCount(){$('cart-count').textContent=cart.length?String(cart.length):'';}
 function renderCart(){$('cart-items').innerHTML=cart.length?cart.map(item=>`<div class="cart-row"><div><strong>${esc(item.name)}</strong><small>${esc(item.recipe||'')}</small></div><input type="text" maxlength="80" data-cart-quantity="${esc(item.id)}" value="${esc(item.quantity)}" placeholder="수량 미입력" aria-label="${esc(item.name)} 수량"><button class="remove-item" data-remove="${esc(item.id)}" aria-label="${esc(item.name)} 삭제">×</button></div>`).join(''):'<p class="empty">장바구니가 비어 있어요.<br>레시피에서 필요한 재료를 골라 담아보세요.</p>';$('export-cart').disabled=!cart.length;$('clear-cart').disabled=!cart.length;$('cart-total').textContent=cart.length+'개 재료';$('export-result').classList.add('hidden');}
-$('cart-items').onchange=e=>{if(!e.target.dataset.cartQuantity)return;const next=cart.map(i=>i.id===e.target.dataset.cartQuantity?{...i,quantity:e.target.value.trim()}:i);if(saveStore('recipe-cart-v1',next))cart=next;};$('cart-items').onclick=e=>{const b=e.target.closest('[data-remove]');if(!b)return;const next=cart.filter(i=>i.id!==b.dataset.remove);if(saveStore('recipe-cart-v1',next)){cart=next;renderCart();updateCartCount();}};
-$('clear-cart').onclick=()=>{if(!cart.length)return;if(!saveStore('recipe-cart-v1',[]))return;cart=[];renderCart();updateCartCount();$('cart-text').value='';toast('장바구니를 전부 비웠어요.');};
-$('export-cart').onclick=async()=>{const text=cart.map(i=>i.name+(i.quantity?' '+i.quantity:'')).join(', ');$('cart-text').value=text;$('export-result').classList.remove('hidden');let copied=false;try{if(navigator.clipboard?.writeText){await navigator.clipboard.writeText(text);copied=true;}}catch{}if(!copied){$('cart-text').focus();$('cart-text').select();try{copied=document.execCommand('copy');}catch{}}$('copy-status').textContent=copied?'클립보드에 복사했어요. 다른 곳에 붙여넣으세요.':'자동 복사가 제한되어 있어요. 아래 텍스트를 길게 눌러 복사해 주세요.';};
+$('cart-items').onchange=e=>{if(!e.target.dataset.cartQuantity)return;const next=cart.map(i=>i.id===e.target.dataset.cartQuantity?{...i,quantity:e.target.value.trim()}:i);if(saveStore('recipe-cart-v1',next)){cart=next;if(!$('export-result').classList.contains('hidden'))renderShopping();}};$('cart-items').onclick=e=>{const b=e.target.closest('[data-remove]');if(!b)return;const next=cart.filter(i=>i.id!==b.dataset.remove);if(saveStore('recipe-cart-v1',next)){cart=next;renderCart();updateCartCount();}};
+$('clear-cart').onclick=()=>{if(!cart.length)return;if(!saveStore('recipe-cart-v1',[]))return;cart=[];renderCart();updateCartCount();$('kurly-table').innerHTML='';toast('장바구니를 전부 비웠어요.');};
+// Keep source entries editable; aggregate only the shopping table.
+function shoppingName(raw){
+ let name=String(raw||'').normalize('NFKC').trim();
+ // A colon is a section prefix only when followed by whitespace (not a ratio).
+ name=name.replace(/^[^:：]+[:：]\s+/, '').replace(/^(?:소스|양념|드레싱|반죽|고명|육수|밑간)용\s+/, '');
+ name=name.replace(/\s*\((?:소스용|양념용|선택|선택사항)\)\s*/g,' ').trim();
+ return name.replace(/다진\s*마늘/g,'다진 마늘').replace(/간\s+마늘/g,'다진 마늘');
+}
+function shoppingAmount(raw){
+ const original=String(raw||'').trim();
+ const text=original.normalize('NFKC').replace(/\s*\((?:원문\s*)?[^)]*\)/g,'').trim();
+ const m=text.match(/^(\d+(?:\.\d+)?(?:\s*\/\s*\d+(?:\.\d+)?)?)\s*(큰술|작은술|스푼|숟가락|티스푼|kg|mg|ml|mL|g|L|l|T|t|개|대|팩|봉|줌|컵|마리|쪽|장|모|알|근)?$/);
+ if(!m)return {text:original||'수량 미기재'};
+ const parts=m[1].split('/').map(Number), value=parts.length===2?parts[0]/parts[1]:parts[0];
+ if(!Number.isFinite(value))return {text:original};
+ const unit=m[2]||'';
+ const units={T:['큰술',1],t:['작은술',1],티스푼:['작은술',1],kg:['g',1000],mL:['ml',1],L:['ml',1000],l:['ml',1000]};
+ const [canonical,factor]=units[unit]||[unit,1];
+ return {value:value*factor,unit:canonical};
+}
+function shoppingRows(items){
+ const groups=new Map();
+ for(const item of items){
+  const name=shoppingName(item.name),optional=/\(선택(?:사항)?\)/.test(item.name),key=name.replace(/\s+/g,'');
+  if(!groups.has(key))groups.set(key,{name,optional,amounts:new Map(),notes:[]});
+  const group=groups.get(key);group.optional=group.optional&&optional;
+  const amount=shoppingAmount(item.quantity);
+  if(amount.text)group.notes.push(amount.text);
+  else group.amounts.set(amount.unit,(group.amounts.get(amount.unit)||0)+amount.value);
+ }
+ return [...groups.values()].map(g=>({name:g.name,quantity:[...[...g.amounts].map(([u,n])=>fmt(n)+(u||' (단위 미기재)')),...g.notes].join(' + '),optional:g.optional}));
+}
+function renderShopping(){
+ $('kurly-table').innerHTML=`<table class="kurly-table"><thead><tr><th scope="col">필요한 재료</th><th scope="col">검색 링크</th></tr></thead><tbody>${shoppingRows(cart).map(i=>`<tr><td><strong>${esc(i.name)}</strong><span>${esc(i.quantity)}${i.optional?' · 선택':''}</span></td><td><a href="https://shopping.naver.com/kurlynmart/search?q=${encodeURIComponent(i.name)}" target="_blank" rel="noopener noreferrer" aria-label="${esc(i.name)} 컬리N마트 검색">검색 ↗</a></td></tr>`).join('')}</tbody></table>`;
+}
+$('export-cart').onclick=()=>{renderShopping();$('export-result').classList.remove('hidden');};
+$('clear-favorites').onclick=()=>{if(!saveStore('recipe-favs',[]))return;renderCards();toast('모든 즐겨찾기를 해제했어요.');};
 $('cards').onclick=e=>{const fav=e.target.closest('[data-fav]');if(fav){toggleFav(fav.dataset.fav);return;}const b=e.target.closest('[data-id]');if(b)navigate('recipe='+encodeURIComponent(b.dataset.id));};$('filters').onclick=e=>{const b=e.target.closest('[data-filter]');if(b)navigate('category='+encodeURIComponent(b.dataset.filter));};$('categoryback').onclick=()=>navigate('');$('search').oninput=e=>{const q=e.target.value.trim();const h=q?'search='+encodeURIComponent(q):filter?'category='+encodeURIComponent(filter):'';if(!routeHash())history.pushState({recipeApp:true},'',location.pathname+location.search+'#'+h);else history.replaceState({recipeApp:true},'',location.pathname+location.search+(h?'#'+h:''));query=q;renderCards();};$('home-tab').onclick=()=>navigate('');$('cart-tab').onclick=()=>navigate('cart');$('back').onclick=()=>history.back();window.addEventListener('popstate',()=>{if(!history.state?.quantityDialog)renderRoute();});window.addEventListener('hashchange',()=>{if(!history.state?.quantityDialog)renderRoute();});window.addEventListener('storage',e=>{if(e.key==='recipe-cart-v1'){cart=readStore('recipe-cart-v1',[]);updateCartCount();if(parseRoute().page==='cart')renderCart();}});
 const initialHash=routeHash();history.replaceState({recipeApp:true},'',location.pathname+location.search);if(initialHash)history.pushState({recipeApp:true},'',location.pathname+location.search+'#'+initialHash);
-fetch('data/recipes.json?v=86',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{recipes=data;renderRoute();}).catch(()=>{$('cards').innerHTML='<p class="empty">레시피를 불러오지 못했어요. 연결을 확인하고 다시 열어주세요.</p>';});
+fetch('data/recipes.json?v=88',{cache:'no-store'}).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{recipes=data;renderRoute();}).catch(()=>{$('cards').innerHTML='<p class="empty">레시피를 불러오지 못했어요. 연결을 확인하고 다시 열어주세요.</p>';});
 if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));
 let installPrompt;window.addEventListener('beforeinstallprompt',e=>{e.preventDefault();installPrompt=e;$('installbar').classList.remove('hidden');});$('install').onclick=async()=>{if(installPrompt){await installPrompt.prompt();installPrompt=null;$('installbar').classList.add('hidden');}else alert('Safari의 공유 메뉴에서 홈 화면에 추가를 선택하세요.');};$('installclose').onclick=()=>$('installbar').classList.add('hidden');if(/iPad|iPhone|iPod/.test(navigator.userAgent)&&!navigator.standalone){$('installbar').classList.remove('hidden');$('install').textContent='iPhone 홈 화면에 추가 안내';}
